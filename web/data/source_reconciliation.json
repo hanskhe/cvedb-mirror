@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:34:38.364153Z",
+  "generated_at": "2026-10-31T14:56:17.168527Z",
   "sources": {
     "nvd": {
       "label": "NVD mirror",
@@ -18,9 +18,9 @@
     "max_pct": 0.5
   },
   "totals": {
-    "nvd": 386415,
-    "v5": 388570,
-    "delta": 2155
+    "nvd": 398036,
+    "v5": 398720,
+    "delta": 684
   },
   "years": [
     {
@@ -259,8 +259,8 @@
     },
     {
       "year": 2025,
-      "nvd": 48152,
-      "v5": 48152,
+      "nvd": 48151,
+      "v5": 48151,
       "delta": 0,
       "pct": 0.0,
       "modern": true,
@@ -268,15 +268,13 @@
     },
     {
       "year": 2026,
-      "nvd": 78215,
-      "v5": 79691,
-      "delta": 1476,
-      "pct": 1.887,
+      "nvd": 89837,
+      "v5": 89842,
+      "delta": 5,
+      "pct": 0.006,
       "modern": true,
-      "within_threshold": false
+      "within_threshold": true
     }
   ],
-  "flagged_years": [
-    2026
-  ]
+  "flagged_years": []
 }

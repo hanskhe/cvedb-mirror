@@ -476,14 +476,13 @@
       }
     },
     "v3.1": {
-      "total": 58,
+      "total": 59,
       "severity_distribution": {
-        "MEDIUM": 12,
         "HIGH": 41,
+        "MEDIUM": 13,
         "CRITICAL": 5
       },
       "score_distribution": {
-        "6.8": 1,
         "7.5": 12,
         "5.5": 1,
         "7.8": 12,
@@ -499,12 +498,14 @@
         "6.5": 3,
         "7.1": 1,
         "7.3": 1,
-        "5.7": 1
+        "5.7": 1,
+        "6.8": 1,
+        "4.6": 1
       }
     },
     "epss_summary": {
       "epss_gt_0_1": 481,
-      "epss_gt_0_5": 84,
+      "epss_gt_0_5": 83,
       "epss_gt_0_9": 6
     }
   },
@@ -604,7 +605,7 @@
       },
       {
         "cwe": "CWE-79",
-        "count": 461
+        "count": 462
       },
       {
         "cwe": "CWE-20",
@@ -764,7 +765,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-10-13T19:28:12.649818",
+    "processed_at": "2026-10-31T14:46:56.377986",
     "data_source": "data/cache/nvd.json"
   }
 }
