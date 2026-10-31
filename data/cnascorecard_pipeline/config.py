@@ -249,7 +249,7 @@ def get_config() -> dict[str, Any]:
             "period_months": ANALYSIS_PERIOD_MONTHS,
         },
         "website": {
-            "base_url": "https://cvedb.github.io/scorecard",
+            "base_url": "https://hanskhe.github.io/cvedb-mirror/scorecard",
         },
         "fields": {
             "scorecard_mapping": CNA_SCORECARD_FIELDS,

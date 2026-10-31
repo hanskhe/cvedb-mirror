@@ -17,7 +17,7 @@ from tests.fakes import FakeDataReader, FakeDataWriter, FakeHttpClient
 
 
 MANIFEST_URL = "https://nvd.handsonhacking.org/metadata.json"
-BASELINE_URL = "https://cvedb.github.io/data/source_manifest.json"
+BASELINE_URL = "https://hanskhe.github.io/cvedb-mirror/data/source_manifest.json"
 
 
 def make_manifest(**overrides):

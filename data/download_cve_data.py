@@ -101,7 +101,7 @@ class CVEDataDownloader:
         # The last manifest we accepted, republished with the site so the next
         # build has a baseline without needing repo state. See docs in
         # verify_manifest_not_regressed().
-        self.manifest_baseline_url: str = "https://cvedb.github.io/data/source_manifest.json"
+        self.manifest_baseline_url: str = "https://hanskhe.github.io/cvedb-mirror/data/source_manifest.json"
         self.manifest_file: Path = self.cache_dir / "source_manifest.json"
         # The manifest the bytes on disk actually match. Usually the one we
         # fetched before downloading, but a publish landing mid-download

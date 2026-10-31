@@ -748,7 +748,7 @@ class CNAScoreCardPipeline:
         badge_files = generate_cna_badges(self.cna_outputs, output_dir)
 
         # Generate badge documentation
-        base_url = self.config.get("website", {}).get("base_url", "https://cvedb.github.io")
+        base_url = self.config.get("website", {}).get("base_url", "https://hanskhe.github.io/cvedb-mirror")
         generate_badge_documentation(output_dir, base_url)
 
         self.logger.info(f"Generated {len(badge_files)} badge files")

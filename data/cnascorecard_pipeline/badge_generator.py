@@ -340,7 +340,9 @@ def generate_cna_badges(cna_outputs: dict[str, dict], output_dir: Path) -> dict[
     return badge_files
 
 
-def generate_badge_documentation(output_dir: Path, base_url: str = "https://cvedb.github.io/scorecard") -> str:
+def generate_badge_documentation(
+    output_dir: Path, base_url: str = "https://hanskhe.github.io/cvedb-mirror/scorecard"
+) -> str:
     """
     Generate README documentation for using badges.
 
@@ -458,7 +460,7 @@ Badges are color-coded based on score:
 
 ## Questions?
 
-Visit [CNA Scorecard]({base_url}) or open an issue on [GitHub](https://github.com/cvedb/cvedb.github.io).
+Visit [CNA Scorecard]({base_url}) or open an issue on [GitHub](https://github.com/hanskhe/cvedb-mirror).
 """
 
     with open(readme_path, "w", encoding="utf-8") as f:

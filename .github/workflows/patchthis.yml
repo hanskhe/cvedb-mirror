@@ -142,28 +142,3 @@ jobs:
           message: 'Update vulnerability data - ${{ github.event.head_commit.timestamp }}'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  deploy:
-    needs: update-list
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: main
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-      - name: Upload web folder
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: 'web'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5

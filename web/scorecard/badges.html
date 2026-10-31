@@ -356,7 +356,7 @@
 
   <!-- JavaScript -->
   <script>
-    const baseUrl = window.location.origin + '/scorecard';
+    const baseUrl = new URL('.', window.location.href).href.replace(/\/$/, '');
     let cnaData = [];
 
     // Load CNA data

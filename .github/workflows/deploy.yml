@@ -12,11 +12,13 @@ on:
   repository_dispatch:
     types: [nvd-published]
 
-  # Hourly backup, kept because the dispatch above depends on a token in
-  # another repo. Offset from :00 because scheduled workflows on the hour sit in
-  # the most contended slot on GitHub Actions and are frequently delayed or dropped.
+  # This mirror never receives the producer's dispatch above, so the schedule is
+  # the only refresh. Every 3 hours rather than hourly: each run pulls ~2GB from
+  # a single third-party mirror. Offset from :00 because scheduled workflows on
+  # the hour sit in the most contended slot on GitHub Actions and are frequently
+  # delayed or dropped.
   schedule:
-    - cron: '25 * * * *'
+    - cron: '25 */3 * * *'
   
   # Allow manual triggering
   workflow_dispatch:
@@ -36,6 +38,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
     # Check out the branch tip as of job start, not the SHA the event was
@@ -61,10 +66,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Run tests
-      run: |
-        python -m pytest tests/ -v --tb=short
-        
     - name: Download fresh KEV and EPSS data
       run: |
         cd data && python -c "
@@ -83,22 +84,34 @@ jobs:
     - name: Validate build output
       run: python build.py validate --quiet
 
-    - name: Copy CNAME for GitHub Pages
-      run: cp CNAME web/CNAME
-      
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
+    # Tests run after the build so they check the output this run is about to
+    # publish. Running them first checked the previously committed output: one
+    # bad build on 2026-10-13 was committed untested, and every later run then
+    # failed on it before it could rebuild. Now a bad snapshot fails only its
+    # own run, nothing is deployed or committed, and the next run starts clean.
+    - name: Run tests
+      run: |
+        python -m pytest tests/ -v --tb=short
+
+    - name: Configure GitHub Pages
       if: github.ref == 'refs/heads/main'
+      uses: actions/configure-pages@v6
+
+    - name: Upload site artifact
+      if: github.ref == 'refs/heads/main'
+      uses: actions/upload-pages-artifact@v5
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./web
-        publish_branch: gh-pages
-        force_orphan: true
-        
-    # repository_dispatch is the same unattended data refresh as schedule, just
-    # triggered on time, so it has to persist web/ the same way.
+        path: ./web
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      if: github.ref == 'refs/heads/main'
+      uses: actions/deploy-pages@v5
+
+    # repository_dispatch and workflow_dispatch are the same data refresh as
+    # schedule, just triggered differently, so they persist web/ the same way.
     - name: Commit updated data
-      if: github.event_name == 'schedule' || github.event_name == 'repository_dispatch'
+      if: github.event_name == 'schedule' || github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"

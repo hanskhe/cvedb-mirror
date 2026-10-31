@@ -113,7 +113,7 @@ class CVESiteBuilder:
         # Regression guard configuration. See verify_no_regression() for how
         # the allowance was derived; it is deliberately much tighter than a
         # percentage band would be.
-        self.published_totals_url: str = "https://cvedb.github.io/data/cve_all.json"
+        self.published_totals_url: str = "https://hanskhe.github.io/cvedb-mirror/data/cve_all.json"
         # Count of non-rejected CVEs published before 1999, measured during the
         # year-data pass and emitted into cve_all.json so validation can subtract
         # a real number instead of guessing. See docs/COUNTING.md.

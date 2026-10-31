@@ -1,13 +1,25 @@
 # CVEDB 🛡️
 
+> [!NOTE]
+> **This is a fork of [cvedb/cvedb.github.io](https://github.com/cvedb/cvedb.github.io), kept running because the original site has stopped updating.**
+> Since 2026-10-13 the upstream deploy pipeline has failed on every run, so [cvedb.github.io](https://cvedb.github.io) still shows data from that day.
+> This fork fixes the pipeline and publishes fresh data to **[hanskhe.github.io/cvedb-mirror](https://hanskhe.github.io/cvedb-mirror/)**.
+> All credit for the project goes to the original authors (KhulnaSoft / CVEDB), and it stays under their MIT license.
+> If upstream recovers, use the original site.
+>
+> Changes in this fork:
+> - The deploy workflow runs tests *after* the build, so it checks the output it is about to publish. Before, tests ran first and checked the previously committed output: one bad build was committed untested, and every later run failed on it.
+> - KEV entries that CISA lists before NVD publishes them now appear under `awaiting_nvd` in `kev_analysis.json` instead of being silently dropped. Dropping them broke the KEV count tests.
+> - URLs point to this mirror, the custom domain (`CNAME`) is removed, and the site is published by a single Pages deployment.
+
 > **Comprehensive CVE Analysis & Visualization Platform**
 
 CVEDB is an automated platform that provides comprehensive analysis and visualization of Common Vulnerabilities and Exposures (CVE) data. Built with Python and deployed via GitHub Actions, it delivers fresh insights into the cybersecurity landscape through interactive web visualizations.
 
-**🌐 Live Site:** [https://cvedb.github.io](https://cvedb.github.io)
+**🌐 Live Site (this mirror):** [https://hanskhe.github.io/cvedb-mirror](https://hanskhe.github.io/cvedb-mirror/)
 
-[![Build and Deploy](https://github.com/cvedb/cvedb.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/cvedb/cvedb.github.io/actions/workflows/deploy.yml)
-[![Tests](https://github.com/cvedb/cvedb.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/cvedb/cvedb.github.io/actions/workflows/ci.yml)
+[![Build and Deploy](https://github.com/hanskhe/cvedb-mirror/actions/workflows/deploy.yml/badge.svg)](https://github.com/hanskhe/cvedb-mirror/actions/workflows/deploy.yml)
+[![Tests](https://github.com/hanskhe/cvedb-mirror/actions/workflows/ci.yml/badge.svg)](https://github.com/hanskhe/cvedb-mirror/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features

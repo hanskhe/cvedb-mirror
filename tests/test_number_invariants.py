@@ -29,6 +29,11 @@ def load(name: str):
     return json.loads(path.read_text())
 
 
+def kev_awaiting_nvd(kev_analysis: dict) -> int:
+    """KEV entries with no NVD record yet; 0 for output built before the field existed."""
+    return (kev_analysis.get("awaiting_nvd") or {}).get("count", 0)
+
+
 @pytest.fixture(scope="module")
 def d() -> dict:
     names = [
@@ -98,7 +103,10 @@ class TestBreakdownsSumToTotals:
     @pytest.mark.parametrize("grouping", ["by_year_added", "by_year_published", "timeline"])
     def test_kev_groupings_sum_to_catalog_total(self, d, grouping):
         k = d["kev_analysis"]
-        assert sum(k[grouping].values()) == k["total_kev_cves"], (
+        # Publication year comes from NVD, which can lag CISA. Entries without
+        # one are listed under awaiting_nvd, so the accounting stays exact.
+        unplaced = kev_awaiting_nvd(k) if grouping == "by_year_published" else 0
+        assert sum(k[grouping].values()) + unplaced == k["total_kev_cves"], (
             f"KEV {grouping} does not account for every catalog entry"
         )
 
@@ -120,7 +128,10 @@ class TestCrossPageAgreement:
     """The same quantity must not differ depending on which page you open."""
 
     def test_kev_total_agrees_across_sources(self, d):
-        assert d["kev_analysis"]["total_kev_cves"] == d["cvss_analysis"]["kev_global_count"]
+        # The CVSS page counts KEV entries inside the NVD data, so it is short
+        # by exactly the entries NVD has not published yet.
+        k = d["kev_analysis"]
+        assert k["total_kev_cves"] == d["cvss_analysis"]["kev_global_count"] + kev_awaiting_nvd(k)
 
     def test_scoring_comparison_matches_its_sources(self, d):
         sysd = d["scoring_comparison"]["systems"]

@@ -332,6 +332,11 @@ class ScoringAnalyzer:
         by_product = defaultdict(int)
         by_cwe = defaultdict(int)
         ransomware_count = 0
+        # KEV entries the NVD snapshot does not carry yet. CISA can list a CVE
+        # before NVD publishes it, so these have no publication year. Report
+        # them rather than dropping them, or by_year_published silently stops
+        # summing to the catalog total.
+        awaiting_nvd: list[str] = []
 
         recent_30_days = []
         recent_90_days = []
@@ -357,6 +362,8 @@ class ScoringAnalyzer:
             # Actual publication year from NVD
             if cve_id in nvd_pub_dates:
                 by_year_published[nvd_pub_dates[cve_id]] += 1
+            else:
+                awaiting_nvd.append(cve_id)
 
             # Year added to KEV
             if date_added:
@@ -421,6 +428,7 @@ class ScoringAnalyzer:
             "by_year_added": dict(sorted(by_year_added.items())),
             "by_year_cve": dict(sorted(by_year_cve.items())),
             "by_year_published": dict(sorted(by_year_published.items())),
+            "awaiting_nvd": {"count": len(awaiting_nvd), "cve_ids": sorted(awaiting_nvd)},
             "timeline": dict(sorted(timeline.items())),
             "top_vendors": top_vendors,
             "top_products": top_products,
@@ -435,6 +443,8 @@ class ScoringAnalyzer:
         logger.info(f"  ✅ Generated {output_file.name}")
         logger.info(f"     Total KEV CVEs: {len(vulnerabilities):,}")
         logger.info(f"     Added last 30 days: {len(recent_30_days)}")
+        if awaiting_nvd:
+            logger.warning(f"     Not yet in NVD snapshot: {', '.join(sorted(awaiting_nvd))}")
 
         return analysis
 
