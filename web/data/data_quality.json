@@ -8,7 +8,7 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 394901,
+    "exact_match_cves": 394915,
     "case_mismatch_cves": 180,
     "org_name_match_cves": 814,
     "normalized_match_cves": 1636,
@@ -75,7 +75,7 @@
     },
     {
       "cna_name": "microsoft",
-      "cve_count": 15954,
+      "cve_count": 15955,
       "kev_count": 381,
       "epss_high_count": 555,
       "official_short_name": "microsoft",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 10388,
+      "cve_count": 10400,
       "kev_count": 19,
       "epss_high_count": 32,
       "official_short_name": "VulnCheck",
@@ -685,17 +685,6 @@
       "confidence": "medium"
     },
     {
-      "cna_name": "ZUSO ART",
-      "cve_count": 49,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "ZUSO_ART",
-      "official_org_name": "ZUSO Advanced Research Team (ZUSO ART)",
-      "official_id": "CNA-2022-0010",
-      "match_type": "normalized",
-      "confidence": "medium"
-    },
-    {
       "cna_name": "WDC PSIRT",
       "cve_count": 49,
       "kev_count": 0,
@@ -703,6 +692,17 @@
       "official_short_name": "WDC_PSIRT",
       "official_org_name": "Western Digital",
       "official_id": "CNA-2021-0051",
+      "match_type": "normalized",
+      "confidence": "medium"
+    },
+    {
+      "cna_name": "ZUSO ART",
+      "cve_count": 49,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "ZUSO_ART",
+      "official_org_name": "ZUSO Advanced Research Team (ZUSO ART)",
+      "official_id": "CNA-2022-0010",
       "match_type": "normalized",
       "confidence": "medium"
     },
