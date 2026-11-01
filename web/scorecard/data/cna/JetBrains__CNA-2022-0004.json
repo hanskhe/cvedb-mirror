@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "JetBrains",
-    "total_cves": 158,
-    "total_cves_scored": 158,
+    "total_cves": 157,
+    "total_cves_scored": 157,
     "organizationName": "JetBrains s.r.o.",
     "scope": "JetBrains products only.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 120,
+  "rank": 121,
   "active_cna_count": 363,
-  "percentile": 67.2,
+  "percentile": 66.9,
   "cna_scoring": [
     {
-      "total_cves": 158,
-      "total_cves_scored": 158,
-      "recent_cves_count": 158,
+      "total_cves": 157,
+      "total_cves_scored": 157,
+      "recent_cves_count": 157,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -528,6 +528,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-44413",
+      "assigningCna": "JetBrains",
+      "datePublished": "2026-05-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-57923",
       "assigningCna": "JetBrains",
       "datePublished": "2026-06-26",
@@ -609,32 +622,6 @@
       "cveId": "CVE-2026-68762",
       "assigningCna": "JetBrains",
       "datePublished": "2026-08-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-41882",
-      "assigningCna": "JetBrains",
-      "datePublished": "2026-04-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44413",
-      "assigningCna": "JetBrains",
-      "datePublished": "2026-05-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

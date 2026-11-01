@@ -102,4 +102,4 @@ Badges are color-coded based on score:
 
 ## Questions?
 
-Visit [CNA Scorecard](https://cvedb.github.io/scorecard) or open an issue on [GitHub](https://github.com/cvedb/cvedb.github.io).
+Visit [CNA Scorecard](https://hanskhe.github.io/cvedb-mirror/scorecard) or open an issue on [GitHub](https://github.com/hanskhe/cvedb-mirror).
