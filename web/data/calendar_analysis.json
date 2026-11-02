@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T22:23:40.295316",
+  "generated_at": "2026-11-02T06:41:14.570188",
   "statistics": {
-    "total_cves": 398815,
-    "total_days_with_data": 8117,
+    "total_cves": 398924,
+    "total_days_with_data": 8118,
     "date_range": {
       "start": "1988-10-01",
-      "end": "2026-11-01"
+      "end": "2026-11-02"
     },
     "daily_stats": {
-      "average_per_day": 49.13,
+      "average_per_day": 49.14,
       "max_per_day": 2303,
       "min_per_day": 1,
       "peak_day": {
@@ -18,12 +18,12 @@
     },
     "cvss_stats": {
       "average_score": 6.8,
-      "total_with_scores": 386402
+      "total_with_scores": 386436
     },
     "current_year": {
       "year": 2026,
-      "total_cves": 89937,
-      "days_with_data": 303
+      "total_cves": 90046,
+      "days_with_data": 304
     }
   },
   "daily_data": [
@@ -48725,14 +48725,20 @@
     },
     {
       "date": "2026-11-01",
-      "value": 78,
+      "value": 98,
       "avg_cvss": 6.9,
-      "cvss_count": 53
+      "cvss_count": 54
+    },
+    {
+      "date": "2026-11-02",
+      "value": 89,
+      "avg_cvss": 7.1,
+      "cvss_count": 33
     }
   ],
   "metadata": {
-    "total_records": 398815,
-    "total_days": 8117,
+    "total_records": 398924,
+    "total_days": 8118,
     "data_source": "NVD JSONL",
     "analysis_type": "calendar_heatmap"
   }

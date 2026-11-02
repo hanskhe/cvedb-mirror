@@ -8,7 +8,7 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 395000,
+    "exact_match_cves": 395108,
     "case_mismatch_cves": 184,
     "org_name_match_cves": 814,
     "normalized_match_cves": 1636,
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17755,
+      "cve_count": 17784,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 10410,
+      "cve_count": 10419,
       "kev_count": 19,
       "epss_high_count": 32,
       "official_short_name": "VulnCheck",
@@ -273,7 +273,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3017,
+      "cve_count": 3028,
       "kev_count": 35,
       "epss_high_count": 183,
       "official_short_name": "apache",
@@ -328,7 +328,7 @@
     },
     {
       "cna_name": "huawei",
-      "cve_count": 2209,
+      "cve_count": 2210,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "huawei",
@@ -426,6 +426,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "MediaTek",
+      "cve_count": 1106,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "MediaTek",
+      "official_org_name": "MediaTek, Inc.",
+      "official_id": "CNA-2021-0043",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "juniper",
       "cve_count": 1100,
       "kev_count": 7,
@@ -444,17 +455,6 @@
       "official_short_name": "fortinet",
       "official_org_name": "Fortinet, Inc.",
       "official_id": "CNA-2016-0010",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "MediaTek",
-      "cve_count": 1050,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "MediaTek",
-      "official_org_name": "MediaTek, Inc.",
-      "official_id": "CNA-2021-0043",
       "match_type": "exact_short",
       "confidence": "high"
     },
