@@ -28,9 +28,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 24,
+  "rank": 23,
   "active_cna_count": 363,
-  "percentile": 93.7,
+  "percentile": 93.9,
   "cna_scoring": [
     {
       "total_cves": 58,
@@ -171,6 +171,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-107656",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-10-26",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25089",
       "assigningCna": "fortinet",
       "datePublished": "2026-06-09",
@@ -291,19 +304,6 @@
       "cveId": "CVE-2026-44278",
       "assigningCna": "fortinet",
       "datePublished": "2026-05-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-107656",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-10-26",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
