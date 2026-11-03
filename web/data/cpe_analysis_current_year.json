@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-03T11:13:29.546929",
+  "generated_at": "2026-11-03T19:52:43.007460",
   "year": 2026,
-  "total_unique_cpes": 18994,
-  "total_cpe_entries": 239400,
-  "total_cves_with_cpes": 40458,
-  "total_unique_vendors": 2874,
-  "total_unique_products": 8505,
+  "total_unique_cpes": 18999,
+  "total_cpe_entries": 239923,
+  "total_cves_with_cpes": 40703,
+  "total_unique_vendors": 2877,
+  "total_unique_products": 8511,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 13966,
+      "count": 13970,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -155,6 +155,13 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
+      "count": 1603,
+      "vendor": "apple",
+      "product": "macos",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2025:*:*:*:*:*:*:x64:*",
       "count": 1593,
       "vendor": "microsoft",
@@ -173,13 +180,6 @@
       "count": 1554,
       "vendor": "microsoft",
       "product": "windows_server_2019",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 1513,
-      "vendor": "apple",
-      "product": "macos",
       "type": "Operating System"
     },
     {
@@ -221,11 +221,11 @@
   "top_vendors": [
     {
       "vendor": "microsoft",
-      "count": 65484
+      "count": 65500
     },
     {
       "vendor": "linux",
-      "count": 25930
+      "count": 25935
     },
     {
       "vendor": "adobe",
@@ -241,7 +241,7 @@
     },
     {
       "vendor": "ibm",
-      "count": 7048
+      "count": 7063
     },
     {
       "vendor": "samsung",
@@ -253,7 +253,7 @@
     },
     {
       "vendor": "oracle",
-      "count": 5007
+      "count": 5081
     },
     {
       "vendor": "paloaltonetworks",
@@ -265,7 +265,7 @@
     },
     {
       "vendor": "apple",
-      "count": 3753
+      "count": 4009
     },
     {
       "vendor": "juniper",
@@ -283,7 +283,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 25930
+      "count": 25935
     },
     {
       "product": "android",
@@ -345,12 +345,12 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 141664,
-      "percentage": 59.2
+      "count": 141913,
+      "percentage": 59.1
     },
     {
       "type": "Application",
-      "count": 97688,
+      "count": 97962,
       "percentage": 40.8
     },
     {
