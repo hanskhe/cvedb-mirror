@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GRAFANA",
-    "total_cves": 54,
-    "total_cves_scored": 54,
+    "total_cves": 55,
+    "total_cves_scored": 55,
     "organizationName": "Grafana Labs",
     "scope": "All Grafana Labs open source and commercial products.",
     "advisories": [
@@ -35,22 +35,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 315,
-  "active_cna_count": 363,
+  "rank": 316,
+  "active_cna_count": 364,
   "percentile": 13.5,
   "cna_scoring": [
     {
-      "total_cves": 54,
-      "total_cves_scored": 54,
-      "recent_cves_count": 54,
-      "overall_average_score": 74.44,
+      "total_cves": 55,
+      "total_cves_scored": 55,
+      "recent_cves_count": 55,
+      "overall_average_score": 74.55,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 9.44,
+      "average_root_cause_analysis": 9.55,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 62.96,
+      "percent_root_cause_analysis": 63.64,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -60,32 +60,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-14199",
-      "assigningCna": "GRAFANA",
-      "datePublished": "2026-09-02",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-10601",
-      "assigningCna": "GRAFANA",
-      "datePublished": "2026-06-22",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-103506",
       "assigningCna": "GRAFANA",
@@ -126,9 +100,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-81938",
+      "assigningCna": "GRAFANA",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-76154",
       "assigningCna": "GRAFANA",
       "datePublished": "2026-09-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-14199",
+      "assigningCna": "GRAFANA",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10601",
+      "assigningCna": "GRAFANA",
+      "datePublished": "2026-06-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WSO2",
-    "total_cves": 46,
-    "total_cves_scored": 46,
+    "total_cves": 52,
+    "total_cves_scored": 52,
     "organizationName": "WSO2 LLC",
     "scope": "WSO2 products and services scoped under Responsible Disclosure Program <a href='https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope' target='_blank'>https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope</a>.",
     "advisories": [
@@ -35,44 +35,31 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 74,
-  "active_cna_count": 363,
-  "percentile": 79.9,
+  "rank": 76,
+  "active_cna_count": 364,
+  "percentile": 79.4,
   "cna_scoring": [
     {
-      "total_cves": 46,
-      "total_cves_scored": 46,
-      "recent_cves_count": 46,
-      "overall_average_score": 86.52,
+      "total_cves": 52,
+      "total_cves_scored": 52,
+      "recent_cves_count": 52,
+      "overall_average_score": 86.15,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.35,
-      "average_software_identification": 7.61,
-      "average_severity_context": 14.35,
-      "average_patchinfo": 0.22,
+      "average_root_cause_analysis": 14.42,
+      "average_software_identification": 7.12,
+      "average_severity_context": 14.42,
+      "average_patchinfo": 0.19,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.65,
-      "percent_software_identification": 76.09,
-      "percent_severity_and_impact": 95.65,
-      "percent_patchinfo": 2.17,
+      "percent_root_cause_analysis": 96.15,
+      "percent_software_identification": 71.15,
+      "percent_severity_and_impact": 96.15,
+      "percent_patchinfo": 1.92,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-5430",
-      "assigningCna": "WSO2",
-      "datePublished": "2026-08-06",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-78674",
       "assigningCna": "WSO2",
@@ -83,6 +70,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-5430",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-08-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -109,6 +109,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2613",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -230,6 +243,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-4052",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-1728",
       "assigningCna": "WSO2",
       "datePublished": "2026-08-06",
@@ -246,6 +272,19 @@
       "cveId": "CVE-2026-11854",
       "assigningCna": "WSO2",
       "datePublished": "2026-10-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-18800",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-02",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -317,6 +356,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-5769",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
@@ -477,6 +529,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-12544",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-12317",
       "assigningCna": "WSO2",
       "datePublished": "2026-08-06",
@@ -590,6 +655,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-1397",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },

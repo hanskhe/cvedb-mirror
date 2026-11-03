@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Qt",
-    "total_cves": 29,
-    "total_cves_scored": 29,
+    "total_cves": 31,
+    "total_cves_scored": 31,
     "organizationName": "Qt Group",
     "scope": "All supported Qt Group products. Excludes third-party redistributions and downstream packaging of Qt open source releases not published by Qt Group.",
     "advisories": [
@@ -34,30 +34,43 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 12,
-  "active_cna_count": 363,
+  "active_cna_count": 364,
   "percentile": 97.0,
   "cna_scoring": [
     {
-      "total_cves": 29,
-      "total_cves_scored": 29,
-      "recent_cves_count": 29,
-      "overall_average_score": 97.59,
+      "total_cves": 31,
+      "total_cves_scored": 31,
+      "recent_cves_count": 31,
+      "overall_average_score": 97.74,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 9.66,
+      "average_software_identification": 9.68,
       "average_severity_context": 15.0,
-      "average_patchinfo": 7.93,
+      "average_patchinfo": 8.06,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 96.55,
+      "percent_software_identification": 96.77,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 79.31,
+      "percent_patchinfo": 80.65,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-103653",
+      "assigningCna": "Qt",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
     {
       "cveId": "CVE-2026-78253",
       "assigningCna": "Qt",
@@ -309,6 +322,19 @@
       "cveId": "CVE-2026-95620",
       "assigningCna": "Qt",
       "datePublished": "2026-10-23",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-100140",
+      "assigningCna": "Qt",
+      "datePublished": "2026-11-02",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

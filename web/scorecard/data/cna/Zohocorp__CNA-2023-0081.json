@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Zohocorp",
-    "total_cves": 44,
-    "total_cves_scored": 44,
+    "total_cves": 52,
+    "total_cves_scored": 52,
     "organizationName": "Zohocorp",
     "scope": "ManageEngine, Zoho, and Zakya branded on-premise products only.",
     "advisories": [
@@ -33,23 +33,23 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 63,
-  "active_cna_count": 363,
-  "percentile": 82.9,
+  "rank": 62,
+  "active_cna_count": 364,
+  "percentile": 83.2,
   "cna_scoring": [
     {
-      "total_cves": 44,
-      "total_cves_scored": 44,
-      "recent_cves_count": 44,
-      "overall_average_score": 88.86,
+      "total_cves": 52,
+      "total_cves_scored": 52,
+      "recent_cves_count": 52,
+      "overall_average_score": 89.04,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.32,
-      "average_software_identification": 9.55,
+      "average_root_cause_analysis": 14.42,
+      "average_software_identification": 9.62,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.45,
-      "percent_software_identification": 95.45,
+      "percent_root_cause_analysis": 96.15,
+      "percent_software_identification": 96.15,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -58,6 +58,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-76980",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-09-23",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-76979",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-09-23",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-14913",
       "assigningCna": "Zohocorp",
@@ -88,32 +114,6 @@
       "cveId": "CVE-2026-14828",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-09-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-76980",
-      "assigningCna": "Zohocorp",
-      "datePublished": "2026-09-23",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-76979",
-      "assigningCna": "Zohocorp",
-      "datePublished": "2026-09-23",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -166,6 +166,19 @@
       "cveId": "CVE-2026-8174",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-05-26",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-8923",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-02",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -423,6 +436,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-13594",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-85640",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-09-07",
@@ -553,6 +579,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-16900",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-18911",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-09-18",
@@ -592,6 +631,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-77800",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77778",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77777",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-77697",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-09-07",
@@ -621,6 +699,32 @@
       "cveId": "CVE-2026-77699",
       "assigningCna": "Zohocorp",
       "datePublished": "2026-09-07",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77691",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77799",
+      "assigningCna": "Zohocorp",
+      "datePublished": "2026-11-03",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

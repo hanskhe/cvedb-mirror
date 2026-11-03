@@ -35,9 +35,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 23,
-  "active_cna_count": 363,
-  "percentile": 93.9,
+  "rank": 24,
+  "active_cna_count": 364,
+  "percentile": 93.7,
   "cna_scoring": [
     {
       "total_cves": 19,
@@ -61,32 +61,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-14852",
-      "assigningCna": "Checkmk",
-      "datePublished": "2026-07-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-14452",
-      "assigningCna": "Checkmk",
-      "datePublished": "2026-10-16",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-113461",
       "assigningCna": "Checkmk",
       "datePublished": "2026-10-21",
@@ -103,6 +77,32 @@
       "cveId": "CVE-2026-90990",
       "assigningCna": "Checkmk",
       "datePublished": "2026-09-22",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-14852",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-07-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-14452",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-10-16",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
