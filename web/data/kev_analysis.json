@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T19:54:57.175841Z",
-  "catalog_version": "2026.10.30",
-  "total_kev_cves": 1766,
+  "generated_at": "2026-11-04T01:41:48.313167Z",
+  "catalog_version": "2026.11.03",
+  "total_kev_cves": 1767,
   "statistics": {
     "added_last_30_days": 33,
     "added_last_90_days": 106,
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 282
+    "2026": 283
   },
   "by_year_cve": {
     "2002": 1,
@@ -39,7 +39,7 @@
     "2023": 166,
     "2024": 164,
     "2025": 189,
-    "2026": 195
+    "2026": 196
   },
   "by_year_published": {
     "2002": 1,
@@ -65,7 +65,7 @@
     "2023": 166,
     "2024": 160,
     "2025": 197,
-    "2026": 205
+    "2026": 206
   },
   "awaiting_nvd": {
     "count": 0,
@@ -131,7 +131,8 @@
     "2026-07": 26,
     "2026-08": 31,
     "2026-09": 43,
-    "2026-10": 36
+    "2026-10": 36,
+    "2026-11": 1
   },
   "top_vendors": [
     [
@@ -381,6 +382,14 @@
   ],
   "recent_additions": [
     {
+      "cve_id": "CVE-2026-119977",
+      "vendor": "WordPress",
+      "product": "WordPress Core",
+      "date_added": "2026-11-03",
+      "due_date": "2026-11-06",
+      "ransomware": "Unknown"
+    },
+    {
       "cve_id": "CVE-2026-118527",
       "vendor": "Ivanti",
       "product": "Connect Secure",
@@ -528,14 +537,6 @@
       "cve_id": "CVE-2026-102764",
       "vendor": "BeyondTrust",
       "product": "Remote Support",
-      "date_added": "2026-10-16",
-      "due_date": "2026-10-19",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2025-61624",
-      "vendor": "Fortinet",
-      "product": "Multiple Products",
       "date_added": "2026-10-16",
       "due_date": "2026-10-19",
       "ransomware": "Unknown"

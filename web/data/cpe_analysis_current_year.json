@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T19:52:43.007460",
+  "generated_at": "2026-11-04T01:39:28.290895",
   "year": 2026,
-  "total_unique_cpes": 18999,
-  "total_cpe_entries": 239923,
-  "total_cves_with_cpes": 40703,
+  "total_unique_cpes": 19001,
+  "total_cpe_entries": 240256,
+  "total_cves_with_cpes": 40833,
   "total_unique_vendors": 2877,
-  "total_unique_products": 8511,
+  "total_unique_products": 8513,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -16,7 +16,7 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 3750,
+      "count": 3752,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -148,17 +148,17 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
+      "count": 1710,
+      "vendor": "apple",
+      "product": "macos",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
       "count": 1643,
       "vendor": "microsoft",
       "product": "windows_server_2012",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 1603,
-      "vendor": "apple",
-      "product": "macos",
       "type": "Operating System"
     },
     {
@@ -249,23 +249,23 @@
     },
     {
       "vendor": "google",
-      "count": 5127
+      "count": 5129
     },
     {
       "vendor": "oracle",
-      "count": 5081
+      "count": 5109
     },
     {
       "vendor": "paloaltonetworks",
       "count": 4932
     },
     {
-      "vendor": "coollabs",
-      "count": 4211
+      "vendor": "apple",
+      "count": 4227
     },
     {
-      "vendor": "apple",
-      "count": 4009
+      "vendor": "coollabs",
+      "count": 4211
     },
     {
       "vendor": "juniper",
@@ -335,7 +335,7 @@
     },
     {
       "product": "chrome",
-      "count": 3757
+      "count": 3759
     },
     {
       "product": "commerce_b2b",
@@ -345,12 +345,12 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 141913,
-      "percentage": 59.1
+      "count": 142130,
+      "percentage": 59.2
     },
     {
       "type": "Application",
-      "count": 97962,
+      "count": 98078,
       "percentage": 40.8
     },
     {

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T19:52:16.358307",
-  "total_unique_cpes": 374360,
-  "total_cpe_entries": 2661083,
-  "total_cves_with_cpes": 323331,
+  "generated_at": "2026-11-04T01:39:00.464527",
+  "total_unique_cpes": 374361,
+  "total_cpe_entries": 2661415,
+  "total_cves_with_cpes": 323460,
   "total_unique_vendors": 36602,
   "total_unique_products": 114893,
   "top_cpes": [
@@ -15,14 +15,14 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 7578,
+      "count": 7580,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 5428,
+      "count": 5535,
       "vendor": "apple",
       "product": "macos",
       "type": "Operating System"
@@ -43,7 +43,7 @@
     },
     {
       "cpe": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
-      "count": 4737,
+      "count": 4772,
       "vendor": "apple",
       "product": "iphone_os",
       "type": "Operating System"
@@ -126,17 +126,17 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:apple:ipados:*:*:*:*:*:*:*:*",
+      "count": 2778,
+      "vendor": "apple",
+      "product": "ipados",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
       "count": 2756,
       "vendor": "microsoft",
       "product": "windows_10_1607",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:apple:ipados:*:*:*:*:*:*:*:*",
-      "count": 2743,
-      "vendor": "apple",
-      "product": "ipados",
       "type": "Operating System"
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "cpe": "cpe:2.3:o:apple:tvos:*:*:*:*:*:*:*:*",
-      "count": 2177,
+      "count": 2188,
       "vendor": "apple",
       "product": "tvos",
       "type": "Operating System"
@@ -344,7 +344,7 @@
     },
     {
       "cpe": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
-      "count": 1926,
+      "count": 1934,
       "vendor": "apple",
       "product": "watchos",
       "type": "Operating System"
@@ -380,7 +380,7 @@
     },
     {
       "vendor": "apple",
-      "count": 95383
+      "count": 95601
     },
     {
       "vendor": "mozilla",
@@ -396,11 +396,11 @@
     },
     {
       "vendor": "oracle",
-      "count": 71854
+      "count": 71882
     },
     {
       "vendor": "google",
-      "count": 66022
+      "count": 66024
     },
     {
       "vendor": "intel",
@@ -420,7 +420,7 @@
     },
     {
       "vendor": "redhat",
-      "count": 34773
+      "count": 34778
     },
     {
       "vendor": "hp",
@@ -432,7 +432,7 @@
     },
     {
       "vendor": "apache",
-      "count": 21954
+      "count": 22004
     },
     {
       "vendor": "opera",
@@ -462,7 +462,7 @@
     },
     {
       "product": "chrome",
-      "count": 37818
+      "count": 37820
     },
     {
       "product": "ios_xe",
@@ -486,7 +486,7 @@
     },
     {
       "product": "safari",
-      "count": 19384
+      "count": 19389
     },
     {
       "product": "windows_10",
@@ -524,12 +524,12 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 1371065,
+      "count": 1371181,
       "percentage": 51.5
     },
     {
       "type": "Operating System",
-      "count": 1234917,
+      "count": 1235133,
       "percentage": 46.4
     },
     {
