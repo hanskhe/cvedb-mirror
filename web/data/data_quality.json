@@ -8,7 +8,7 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 396270,
+    "exact_match_cves": 396388,
     "case_mismatch_cves": 184,
     "org_name_match_cves": 818,
     "normalized_match_cves": 1636,
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19289,
+      "cve_count": 19300,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17813,
+      "cve_count": 17819,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 11959,
+      "cve_count": 11962,
       "kev_count": 1,
       "epss_high_count": 56,
       "official_short_name": "Wordfence",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6223,
+      "cve_count": 6255,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3275,
+      "cve_count": 3276,
       "kev_count": 7,
       "epss_high_count": 8,
       "official_short_name": "jpcert",
@@ -261,6 +261,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "apache",
+      "cve_count": 3059,
+      "kev_count": 35,
+      "epss_high_count": 183,
+      "official_short_name": "apache",
+      "official_org_name": "Apache Software Foundation",
+      "official_id": "CNA-2016-0004",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "mozilla",
       "cve_count": 3051,
       "kev_count": 12,
@@ -268,17 +279,6 @@
       "official_short_name": "mozilla",
       "official_org_name": "Mozilla Corporation",
       "official_id": "CNA-2012-0002",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "apache",
-      "cve_count": 3037,
-      "kev_count": 35,
-      "epss_high_count": 183,
-      "official_short_name": "apache",
-      "official_org_name": "Apache Software Foundation",
-      "official_id": "CNA-2016-0004",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1211,
+      "cve_count": 1215,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -460,7 +460,7 @@
     },
     {
       "cna_name": "twcert",
-      "cve_count": 941,
+      "cve_count": 944,
       "kev_count": 3,
       "epss_high_count": 1,
       "official_short_name": "twcert",
@@ -493,7 +493,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 874,
+      "cve_count": 876,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -526,7 +526,7 @@
     },
     {
       "cna_name": "CERTVDE",
-      "cve_count": 739,
+      "cve_count": 742,
       "kev_count": 0,
       "epss_high_count": 11,
       "official_short_name": "CERTVDE",
@@ -548,7 +548,7 @@
     },
     {
       "cna_name": "Unisoc",
-      "cve_count": 659,
+      "cve_count": 661,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "Unisoc",
