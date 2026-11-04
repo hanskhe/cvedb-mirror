@@ -9,7 +9,7 @@
       {
         "label": "Advisories",
         "language": "",
-        "url": "https://checkmk.com/werks"
+        "url": "https://checkmarx.com/zero/vulnerabilities/"
       }
     ],
     "email": [
@@ -28,7 +28,7 @@
       {
         "label": "Policy",
         "language": "",
-        "url": "https://checkmk.com/responsible-disclosure-policy"
+        "url": "https://checkmarx.com/zero/disclosure-policy/"
       }
     ],
     "rootCnaInfo": {}
@@ -36,7 +36,7 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 24,
-  "active_cna_count": 364,
+  "active_cna_count": 366,
   "percentile": 93.7,
   "cna_scoring": [
     {
@@ -61,32 +61,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-113461",
-      "assigningCna": "Checkmk",
-      "datePublished": "2026-10-21",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-90990",
-      "assigningCna": "Checkmk",
-      "datePublished": "2026-09-22",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-14852",
       "assigningCna": "Checkmk",
       "datePublished": "2026-07-14",
@@ -103,6 +77,32 @@
       "cveId": "CVE-2026-14452",
       "assigningCna": "Checkmk",
       "datePublished": "2026-10-16",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-113461",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90990",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-09-22",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

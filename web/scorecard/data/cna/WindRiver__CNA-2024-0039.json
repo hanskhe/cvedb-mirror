@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 306,
-  "active_cna_count": 364,
-  "percentile": 16.2,
+  "rank": 308,
+  "active_cna_count": 366,
+  "percentile": 16.1,
   "cna_scoring": [
     {
       "total_cves": 5,
@@ -58,19 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-97686",
-      "assigningCna": "WindRiver",
-      "datePublished": "2026-09-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-102006",
       "assigningCna": "WindRiver",
@@ -99,6 +86,19 @@
     },
     {
       "cveId": "CVE-2026-102004",
+      "assigningCna": "WindRiver",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-97686",
       "assigningCna": "WindRiver",
       "datePublished": "2026-09-28",
       "totalCveScore": 80,
