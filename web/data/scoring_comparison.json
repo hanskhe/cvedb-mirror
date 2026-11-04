@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T11:27:44.747796Z",
+  "generated_at": "2026-11-04T20:06:42.856152Z",
   "systems": {
     "cvss": {
       "name": "CVSS",
       "full_name": "Common Vulnerability Scoring System",
       "description": "Measures severity/impact of vulnerabilities",
       "question": "How bad is it?",
-      "total_scored": 568021,
+      "total_scored": 568408,
       "source": "NVD / Vendors",
       "update_frequency": "Per CVE publication"
     },
@@ -15,7 +15,7 @@
       "full_name": "Exploit Prediction Scoring System",
       "description": "Predicts likelihood of exploitation in 30 days",
       "question": "Will it be exploited?",
-      "total_scored": 399388,
+      "total_scored": 400189,
       "source": "FIRST.org",
       "update_frequency": "Daily"
     },
@@ -30,12 +30,12 @@
     }
   },
   "overlaps": {
-    "epss_and_kev": 1766,
-    "high_epss_in_kev": 905,
-    "kev_coverage_by_epss": 99.9
+    "epss_and_kev": 1767,
+    "high_epss_in_kev": 907,
+    "kev_coverage_by_epss": 100.0
   },
   "insights": {
-    "epss_gt_05_not_kev": 3474,
-    "kev_with_low_epss": 436
+    "epss_gt_05_not_kev": 3473,
+    "kev_with_low_epss": 437
   }
 }
