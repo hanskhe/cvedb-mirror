@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 319,
-  "active_cna_count": 366,
-  "percentile": 13.1,
+  "active_cna_count": 368,
+  "percentile": 13.6,
   "cna_scoring": [
     {
       "total_cves": 16,
@@ -112,22 +112,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-8296",
+      "cveId": "CVE-2026-91778",
       "assigningCna": "Octopus",
-      "datePublished": "2026-06-19",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92355",
-      "assigningCna": "Octopus",
-      "datePublished": "2026-09-16",
+      "datePublished": "2026-09-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -177,9 +164,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-91778",
+      "cveId": "CVE-2026-8296",
       "assigningCna": "Octopus",
-      "datePublished": "2026-09-15",
+      "datePublished": "2026-06-19",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92355",
+      "assigningCna": "Octopus",
+      "datePublished": "2026-09-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

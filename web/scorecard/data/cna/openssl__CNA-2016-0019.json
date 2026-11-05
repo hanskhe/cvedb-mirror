@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 312,
-  "active_cna_count": 366,
-  "percentile": 15.0,
+  "rank": 313,
+  "active_cna_count": 368,
+  "percentile": 15.2,
   "cna_scoring": [
     {
       "total_cves": 43,
@@ -59,110 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-54873",
-      "assigningCna": "openssl",
-      "datePublished": "2026-09-29",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-54875",
-      "assigningCna": "openssl",
-      "datePublished": "2026-09-29",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-54872",
-      "assigningCna": "openssl",
-      "datePublished": "2026-09-29",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-54876",
-      "assigningCna": "openssl",
-      "datePublished": "2026-08-05",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-54874",
-      "assigningCna": "openssl",
-      "datePublished": "2026-08-25",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-14456",
-      "assigningCna": "openssl",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-14457",
-      "assigningCna": "openssl",
-      "datePublished": "2026-08-25",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-42766",
-      "assigningCna": "openssl",
-      "datePublished": "2026-06-09",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
     {
       "cveId": "CVE-2026-42770",
       "assigningCna": "openssl",
@@ -281,9 +177,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-45445",
+      "cveId": "CVE-2026-54873",
       "assigningCna": "openssl",
-      "datePublished": "2026-06-09",
+      "datePublished": "2026-09-29",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -294,9 +190,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-45446",
+      "cveId": "CVE-2026-54875",
       "assigningCna": "openssl",
-      "datePublished": "2026-06-09",
+      "datePublished": "2026-09-29",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -307,7 +203,72 @@
       }
     },
     {
-      "cveId": "CVE-2026-45447",
+      "cveId": "CVE-2026-54872",
+      "assigningCna": "openssl",
+      "datePublished": "2026-09-29",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-54876",
+      "assigningCna": "openssl",
+      "datePublished": "2026-08-05",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-54874",
+      "assigningCna": "openssl",
+      "datePublished": "2026-08-25",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-14456",
+      "assigningCna": "openssl",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-14457",
+      "assigningCna": "openssl",
+      "datePublished": "2026-08-25",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-42766",
       "assigningCna": "openssl",
       "datePublished": "2026-06-09",
       "totalCveScore": 75,
@@ -388,6 +349,45 @@
       "cveId": "CVE-2026-63075",
       "assigningCna": "openssl",
       "datePublished": "2026-08-25",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-45445",
+      "assigningCna": "openssl",
+      "datePublished": "2026-06-09",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-45446",
+      "assigningCna": "openssl",
+      "datePublished": "2026-06-09",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-45447",
+      "assigningCna": "openssl",
+      "datePublished": "2026-06-09",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
