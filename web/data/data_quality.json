@@ -8,10 +8,10 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 396736,
+    "exact_match_cves": 397001,
     "case_mismatch_cves": 184,
     "org_name_match_cves": 820,
-    "normalized_match_cves": 1636,
+    "normalized_match_cves": 1637,
     "partial_match_cves": 80,
     "unmatched_cves": 1109,
     "exact_match_pct": 99.04,
@@ -20,9 +20,9 @@
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115566,
+      "cve_count": 115571,
       "kev_count": 328,
-      "epss_high_count": 1741,
+      "epss_high_count": 1742,
       "official_short_name": "mitre",
       "official_org_name": "MITRE Corporation",
       "official_id": "CNA-1999-0001",
@@ -31,7 +31,7 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22173,
+      "cve_count": 22278,
       "kev_count": 41,
       "epss_high_count": 185,
       "official_short_name": "GitHub_M",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17855,
+      "cve_count": 17864,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 11988,
+      "cve_count": 12010,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 10713,
+      "cve_count": 10744,
       "kev_count": 19,
       "epss_high_count": 32,
       "official_short_name": "VulnCheck",
@@ -250,6 +250,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "apache",
+      "cve_count": 3118,
+      "kev_count": 35,
+      "epss_high_count": 184,
+      "official_short_name": "apache",
+      "official_org_name": "Apache Software Foundation",
+      "official_id": "CNA-2016-0004",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "qualcomm",
       "cve_count": 3079,
       "kev_count": 12,
@@ -257,17 +268,6 @@
       "official_short_name": "qualcomm",
       "official_org_name": "Qualcomm, Inc.",
       "official_id": "CNA-2017-0007",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "apache",
-      "cve_count": 3060,
-      "kev_count": 35,
-      "epss_high_count": 183,
-      "official_short_name": "apache",
-      "official_org_name": "Apache Software Foundation",
-      "official_id": "CNA-2016-0004",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -361,7 +361,7 @@
     },
     {
       "cna_name": "hpe",
-      "cve_count": 1705,
+      "cve_count": 1706,
       "kev_count": 2,
       "epss_high_count": 17,
       "official_short_name": "hpe",
@@ -493,7 +493,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 876,
+      "cve_count": 880,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -664,7 +664,7 @@
     },
     {
       "cna_name": "Document Fdn.",
-      "cve_count": 57,
+      "cve_count": 58,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "Document_Fdn.",
