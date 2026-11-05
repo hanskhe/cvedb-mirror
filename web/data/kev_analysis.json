@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T20:06:42.353023Z",
-  "catalog_version": "2026.11.03",
-  "total_kev_cves": 1767,
+  "generated_at": "2026-11-05T01:43:54.117083Z",
+  "catalog_version": "2026.11.04",
+  "total_kev_cves": 1768,
   "statistics": {
-    "added_last_30_days": 33,
-    "added_last_90_days": 106,
+    "added_last_30_days": 34,
+    "added_last_90_days": 107,
     "ransomware_associated": 361
   },
   "by_year_added": {
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 283
+    "2026": 284
   },
   "by_year_cve": {
     "2002": 1,
@@ -37,7 +37,7 @@
     "2021": 216,
     "2022": 132,
     "2023": 166,
-    "2024": 164,
+    "2024": 165,
     "2025": 189,
     "2026": 196
   },
@@ -63,7 +63,7 @@
     "2021": 215,
     "2022": 131,
     "2023": 166,
-    "2024": 160,
+    "2024": 161,
     "2025": 197,
     "2026": 206
   },
@@ -132,7 +132,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 1
+    "2026-11": 2
   },
   "top_vendors": [
     [
@@ -145,7 +145,7 @@
     ],
     [
       "Apple",
-      95
+      96
     ],
     [
       "Adobe",
@@ -223,7 +223,7 @@
     ],
     [
       "Apple - Multiple Products",
-      54
+      55
     ],
     [
       "Google - Chromium V8",
@@ -333,7 +333,7 @@
     ],
     [
       "CWE-287",
-      48
+      49
     ],
     [
       "CWE-306",
@@ -381,6 +381,14 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2024-27834",
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "date_added": "2026-11-04",
+      "due_date": "2026-11-18",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-119977",
       "vendor": "WordPress",
@@ -531,14 +539,6 @@
       "product": "Software Center",
       "date_added": "2026-10-20",
       "due_date": "2026-11-03",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-102764",
-      "vendor": "BeyondTrust",
-      "product": "Remote Support",
-      "date_added": "2026-10-16",
-      "due_date": "2026-10-19",
       "ransomware": "Unknown"
     }
   ]
