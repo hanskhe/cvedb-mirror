@@ -43,9 +43,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 307,
-  "active_cna_count": 368,
-  "percentile": 16.8,
+  "rank": 306,
+  "active_cna_count": 367,
+  "percentile": 16.9,
   "cna_scoring": [
     {
       "total_cves": 31,
@@ -68,32 +68,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-82838",
-      "assigningCna": "AMI",
-      "datePublished": "2026-08-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-9712",
-      "assigningCna": "AMI",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-57534",
       "assigningCna": "AMI",
@@ -150,6 +124,32 @@
       "cveId": "CVE-2026-57535",
       "assigningCna": "AMI",
       "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82838",
+      "assigningCna": "AMI",
+      "datePublished": "2026-08-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9712",
+      "assigningCna": "AMI",
+      "datePublished": "2026-05-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -407,6 +407,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-0893",
+      "assigningCna": "AMI",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-58773",
       "assigningCna": "AMI",
       "datePublished": "2026-10-13",
@@ -447,19 +460,6 @@
     },
     {
       "cveId": "CVE-2025-58771",
-      "assigningCna": "AMI",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-0893",
       "assigningCna": "AMI",
       "datePublished": "2026-10-13",
       "totalCveScore": 80,
