@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total_cnas_in_analysis": 490,
+    "total_cnas_in_analysis": 491,
     "official_cna_registry_count": 564,
-    "exact_matches": 445,
+    "exact_matches": 446,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 397230,
+    "exact_match_cves": 397440,
     "case_mismatch_cves": 184,
-    "org_name_match_cves": 820,
+    "org_name_match_cves": 821,
     "normalized_match_cves": 1637,
     "partial_match_cves": 80,
     "unmatched_cves": 1109,
@@ -20,7 +20,7 @@
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115571,
+      "cve_count": 115573,
       "kev_count": 328,
       "epss_high_count": 1742,
       "official_short_name": "mitre",
@@ -31,9 +31,9 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22329,
+      "cve_count": 22352,
       "kev_count": 41,
-      "epss_high_count": 185,
+      "epss_high_count": 183,
       "official_short_name": "GitHub_M",
       "official_org_name": "GitHub, Inc.",
       "official_id": "CNA-2019-0009",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19309,
+      "cve_count": 19313,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -53,7 +53,7 @@
     },
     {
       "cna_name": "Linux",
-      "cve_count": 18202,
+      "cve_count": 18205,
       "kev_count": 12,
       "epss_high_count": 5,
       "official_short_name": "Linux",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17866,
+      "cve_count": 17873,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -77,7 +77,7 @@
       "cna_name": "microsoft",
       "cve_count": 15955,
       "kev_count": 381,
-      "epss_high_count": 555,
+      "epss_high_count": 554,
       "official_short_name": "microsoft",
       "official_org_name": "Microsoft Corporation",
       "official_id": "CNA-2005-0005",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 11983,
+      "cve_count": 11997,
       "kev_count": 1,
       "epss_high_count": 56,
       "official_short_name": "Wordfence",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 10746,
+      "cve_count": 10792,
       "kev_count": 19,
       "epss_high_count": 32,
       "official_short_name": "VulnCheck",
@@ -141,7 +141,7 @@
     },
     {
       "cna_name": "adobe",
-      "cve_count": 7786,
+      "cve_count": 7788,
       "kev_count": 77,
       "epss_high_count": 120,
       "official_short_name": "adobe",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "certcc",
-      "cve_count": 3184,
+      "cve_count": 3187,
       "kev_count": 7,
       "epss_high_count": 66,
       "official_short_name": "certcc",
@@ -251,7 +251,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3118,
+      "cve_count": 3126,
       "kev_count": 35,
       "epss_high_count": 184,
       "official_short_name": "apache",
@@ -493,7 +493,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 880,
+      "cve_count": 882,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -547,6 +547,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "HCL",
+      "cve_count": 673,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "HCL",
+      "official_org_name": "HCL Software",
+      "official_id": "CNA-2019-0010",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "Unisoc",
       "cve_count": 661,
       "kev_count": 0,
@@ -554,17 +565,6 @@
       "official_short_name": "Unisoc",
       "official_org_name": "Unisoc (Shanghai) Technologies Co., Ltd.",
       "official_id": "CNA-2022-0025",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "qnap",
-      "cve_count": 651,
-      "kev_count": 12,
-      "epss_high_count": 8,
-      "official_short_name": "qnap",
-      "official_org_name": "QNAP Systems, Inc.",
-      "official_id": "CNA-2017-0030",
       "match_type": "exact_short",
       "confidence": "high"
     }
@@ -640,7 +640,7 @@
     },
     {
       "cna_name": "SNOWFLAKE",
-      "cve_count": 22,
+      "cve_count": 23,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "SNOW",
