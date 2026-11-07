@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GV",
-    "total_cves": 72,
-    "total_cves_scored": 72,
+    "total_cves": 71,
+    "total_cves_scored": 71,
     "organizationName": "GeoVision Inc.",
     "scope": "Vulnerabilities in GeoVision products only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 55,
-  "active_cna_count": 367,
-  "percentile": 85.3,
+  "rank": 56,
+  "active_cna_count": 370,
+  "percentile": 85.1,
   "cna_scoring": [
     {
-      "total_cves": 72,
-      "total_cves_scored": 72,
-      "recent_cves_count": 72,
+      "total_cves": 71,
+      "total_cves_scored": 71,
+      "recent_cves_count": 71,
       "overall_average_score": 89.58,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -49,7 +49,7 @@
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 95.83,
+      "percent_software_identification": 95.77,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -58,6 +58,45 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-103098",
+      "assigningCna": "GV",
+      "datePublished": "2026-10-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103097",
+      "assigningCna": "GV",
+      "datePublished": "2026-10-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103096",
+      "assigningCna": "GV",
+      "datePublished": "2026-10-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-57876",
       "assigningCna": "GV",
@@ -387,45 +426,6 @@
       "cveId": "CVE-2026-107437",
       "assigningCna": "GV",
       "datePublished": "2026-10-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103098",
-      "assigningCna": "GV",
-      "datePublished": "2026-10-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103097",
-      "assigningCna": "GV",
-      "datePublished": "2026-10-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103096",
-      "assigningCna": "GV",
-      "datePublished": "2026-10-02",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -894,19 +894,6 @@
       "cveId": "CVE-2026-13125",
       "assigningCna": "GV",
       "datePublished": "2026-07-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-7841",
-      "assigningCna": "GV",
-      "datePublished": "2026-05-06",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Go",
-    "total_cves": 76,
-    "total_cves_scored": 76,
+    "total_cves": 75,
+    "total_cves_scored": 75,
     "organizationName": "Go Project",
     "scope": "Vulnerabilities in software published by the Go Project (including the Go standard library, Go toolchain, and the golang.org modules) and publicly disclosed vulnerabilities in publicly importable packages in the Go ecosystem, unless covered by another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 338,
-  "active_cna_count": 367,
-  "percentile": 8.2,
+  "rank": 341,
+  "active_cna_count": 370,
+  "percentile": 8.1,
   "cna_scoring": [
     {
-      "total_cves": 76,
-      "total_cves_scored": 76,
-      "recent_cves_count": 76,
+      "total_cves": 75,
+      "total_cves_scored": 75,
+      "recent_cves_count": 75,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -59,58 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-97045",
-      "assigningCna": "Go",
-      "datePublished": "2026-10-27",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-97032",
-      "assigningCna": "Go",
-      "datePublished": "2026-10-08",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-97030",
-      "assigningCna": "Go",
-      "datePublished": "2026-10-08",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-97031",
-      "assigningCna": "Go",
-      "datePublished": "2026-10-08",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-78669",
       "assigningCna": "Go",
@@ -372,6 +320,58 @@
       }
     },
     {
+      "cveId": "CVE-2026-97045",
+      "assigningCna": "Go",
+      "datePublished": "2026-10-27",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-97032",
+      "assigningCna": "Go",
+      "datePublished": "2026-10-08",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-97030",
+      "assigningCna": "Go",
+      "datePublished": "2026-10-08",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-97031",
+      "assigningCna": "Go",
+      "datePublished": "2026-10-08",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-42502",
       "assigningCna": "Go",
       "datePublished": "2026-05-22",
@@ -427,19 +427,6 @@
       "cveId": "CVE-2026-42507",
       "assigningCna": "Go",
       "datePublished": "2026-06-02",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-42503",
-      "assigningCna": "Go",
-      "datePublished": "2026-05-06",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
