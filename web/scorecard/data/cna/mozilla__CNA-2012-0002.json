@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mozilla",
-    "total_cves": 684,
-    "total_cves_scored": 684,
+    "total_cves": 679,
+    "total_cves_scored": 679,
     "organizationName": "Mozilla Corporation",
     "scope": "Mozilla issues only.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 1.4,
   "cna_scoring": [
     {
-      "total_cves": 684,
-      "total_cves_scored": 684,
-      "recent_cves_count": 684,
+      "total_cves": 679,
+      "total_cves_scored": 679,
+      "recent_cves_count": 679,
       "overall_average_score": 50.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -59,97 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-110247",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-110249",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103418",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103500",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-09-30",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103417",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-120572",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-11-03",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-81267",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-08-31",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-14899",
       "assigningCna": "mozilla",
@@ -346,6 +255,97 @@
       }
     },
     {
+      "cveId": "CVE-2026-110247",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110249",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103418",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103500",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-09-30",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103417",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-120572",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-81267",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-08-31",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-9308",
       "assigningCna": "mozilla",
       "datePublished": "2026-06-01",
@@ -401,32 +401,6 @@
       "cveId": "CVE-2026-15718",
       "assigningCna": "mozilla",
       "datePublished": "2026-07-14",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8090",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-05-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8094",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-05-07",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -580,19 +554,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-8092",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-05-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-8945",
       "assigningCna": "mozilla",
       "datePublished": "2026-05-19",
@@ -687,19 +648,6 @@
       "cveId": "CVE-2026-8391",
       "assigningCna": "mozilla",
       "datePublished": "2026-05-12",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8091",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-05-07",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -869,19 +817,6 @@
       "cveId": "CVE-2026-8959",
       "assigningCna": "mozilla",
       "datePublished": "2026-05-19",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8093",
-      "assigningCna": "mozilla",
-      "datePublished": "2026-05-07",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
