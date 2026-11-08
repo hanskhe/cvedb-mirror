@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:30:49.322822",
+  "generated_at": "2026-11-08T13:50:29.675432",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 407,
@@ -65,10 +65,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 9809,
+      "count": 9877,
       "rank": 2,
       "first_cve_date": "2026-01-03T21:18:51.053Z",
-      "last_cve_date": "2026-11-08T01:38:41.148Z",
+      "last_cve_date": "2026-11-08T13:16:09.907Z",
       "years_active": 4,
       "first_cve_year": 2023,
       "last_cve_year": 2026,
@@ -78,17 +78,17 @@
         "Vendor"
       ],
       "severity_distribution": {
-        "High": 4844,
-        "Critical": 1194,
-        "Medium": 3611,
-        "Low": 160
+        "High": 4894,
+        "Critical": 1204,
+        "Medium": 3618,
+        "Low": 161
       },
       "top_cwe_types": {
-        "CWE-79": 893,
-        "CWE-862": 753,
-        "CWE-89": 564,
-        "CWE-639": 508,
-        "CWE-22": 476
+        "CWE-79": 901,
+        "CWE-862": 765,
+        "CWE-89": 567,
+        "CWE-639": 526,
+        "CWE-22": 480
       },
       "kev_count": 6,
       "epss_high_count": 5,
@@ -96,23 +96,23 @@
       "top_cwes": [
         [
           "CWE-79",
-          893
+          901
         ],
         [
           "CWE-862",
-          753
+          765
         ],
         [
           "CWE-89",
-          564
+          567
         ],
         [
           "CWE-639",
-          508
+          526
         ],
         [
           "CWE-22",
-          476
+          480
         ]
       ]
     },
@@ -172,10 +172,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 6279,
+      "count": 6283,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-11-07T20:30:18.649Z",
+      "last_cve_date": "2026-11-08T12:15:07.142Z",
       "years_active": 5,
       "first_cve_year": 2022,
       "last_cve_year": 2026,
@@ -185,17 +185,17 @@
         "Security Researcher"
       ],
       "severity_distribution": {
-        "Medium": 3675,
-        "High": 1641,
+        "Medium": 3678,
+        "High": 1642,
         "Low": 106,
         "Critical": 857
       },
       "top_cwe_types": {
-        "CWE-74": 1701,
+        "CWE-74": 1702,
         "CWE-89": 1245,
         "CWE-119": 926,
         "CWE-77": 713,
-        "CWE-94": 668
+        "CWE-94": 669
       },
       "kev_count": 2,
       "epss_high_count": 2,
@@ -203,7 +203,7 @@
       "top_cwes": [
         [
           "CWE-74",
-          1701
+          1702
         ],
         [
           "CWE-89",
@@ -219,7 +219,7 @@
         ],
         [
           "CWE-94",
-          668
+          669
         ]
       ]
     },
