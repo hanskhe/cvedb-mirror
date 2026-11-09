@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T12:03:34.803897Z",
-  "catalog_version": "2026.11.06",
-  "total_kev_cves": 1769,
+  "generated_at": "2026-11-09T22:42:51.698643Z",
+  "catalog_version": "2026.11.09",
+  "total_kev_cves": 1773,
   "statistics": {
-    "added_last_30_days": 30,
-    "added_last_90_days": 107,
+    "added_last_30_days": 34,
+    "added_last_90_days": 111,
     "ransomware_associated": 361
   },
   "by_year_added": {
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 285
+    "2026": 289
   },
   "by_year_cve": {
     "2002": 1,
@@ -39,7 +39,7 @@
     "2023": 166,
     "2024": 165,
     "2025": 189,
-    "2026": 197
+    "2026": 201
   },
   "by_year_published": {
     "2002": 1,
@@ -65,7 +65,7 @@
     "2023": 166,
     "2024": 161,
     "2025": 197,
-    "2026": 207
+    "2026": 211
   },
   "awaiting_nvd": {
     "count": 0,
@@ -132,7 +132,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 3
+    "2026-11": 7
   },
   "top_vendors": [
     [
@@ -305,7 +305,7 @@
     ],
     [
       "CWE-78",
-      113
+      114
     ],
     [
       "CWE-787",
@@ -333,7 +333,7 @@
     ],
     [
       "CWE-287",
-      49
+      50
     ],
     [
       "CWE-306",
@@ -348,11 +348,11 @@
       37
     ],
     [
-      "CWE-89",
-      33
+      "CWE-77",
+      34
     ],
     [
-      "CWE-77",
+      "CWE-89",
       33
     ],
     [
@@ -381,6 +381,38 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2026-102895",
+      "vendor": "GPUStack",
+      "product": "GPUStack",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-123158",
+      "vendor": "OpenBSD",
+      "product": "OpenSSH",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-116779",
+      "vendor": "SignalWire",
+      "product": "FreeSwitch",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-123218",
+      "vendor": "IBM",
+      "product": "Aspera Faspex",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-19868",
       "vendor": "SonicWall",
@@ -507,38 +539,6 @@
       "product": "SiteGuard Server Edition",
       "date_added": "2026-10-20",
       "due_date": "2026-10-23",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-96656",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "date_added": "2026-10-20",
-      "due_date": "2026-10-23",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-96655",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "date_added": "2026-10-20",
-      "due_date": "2026-11-03",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-96654",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "date_added": "2026-10-20",
-      "due_date": "2026-10-23",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-96652",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "date_added": "2026-10-20",
-      "due_date": "2026-11-03",
       "ransomware": "Unknown"
     }
   ]
