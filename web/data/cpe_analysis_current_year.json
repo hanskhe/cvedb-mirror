@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-10T17:18:30.581136",
+  "generated_at": "2026-11-10T23:44:41.813280",
   "year": 2026,
-  "total_unique_cpes": 19018,
-  "total_cpe_entries": 243818,
-  "total_cves_with_cpes": 41712,
-  "total_unique_vendors": 2878,
-  "total_unique_products": 8518,
+  "total_unique_cpes": 19073,
+  "total_cpe_entries": 244496,
+  "total_cves_with_cpes": 42053,
+  "total_unique_vendors": 2879,
+  "total_unique_products": 8558,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 13977,
+      "count": 14019,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 3928,
+      "count": 3957,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -121,7 +121,7 @@
     },
     {
       "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 2093,
+      "count": 2095,
       "vendor": "apple",
       "product": "macos",
       "type": "Operating System"
@@ -221,11 +221,11 @@
   "top_vendors": [
     {
       "vendor": "microsoft",
-      "count": 65604
+      "count": 65614
     },
     {
       "vendor": "linux",
-      "count": 25942
+      "count": 25984
     },
     {
       "vendor": "adobe",
@@ -237,11 +237,11 @@
     },
     {
       "vendor": "cisco",
-      "count": 12719
+      "count": 12723
     },
     {
       "vendor": "ibm",
-      "count": 7137
+      "count": 7240
     },
     {
       "vendor": "samsung",
@@ -249,15 +249,15 @@
     },
     {
       "vendor": "google",
-      "count": 5454
+      "count": 5682
     },
     {
       "vendor": "oracle",
-      "count": 5438
+      "count": 5472
     },
     {
       "vendor": "apple",
-      "count": 5062
+      "count": 5064
     },
     {
       "vendor": "paloaltonetworks",
@@ -283,11 +283,11 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 25942
+      "count": 25984
     },
     {
       "product": "android",
-      "count": 7569
+      "count": 7767
     },
     {
       "product": "windows_10_22h2",
@@ -334,24 +334,24 @@
       "count": 4037
     },
     {
-      "product": "windows_10_1607",
-      "count": 3955
+      "product": "chrome",
+      "count": 3964
     },
     {
-      "product": "chrome",
-      "count": 3935
+      "product": "windows_10_1607",
+      "count": 3955
     }
   ],
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 143273,
-      "percentage": 58.8
+      "count": 143517,
+      "percentage": 58.7
     },
     {
       "type": "Application",
-      "count": 100497,
-      "percentage": 41.2
+      "count": 100931,
+      "percentage": 41.3
     },
     {
       "type": "Hardware",
