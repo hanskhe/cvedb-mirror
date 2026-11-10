@@ -8,9 +8,9 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 398761,
+    "exact_match_cves": 398922,
     "case_mismatch_cves": 184,
-    "org_name_match_cves": 821,
+    "org_name_match_cves": 822,
     "normalized_match_cves": 1637,
     "partial_match_cves": 80,
     "unmatched_cves": 1109,
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17960,
+      "cve_count": 17969,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12104,
+      "cve_count": 12110,
       "kev_count": 1,
       "epss_high_count": 56,
       "official_short_name": "Wordfence",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 11134,
+      "cve_count": 11184,
       "kev_count": 19,
       "epss_high_count": 32,
       "official_short_name": "VulnCheck",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6382,
+      "cve_count": 6385,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3282,
+      "cve_count": 3283,
       "kev_count": 7,
       "epss_high_count": 8,
       "official_short_name": "jpcert",
@@ -350,7 +350,7 @@
     },
     {
       "cna_name": "hackerone",
-      "cve_count": 1805,
+      "cve_count": 1812,
       "kev_count": 28,
       "epss_high_count": 72,
       "official_short_name": "hackerone",
@@ -371,6 +371,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "sap",
+      "cve_count": 1624,
+      "kev_count": 8,
+      "epss_high_count": 8,
+      "official_short_name": "sap",
+      "official_org_name": "SAP SE",
+      "official_id": "CNA-2017-0038",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "jenkins",
       "cve_count": 1607,
       "kev_count": 3,
@@ -378,17 +389,6 @@
       "official_short_name": "jenkins",
       "official_org_name": "Jenkins Project",
       "official_id": "CNA-2018-0015",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "sap",
-      "cve_count": 1584,
-      "kev_count": 8,
-      "epss_high_count": 8,
-      "official_short_name": "sap",
-      "official_org_name": "SAP SE",
-      "official_id": "CNA-2017-0038",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -585,7 +585,7 @@
   "org_name_matches": [
     {
       "cna_name": "Fluid Attacks",
-      "cve_count": 357,
+      "cve_count": 358,
       "kev_count": 1,
       "epss_high_count": 0,
       "official_short_name": "Fluid_Attacks",
