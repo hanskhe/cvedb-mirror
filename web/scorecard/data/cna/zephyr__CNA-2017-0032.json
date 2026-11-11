@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zephyr",
-    "total_cves": 222,
-    "total_cves_scored": 222,
+    "total_cves": 228,
+    "total_cves_scored": 228,
     "organizationName": "Zephyr Project",
     "scope": "Zephyr project components, and vulnerabilities that are not in another CNA’s scope.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 58,
-  "active_cna_count": 370,
-  "percentile": 84.6,
+  "rank": 59,
+  "active_cna_count": 371,
+  "percentile": 84.4,
   "cna_scoring": [
     {
-      "total_cves": 222,
-      "total_cves_scored": 222,
-      "recent_cves_count": 222,
-      "overall_average_score": 89.39,
+      "total_cves": 228,
+      "total_cves_scored": 228,
+      "recent_cves_count": 228,
+      "overall_average_score": 89.41,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.93,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.86,
-      "average_patchinfo": 9.59,
+      "average_severity_context": 14.87,
+      "average_patchinfo": 9.61,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.55,
+      "percent_root_cause_analysis": 99.56,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 99.1,
-      "percent_patchinfo": 95.95,
+      "percent_severity_and_impact": 99.12,
+      "percent_patchinfo": 96.05,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -115,6 +115,19 @@
       "cveId": "CVE-2026-87045",
       "assigningCna": "zephyr",
       "datePublished": "2026-11-06",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-87042",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -996,6 +1009,136 @@
       }
     },
     {
+      "cveId": "CVE-2026-90586",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90588",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90833",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90591",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90834",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90589",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90832",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90585",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90587",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-90590",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-82390",
       "assigningCna": "zephyr",
       "datePublished": "2026-10-26",
@@ -1012,6 +1155,19 @@
       "cveId": "CVE-2026-82389",
       "assigningCna": "zephyr",
       "datePublished": "2026-10-26",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-82391",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1090,97 +1246,6 @@
       "cveId": "CVE-2026-9263",
       "assigningCna": "zephyr",
       "datePublished": "2026-06-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90586",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90588",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90591",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90589",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90585",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90587",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-90590",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-11-09",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2923,6 +2988,19 @@
       "cveId": "CVE-2026-18748",
       "assigningCna": "zephyr",
       "datePublished": "2026-10-21",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-77685",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-11-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
