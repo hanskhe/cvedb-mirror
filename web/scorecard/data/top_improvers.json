@@ -81,17 +81,17 @@
           "improvement": 20.0
         }
       },
-      "total_cves_analyzed": 30,
-      "analysis_days": 22
+      "total_cves_analyzed": 32,
+      "analysis_days": 23
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 129.8780487804878,
+      "total_improvement": 131.8181818181818,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 99.39024390243902,
-          "improvement": -0.6097560975609753
+          "last_period": 99.09090909090908,
+          "improvement": -0.9090909090909207
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -105,12 +105,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 30.48780487804878,
-          "improvement": 30.48780487804878
+          "last_period": 32.72727272727273,
+          "improvement": 32.72727272727273
         }
       },
-      "total_cves_analyzed": 12169,
-      "analysis_days": 557
+      "total_cves_analyzed": 12174,
+      "analysis_days": 559
     },
     {
       "cna_name": "ibm",
@@ -170,17 +170,17 @@
     },
     {
       "cna_name": "hackerone",
-      "total_improvement": 104.52961672473869,
+      "total_improvement": 106.87830687830686,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 0.0,
-          "last_period": 97.56097560975611,
-          "improvement": 97.56097560975611
+          "last_period": 98.14814814814814,
+          "improvement": 98.14814814814814
         },
         "severity_and_impact": {
           "first_period": 85.71428571428572,
-          "last_period": 92.6829268292683,
-          "improvement": 6.968641114982574
+          "last_period": 94.44444444444444,
+          "improvement": 8.73015873015872
         },
         "software_identification": {
           "first_period": 0.0,
@@ -193,8 +193,8 @@
           "improvement": 0.0
         }
       },
-      "total_cves_analyzed": 351,
-      "analysis_days": 86
+      "total_cves_analyzed": 365,
+      "analysis_days": 87
     },
     {
       "cna_name": "Deltaww",
@@ -226,7 +226,7 @@
     },
     {
       "cna_name": "AMZN",
-      "total_improvement": 103.0701754385965,
+      "total_improvement": 102.45098039215686,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -245,15 +245,15 @@
         },
         "patch_information": {
           "first_period": 91.66666666666666,
-          "last_period": 94.73684210526315,
-          "improvement": 3.0701754385964932
+          "last_period": 94.11764705882352,
+          "improvement": 2.4509803921568647
         }
       },
-      "total_cves_analyzed": 241,
-      "analysis_days": 124
+      "total_cves_analyzed": 243,
+      "analysis_days": 125
     },
     {
-      "cna_name": "zephyr",
+      "cna_name": "CERTVDE",
       "total_improvement": 100.0,
       "category_improvements": {
         "root_cause_analysis": {
@@ -268,20 +268,20 @@
         },
         "software_identification": {
           "first_period": 0.0,
-          "last_period": 0.0,
-          "improvement": 0.0
+          "last_period": 100.0,
+          "improvement": 100.0
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 100.0,
-          "improvement": 100.0
+          "last_period": 0.0,
+          "improvement": 0.0
         }
       },
-      "total_cves_analyzed": 247,
-      "analysis_days": 84
+      "total_cves_analyzed": 334,
+      "analysis_days": 91
     }
   ],
-  "generated_at": "2026-11-11T09:53:16.365752",
+  "generated_at": "2026-11-12T10:18:20.316795",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10

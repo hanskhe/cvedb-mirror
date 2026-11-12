@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 124,
-  "active_cna_count": 371,
-  "percentile": 66.8,
+  "rank": 125,
+  "active_cna_count": 372,
+  "percentile": 66.7,
   "cna_scoring": [
     {
       "total_cves": 15,
@@ -59,32 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-14466",
-      "assigningCna": "airbus",
-      "datePublished": "2026-09-04",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-10537",
-      "assigningCna": "airbus",
-      "datePublished": "2026-10-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-10539",
       "assigningCna": "airbus",
@@ -125,7 +99,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-113810",
+      "cveId": "CVE-2026-10537",
+      "assigningCna": "airbus",
+      "datePublished": "2026-10-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-113465",
       "assigningCna": "airbus",
       "datePublished": "2026-10-20",
       "totalCveScore": 80,
@@ -164,7 +151,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-113465",
+      "cveId": "CVE-2026-113810",
       "assigningCna": "airbus",
       "datePublished": "2026-10-20",
       "totalCveScore": 80,
@@ -190,9 +177,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-8480",
+      "cveId": "CVE-2026-14466",
       "assigningCna": "airbus",
-      "datePublished": "2026-07-01",
+      "datePublished": "2026-09-04",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -206,6 +193,19 @@
       "cveId": "CVE-2026-8474",
       "assigningCna": "airbus",
       "datePublished": "2026-06-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-8480",
+      "assigningCna": "airbus",
+      "datePublished": "2026-07-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 124,
-  "active_cna_count": 371,
-  "percentile": 66.8,
+  "rank": 125,
+  "active_cna_count": 372,
+  "percentile": 66.7,
   "cna_scoring": [
     {
       "total_cves": 17,
@@ -59,6 +59,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-7260",
+      "assigningCna": "php",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-14355",
       "assigningCna": "php",
@@ -86,59 +99,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-6103",
-      "assigningCna": "php",
-      "datePublished": "2026-09-25",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-91767",
-      "assigningCna": "php",
-      "datePublished": "2026-09-25",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-91766",
-      "assigningCna": "php",
-      "datePublished": "2026-09-25",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-91768",
-      "assigningCna": "php",
-      "datePublished": "2026-09-25",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-91769",
       "assigningCna": "php",
       "datePublished": "2026-09-25",
       "totalCveScore": 80,
@@ -164,7 +125,33 @@
       }
     },
     {
-      "cveId": "CVE-2026-93682",
+      "cveId": "CVE-2026-91769",
+      "assigningCna": "php",
+      "datePublished": "2026-09-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-91767",
+      "assigningCna": "php",
+      "datePublished": "2026-09-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-91768",
       "assigningCna": "php",
       "datePublished": "2026-09-25",
       "totalCveScore": 80,
@@ -216,9 +203,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-7260",
+      "cveId": "CVE-2026-93682",
       "assigningCna": "php",
-      "datePublished": "2026-07-30",
+      "datePublished": "2026-09-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -229,7 +216,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-109619",
+      "cveId": "CVE-2026-6103",
+      "assigningCna": "php",
+      "datePublished": "2026-09-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-109618",
       "assigningCna": "php",
       "datePublished": "2026-10-21",
       "totalCveScore": 80,
@@ -242,7 +242,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-109618",
+      "cveId": "CVE-2026-109619",
       "assigningCna": "php",
       "datePublished": "2026-10-21",
       "totalCveScore": 80,

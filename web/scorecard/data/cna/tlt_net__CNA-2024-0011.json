@@ -28,9 +28,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 312,
-  "active_cna_count": 371,
-  "percentile": 16.2,
+  "rank": 313,
+  "active_cna_count": 372,
+  "percentile": 16.1,
   "cna_scoring": [
     {
       "total_cves": 5,
@@ -54,6 +54,19 @@
   ],
   "recent_cves": [
     {
+      "cveId": "CVE-2026-16455",
+      "assigningCna": "tlt_net",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-82104",
       "assigningCna": "tlt_net",
       "datePublished": "2026-10-30",
@@ -61,6 +74,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-18368",
+      "assigningCna": "tlt_net",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
@@ -83,32 +109,6 @@
       "cveId": "CVE-2026-75826",
       "assigningCna": "tlt_net",
       "datePublished": "2026-10-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16455",
-      "assigningCna": "tlt_net",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-18368",
-      "assigningCna": "tlt_net",
-      "datePublished": "2026-08-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
