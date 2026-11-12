@@ -2,20 +2,20 @@
   "stats": {
     "total_cnas_in_analysis": 493,
     "official_cna_registry_count": 567,
-    "exact_matches": 448,
+    "exact_matches": 449,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 28,
-    "exact_match_cves": 401544,
+    "unmatched": 27,
+    "exact_match_cves": 401681,
     "case_mismatch_cves": 184,
-    "org_name_match_cves": 824,
+    "org_name_match_cves": 826,
     "normalized_match_cves": 1637,
     "partial_match_cves": 80,
-    "unmatched_cves": 1111,
-    "exact_match_pct": 99.05,
-    "issues_pct": 0.95
+    "unmatched_cves": 1088,
+    "exact_match_pct": 99.06,
+    "issues_pct": 0.94
   },
   "exact_matches": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19532,
+      "cve_count": 19533,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 17974,
+      "cve_count": 17975,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12121,
+      "cve_count": 12125,
       "kev_count": 1,
       "epss_high_count": 56,
       "official_short_name": "Wordfence",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12084,
+      "cve_count": 12088,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6452,
+      "cve_count": 6473,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -218,7 +218,7 @@
     },
     {
       "cna_name": "zdi",
-      "cve_count": 3484,
+      "cve_count": 3509,
       "kev_count": 6,
       "epss_high_count": 83,
       "official_short_name": "zdi",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3284,
+      "cve_count": 3286,
       "kev_count": 7,
       "epss_high_count": 8,
       "official_short_name": "jpcert",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3224,
+      "cve_count": 3226,
       "kev_count": 35,
       "epss_high_count": 184,
       "official_short_name": "apache",
@@ -394,7 +394,7 @@
     },
     {
       "cna_name": "GitLab",
-      "cve_count": 1509,
+      "cve_count": 1510,
       "kev_count": 7,
       "epss_high_count": 25,
       "official_short_name": "GitLab",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1224,
+      "cve_count": 1225,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -482,7 +482,7 @@
     },
     {
       "cna_name": "vmware",
-      "cve_count": 895,
+      "cve_count": 896,
       "kev_count": 33,
       "epss_high_count": 28,
       "official_short_name": "vmware",
@@ -493,7 +493,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 892,
+      "cve_count": 893,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -526,7 +526,7 @@
     },
     {
       "cna_name": "CERTVDE",
-      "cve_count": 757,
+      "cve_count": 758,
       "kev_count": 0,
       "epss_high_count": 11,
       "official_short_name": "CERTVDE",
@@ -585,7 +585,7 @@
   "org_name_matches": [
     {
       "cna_name": "Fluid Attacks",
-      "cve_count": 360,
+      "cve_count": 362,
       "kev_count": 1,
       "epss_high_count": 0,
       "official_short_name": "Fluid_Attacks",
@@ -685,17 +685,6 @@
       "confidence": "medium"
     },
     {
-      "cna_name": "WDC PSIRT",
-      "cve_count": 49,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "WDC_PSIRT",
-      "official_org_name": "Western Digital",
-      "official_id": "CNA-2021-0051",
-      "match_type": "normalized",
-      "confidence": "medium"
-    },
-    {
       "cna_name": "ZUSO ART",
       "cve_count": 49,
       "kev_count": 0,
@@ -703,6 +692,17 @@
       "official_short_name": "ZUSO_ART",
       "official_org_name": "ZUSO Advanced Research Team (ZUSO ART)",
       "official_id": "CNA-2022-0010",
+      "match_type": "normalized",
+      "confidence": "medium"
+    },
+    {
+      "cna_name": "WDC PSIRT",
+      "cve_count": 49,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "WDC_PSIRT",
+      "official_org_name": "Western Digital",
+      "official_id": "CNA-2021-0051",
       "match_type": "normalized",
       "confidence": "medium"
     },
@@ -854,14 +854,6 @@
       "confidence": null
     },
     {
-      "cna_name": "PureStorage",
-      "cve_count": 23,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "match_type": null,
-      "confidence": null
-    },
-    {
       "cna_name": "Teradici",
       "cve_count": 20,
       "kev_count": 0,
@@ -950,7 +942,7 @@
       "confidence": null
     },
     {
-      "cna_name": "OpenBMC",
+      "cna_name": "Cybellum",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
@@ -958,7 +950,7 @@
       "confidence": null
     },
     {
-      "cna_name": "Cybellum",
+      "cna_name": "OpenBMC",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
