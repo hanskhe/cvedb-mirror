@@ -1,27 +1,27 @@
 {
   "stats": {
-    "total_cnas_in_analysis": 493,
+    "total_cnas_in_analysis": 494,
     "official_cna_registry_count": 567,
-    "exact_matches": 448,
+    "exact_matches": 450,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 28,
-    "exact_match_cves": 402322,
+    "unmatched": 27,
+    "exact_match_cves": 402646,
     "case_mismatch_cves": 184,
     "org_name_match_cves": 827,
     "normalized_match_cves": 1637,
     "partial_match_cves": 80,
-    "unmatched_cves": 1138,
-    "exact_match_pct": 99.05,
-    "issues_pct": 0.95
+    "unmatched_cves": 1088,
+    "exact_match_pct": 99.06,
+    "issues_pct": 0.94
   },
   "exact_matches": [
     {
       "cna_name": "mitre",
       "cve_count": 115576,
-      "kev_count": 330,
+      "kev_count": 331,
       "epss_high_count": 1743,
       "official_short_name": "mitre",
       "official_org_name": "MITRE Corporation",
@@ -31,7 +31,7 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22629,
+      "cve_count": 22685,
       "kev_count": 43,
       "epss_high_count": 183,
       "official_short_name": "GitHub_M",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19533,
+      "cve_count": 19591,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -77,7 +77,7 @@
       "cna_name": "microsoft",
       "cve_count": 17050,
       "kev_count": 382,
-      "epss_high_count": 554,
+      "epss_high_count": 553,
       "official_short_name": "microsoft",
       "official_org_name": "Microsoft Corporation",
       "official_id": "CNA-2005-0005",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12106,
+      "cve_count": 12107,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 11613,
+      "cve_count": 11686,
       "kev_count": 19,
       "epss_high_count": 33,
       "official_short_name": "VulnCheck",
@@ -220,7 +220,7 @@
       "cna_name": "zdi",
       "cve_count": 3509,
       "kev_count": 6,
-      "epss_high_count": 83,
+      "epss_high_count": 84,
       "official_short_name": "zdi",
       "official_org_name": "Zero Day Initiative",
       "official_id": "CNA-2017-0018",
@@ -240,9 +240,9 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3228,
+      "cve_count": 3235,
       "kev_count": 35,
-      "epss_high_count": 184,
+      "epss_high_count": 185,
       "official_short_name": "apache",
       "official_org_name": "Apache Software Foundation",
       "official_id": "CNA-2016-0004",
@@ -284,7 +284,7 @@
     },
     {
       "cna_name": "dell",
-      "cve_count": 2598,
+      "cve_count": 2616,
       "kev_count": 3,
       "epss_high_count": 13,
       "official_short_name": "dell",
@@ -481,6 +481,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "TR-CERT",
+      "cve_count": 898,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "TR-CERT",
+      "official_org_name": "TR-CERT (Computer Emergency Response Team of the Republic of T\u00fcrkiye)",
+      "official_id": "CNA-2021-0034",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "vmware",
       "cve_count": 896,
       "kev_count": 33,
@@ -488,17 +499,6 @@
       "official_short_name": "vmware",
       "official_org_name": "VMware by Broadcom",
       "official_id": "CNA-2016-0025",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "TR-CERT",
-      "cve_count": 896,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "TR-CERT",
-      "official_org_name": "TR-CERT (Computer Emergency Response Team of the Republic of T\u00fcrkiye)",
-      "official_id": "CNA-2021-0034",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -526,7 +526,7 @@
     },
     {
       "cna_name": "CERTVDE",
-      "cve_count": 758,
+      "cve_count": 759,
       "kev_count": 0,
       "epss_high_count": 11,
       "official_short_name": "CERTVDE",
@@ -832,14 +832,6 @@
     {
       "cna_name": "TV",
       "cve_count": 55,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "match_type": null,
-      "confidence": null
-    },
-    {
-      "cna_name": "TQtC",
-      "cve_count": 50,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
