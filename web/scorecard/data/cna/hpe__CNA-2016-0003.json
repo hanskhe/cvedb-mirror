@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hpe",
-    "total_cves": 424,
-    "total_cves_scored": 424,
+    "total_cves": 392,
+    "total_cves_scored": 392,
     "organizationName": "Hewlett Packard Enterprise (HPE)",
     "scope": "HPE and acquisitions issues only.",
     "advisories": [
@@ -33,24 +33,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 338,
-  "active_cna_count": 372,
-  "percentile": 9.4,
+  "rank": 339,
+  "active_cna_count": 374,
+  "percentile": 9.6,
   "cna_scoring": [
     {
-      "total_cves": 424,
-      "total_cves_scored": 424,
-      "recent_cves_count": 424,
-      "overall_average_score": 66.8,
+      "total_cves": 392,
+      "total_cves_scored": 392,
+      "recent_cves_count": 392,
+      "overall_average_score": 66.95,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 1.84,
+      "average_root_cause_analysis": 1.99,
       "average_software_identification": 0.0,
       "average_severity_context": 14.96,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 12.26,
+      "percent_root_cause_analysis": 13.27,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 99.76,
+      "percent_severity_and_impact": 99.74,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -58,71 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-63456",
-      "assigningCna": "hpe",
-      "datePublished": "2026-08-04",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-63454",
-      "assigningCna": "hpe",
-      "datePublished": "2026-07-21",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-63455",
-      "assigningCna": "hpe",
-      "datePublished": "2026-08-04",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-63453",
-      "assigningCna": "hpe",
-      "datePublished": "2026-07-21",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-63457",
-      "assigningCna": "hpe",
-      "datePublished": "2026-08-05",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-95714",
       "assigningCna": "hpe",
@@ -2490,9 +2425,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44870",
+      "cveId": "CVE-2026-63456",
       "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-08-04",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2503,9 +2438,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44852",
+      "cveId": "CVE-2026-63454",
       "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-07-21",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2516,9 +2451,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44868",
+      "cveId": "CVE-2026-63455",
       "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-08-04",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2529,9 +2464,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44854",
+      "cveId": "CVE-2026-63453",
       "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-07-21",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2542,35 +2477,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44861",
+      "cveId": "CVE-2026-63457",
       "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44856",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44869",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-08-05",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2594,19 +2503,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-44867",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-44875",
       "assigningCna": "hpe",
       "datePublished": "2026-11-05",
@@ -2615,110 +2511,6 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44864",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44855",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44853",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44859",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44857",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44863",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44865",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44874",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -2750,100 +2542,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-44871",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44858",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-44877",
       "assigningCna": "hpe",
       "datePublished": "2026-07-07",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44862",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44860",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44866",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44873",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44872",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5444,123 +5145,6 @@
       "cveId": "CVE-2026-73770",
       "assigningCna": "hpe",
       "datePublished": "2026-09-01",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23823",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23822",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23827",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23821",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23825",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23824",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23820",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23826",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23819",
-      "assigningCna": "hpe",
-      "datePublished": "2026-05-12",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

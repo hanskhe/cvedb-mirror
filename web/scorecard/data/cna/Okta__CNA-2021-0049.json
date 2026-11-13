@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 306,
-  "active_cna_count": 372,
-  "percentile": 18.0,
+  "rank": 309,
+  "active_cna_count": 374,
+  "percentile": 17.6,
   "cna_scoring": [
     {
       "total_cves": 35,
@@ -59,46 +59,7 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-77585",
-      "assigningCna": "Okta",
-      "datePublished": "2026-08-25",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-108167",
-      "assigningCna": "Okta",
-      "datePublished": "2026-11-10",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-107370",
-      "assigningCna": "Okta",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-107372",
       "assigningCna": "Okta",
       "datePublished": "2026-11-10",
       "totalCveScore": 65,
@@ -125,6 +86,45 @@
     },
     {
       "cveId": "CVE-2026-126129",
+      "assigningCna": "Okta",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77585",
+      "assigningCna": "Okta",
+      "datePublished": "2026-08-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107370",
+      "assigningCna": "Okta",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107372",
       "assigningCna": "Okta",
       "datePublished": "2026-11-10",
       "totalCveScore": 65,

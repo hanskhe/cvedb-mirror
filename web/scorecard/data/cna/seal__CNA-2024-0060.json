@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 94,
-  "active_cna_count": 372,
-  "percentile": 75.0,
+  "active_cna_count": 374,
+  "percentile": 75.1,
   "cna_scoring": [
     {
       "total_cves": 7,
@@ -60,15 +60,28 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-77118",
+      "cveId": "CVE-2026-45820",
       "assigningCna": "seal",
-      "datePublished": "2026-08-20",
-      "totalCveScore": 100,
+      "datePublished": "2026-07-22",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45819",
+      "assigningCna": "seal",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
         "patchinfo": 10
       }
     },
@@ -99,28 +112,15 @@
       }
     },
     {
-      "cveId": "CVE-2026-45820",
+      "cveId": "CVE-2026-77118",
       "assigningCna": "seal",
-      "datePublished": "2026-07-22",
-      "totalCveScore": 80,
+      "datePublished": "2026-08-20",
+      "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-45819",
-      "assigningCna": "seal",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },

@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "HashiCorp",
-    "total_cves": 49,
-    "total_cves_scored": 49,
+    "total_cves": 48,
+    "total_cves_scored": 48,
     "organizationName": "HashiCorp Inc.",
     "scope": "All HashiCorp products and projects unless covered by another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 125,
-  "active_cna_count": 372,
-  "percentile": 66.7,
+  "active_cna_count": 374,
+  "percentile": 66.8,
   "cna_scoring": [
     {
-      "total_cves": 49,
-      "total_cves_scored": 49,
-      "recent_cves_count": 49,
+      "total_cves": 48,
+      "total_cves_scored": 48,
+      "recent_cves_count": 48,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -59,97 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-110720",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-10-26",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-119168",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-10-29",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16326",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-07-29",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16496",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-07-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16498",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-07-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16328",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-07-29",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-7474",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-15970",
       "assigningCna": "HashiCorp",
@@ -411,6 +320,84 @@
       }
     },
     {
+      "cveId": "CVE-2026-110720",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-10-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-119168",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-10-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16326",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-07-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16496",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-07-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16498",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-07-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16328",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-07-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-107347",
       "assigningCna": "HashiCorp",
       "datePublished": "2026-10-29",
@@ -476,19 +463,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-5061",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-5006",
       "assigningCna": "HashiCorp",
       "datePublished": "2026-08-24",
@@ -528,9 +502,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-8052",
+      "cveId": "CVE-2026-92735",
       "assigningCna": "HashiCorp",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-11-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -658,6 +632,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-93333",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93335",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89322",
       "assigningCna": "HashiCorp",
       "datePublished": "2026-10-07",
@@ -674,19 +674,6 @@
       "cveId": "CVE-2026-115804",
       "assigningCna": "HashiCorp",
       "datePublished": "2026-10-26",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6959",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-05-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

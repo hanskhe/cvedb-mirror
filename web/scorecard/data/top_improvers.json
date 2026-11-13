@@ -86,12 +86,12 @@
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 131.8181818181818,
+      "total_improvement": 123.52941176470588,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 99.09090909090908,
-          "improvement": -0.9090909090909207
+          "last_period": 99.15966386554622,
+          "improvement": -0.8403361344537785
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -105,12 +105,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 32.72727272727273,
-          "improvement": 32.72727272727273
+          "last_period": 24.36974789915966,
+          "improvement": 24.36974789915966
         }
       },
-      "total_cves_analyzed": 12174,
-      "analysis_days": 559
+      "total_cves_analyzed": 12194,
+      "analysis_days": 560
     },
     {
       "cna_name": "ibm",
@@ -193,8 +193,8 @@
           "improvement": 0.0
         }
       },
-      "total_cves_analyzed": 365,
-      "analysis_days": 87
+      "total_cves_analyzed": 366,
+      "analysis_days": 88
     },
     {
       "cna_name": "Deltaww",
@@ -226,7 +226,7 @@
     },
     {
       "cna_name": "AMZN",
-      "total_improvement": 102.45098039215686,
+      "total_improvement": 102.08333333333334,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -245,12 +245,12 @@
         },
         "patch_information": {
           "first_period": 91.66666666666666,
-          "last_period": 94.11764705882352,
-          "improvement": 2.4509803921568647
+          "last_period": 93.75,
+          "improvement": 2.083333333333343
         }
       },
-      "total_cves_analyzed": 243,
-      "analysis_days": 125
+      "total_cves_analyzed": 245,
+      "analysis_days": 126
     },
     {
       "cna_name": "CERTVDE",
@@ -281,7 +281,7 @@
       "analysis_days": 91
     }
   ],
-  "generated_at": "2026-11-12T10:18:20.316795",
+  "generated_at": "2026-11-13T10:00:42.070283",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10
