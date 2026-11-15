@@ -86,12 +86,12 @@
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 122.1153846153846,
+      "total_improvement": 125.0,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 98.07692307692307,
-          "improvement": -1.923076923076934
+          "last_period": 98.33333333333333,
+          "improvement": -1.6666666666666714
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -105,12 +105,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 24.038461538461537,
-          "improvement": 24.038461538461537
+          "last_period": 26.666666666666668,
+          "improvement": 26.666666666666668
         }
       },
-      "total_cves_analyzed": 12197,
-      "analysis_days": 561
+      "total_cves_analyzed": 12222,
+      "analysis_days": 562
     },
     {
       "cna_name": "ibm",
@@ -281,7 +281,7 @@
       "analysis_days": 28
     }
   ],
-  "generated_at": "2026-11-14T09:28:07.688517",
+  "generated_at": "2026-11-15T09:57:31.262865",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10

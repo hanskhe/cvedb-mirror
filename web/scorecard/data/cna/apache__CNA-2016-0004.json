@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 336,
-  "active_cna_count": 375,
-  "percentile": 10.7,
+  "rank": 337,
+  "active_cna_count": 376,
+  "percentile": 10.6,
   "cna_scoring": [
     {
       "total_cves": 1278,
@@ -46,13 +46,13 @@
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.34,
       "average_software_identification": 0.02,
-      "average_severity_context": 4.47,
-      "average_patchinfo": 1.76,
+      "average_severity_context": 4.48,
+      "average_patchinfo": 1.75,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 95.62,
       "percent_software_identification": 0.16,
-      "percent_severity_and_impact": 29.81,
-      "percent_patchinfo": 17.61,
+      "percent_severity_and_impact": 29.89,
+      "percent_patchinfo": 17.53,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -3635,19 +3635,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-45205",
-      "assigningCna": "apache",
-      "datePublished": "2026-05-14",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2026-45192",
       "assigningCna": "apache",
       "datePublished": "2026-06-01",
@@ -4267,6 +4254,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-129349",
+      "assigningCna": "apache",
+      "datePublished": "2026-11-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
