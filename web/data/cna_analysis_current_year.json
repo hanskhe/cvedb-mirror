@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:36:45.296081",
+  "generated_at": "2026-11-15T23:05:56.673309",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 414,
@@ -280,10 +280,10 @@
     {
       "name": "Patchstack",
       "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-      "count": 5492,
+      "count": 5503,
       "rank": 6,
       "first_cve_date": "2026-01-05T10:18:16.966Z",
-      "last_cve_date": "2026-11-15T15:09:10.472Z",
+      "last_cve_date": "2026-11-15T19:00:25.179Z",
       "years_active": 6,
       "first_cve_year": 2021,
       "last_cve_year": 2026,
@@ -293,15 +293,15 @@
         "Security Researcher"
       ],
       "severity_distribution": {
-        "Medium": 2241,
-        "High": 2552,
+        "Medium": 2243,
+        "High": 2561,
         "Critical": 690,
         "Low": 9
       },
       "top_cwe_types": {
-        "CWE-79": 1430,
-        "CWE-862": 1368,
-        "CWE-98": 541,
+        "CWE-79": 1437,
+        "CWE-862": 1369,
+        "CWE-98": 542,
         "CWE-502": 450,
         "CWE-89": 440
       },
@@ -311,15 +311,15 @@
       "top_cwes": [
         [
           "CWE-79",
-          1430
+          1437
         ],
         [
           "CWE-862",
-          1368
+          1369
         ],
         [
           "CWE-98",
-          541
+          542
         ],
         [
           "CWE-502",
@@ -2704,10 +2704,64 @@
       ]
     },
     {
+      "name": "Gitea",
+      "assigner_org_id": "88ee5874-cf24-4952-aea0-31affedb7ff2",
+      "count": 214,
+      "rank": 51,
+      "first_cve_date": "2026-01-22T22:01:49.410Z",
+      "last_cve_date": "2026-11-15T21:14:21.406Z",
+      "years_active": 3,
+      "first_cve_year": 2024,
+      "last_cve_year": 2026,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {
+        "Medium": 94,
+        "High": 62,
+        "Critical": 30,
+        "Low": 8
+      },
+      "top_cwe_types": {
+        "CWE-284": 51,
+        "CWE-863": 47,
+        "CWE-200": 25,
+        "CWE-862": 21,
+        "CWE-639": 16
+      },
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "epss_elevated_count": 1,
+      "top_cwes": [
+        [
+          "CWE-284",
+          51
+        ],
+        [
+          "CWE-863",
+          47
+        ],
+        [
+          "CWE-200",
+          25
+        ],
+        [
+          "CWE-862",
+          21
+        ],
+        [
+          "CWE-639",
+          16
+        ]
+      ]
+    },
+    {
       "name": "AMZN",
       "assigner_org_id": "ff89ba41-3aa1-4d27-914a-91399e9639e5",
       "count": 207,
-      "rank": 51,
+      "rank": 52,
       "first_cve_date": "2026-01-09T21:10:09.310Z",
       "last_cve_date": "2026-11-12T21:04:58.312Z",
       "years_active": 3,
@@ -2760,7 +2814,7 @@
       "name": "TuranSec",
       "assigner_org_id": "309f9ea4-e3e9-4c6c-b79d-e8eb01244f2c",
       "count": 203,
-      "rank": 52,
+      "rank": 53,
       "first_cve_date": "2026-03-10T11:07:07.393Z",
       "last_cve_date": "2026-10-14T07:32:56.786Z",
       "years_active": 1,
@@ -2813,7 +2867,7 @@
       "name": "elastic",
       "assigner_org_id": "271b6943-45a9-4f3a-ab4e-976f3fa05b5a",
       "count": 196,
-      "rank": 53,
+      "rank": 54,
       "first_cve_date": "2026-01-13T21:02:18.501Z",
       "last_cve_date": "2026-11-03T16:44:18.729Z",
       "years_active": 10,
@@ -2859,60 +2913,6 @@
         [
           "CWE-639",
           14
-        ]
-      ]
-    },
-    {
-      "name": "Gitea",
-      "assigner_org_id": "88ee5874-cf24-4952-aea0-31affedb7ff2",
-      "count": 194,
-      "rank": 54,
-      "first_cve_date": "2026-01-22T22:01:49.410Z",
-      "last_cve_date": "2026-11-01T09:48:58.988Z",
-      "years_active": 3,
-      "first_cve_year": 2024,
-      "last_cve_year": 2026,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {
-        "Medium": 94,
-        "High": 62,
-        "Critical": 30,
-        "Low": 8
-      },
-      "top_cwe_types": {
-        "CWE-284": 50,
-        "CWE-863": 43,
-        "CWE-200": 23,
-        "CWE-862": 18,
-        "CWE-918": 15
-      },
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "epss_elevated_count": 1,
-      "top_cwes": [
-        [
-          "CWE-284",
-          50
-        ],
-        [
-          "CWE-863",
-          43
-        ],
-        [
-          "CWE-200",
-          23
-        ],
-        [
-          "CWE-862",
-          18
-        ],
-        [
-          "CWE-918",
-          15
         ]
       ]
     },
