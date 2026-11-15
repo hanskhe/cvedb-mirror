@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T14:06:44.991957Z",
-  "data_as_of": "2026-11-15T13:58:26.351782Z",
+  "generated_at": "2026-11-15T16:40:16.150269Z",
+  "data_as_of": "2026-11-15T16:32:00.506867Z",
   "data_age_hours": 0.0,
-  "source_last_run": "2026-11-15T13:44:08.148076+00:00",
-  "source_age_hours": 0.3,
-  "source_cve_count": 425795,
+  "source_last_run": "2026-11-15T16:12:05.294666+00:00",
+  "source_age_hours": 0.4,
+  "source_cve_count": 425830,
   "current_year": 2026,
   "yearly_summary": {
     "years": {
@@ -118,7 +118,7 @@
       },
       "2026": {
         "year": 2026,
-        "total_cves": 97746
+        "total_cves": 97781
       }
     }
   },
@@ -342,15 +342,15 @@
       },
       {
         "year": 2026,
-        "cves": 97746,
-        "growth_rate": 135.9,
-        "growth_absolute": 56307,
+        "cves": 97781,
+        "growth_rate": 136.0,
+        "growth_absolute": 56342,
         "is_ytd": true,
-        "projected_full_year": 111841,
-        "ytd_vs_prev_full": 103.0,
-        "ytd_vs_prev_ytd": 135.9,
+        "projected_full_year": 111881,
+        "ytd_vs_prev_full": 103.1,
+        "ytd_vs_prev_ytd": 136.0,
         "prev_year_ytd_actual": 41439,
-        "growth_rate_3yr_avg": 135.9
+        "growth_rate_3yr_avg": 136.0
       }
     ]
   },
@@ -377,7 +377,7 @@
         "7.6": 1265,
         "7.1": 1040,
         "4.0": 9258,
-        "9.0": 3901,
+        "9.0": 3902,
         "4.3": 27267,
         "3.5": 7524,
         "3.3": 1539,
@@ -518,20 +518,20 @@
         "0.0": 4
       },
       "v3.1": {
-        "5.3": 12047,
-        "7.5": 24722,
-        "9.8": 21753,
+        "5.3": 12048,
+        "7.5": 24724,
+        "9.8": 21756,
         "8.2": 2609,
         "7.8": 22206,
-        "5.5": 17204,
-        "7.1": 7665,
-        "8.8": 20842,
+        "5.5": 17206,
+        "7.1": 7682,
+        "8.8": 20843,
         "7.3": 5869,
-        "9.1": 3842,
+        "9.1": 3843,
         "3.3": 2079,
-        "6.5": 20325,
-        "6.1": 10652,
-        "4.8": 3129,
+        "6.5": 20328,
+        "6.1": 10653,
+        "4.8": 3130,
         "7.0": 2240,
         "5.9": 4153,
         "8.4": 1700,
@@ -544,12 +544,12 @@
         "6.3": 6377,
         "5.6": 472,
         "8.1": 6283,
-        "7.2": 5398,
+        "7.2": 5399,
         "5.4": 11736,
         "4.6": 1054,
         "6.8": 2497,
         "4.4": 2080,
-        "9.9": 1672,
+        "9.9": 1673,
         "5.8": 716,
         "7.7": 1445,
         "5.7": 813,
@@ -588,7 +588,7 @@
         "5.2": 188,
         "8.7": 689,
         "2.1": 17,
-        "8.5": 1060,
+        "8.5": 1061,
         "2.2": 147,
         "2.3": 132,
         "6.9": 175,
@@ -608,16 +608,16 @@
         "8.7": 4143,
         "10.0": 406,
         "7.3": 580,
-        "9.3": 2249,
-        "8.6": 1468,
-        "6.9": 4125,
+        "9.3": 2250,
+        "8.6": 1469,
+        "6.9": 4126,
         "5.9": 380,
         "5.1": 2551,
         "8.8": 857,
         "5.3": 4406,
         "2.1": 3390,
         "9.2": 615,
-        "6.3": 1088,
+        "6.3": 1089,
         "5.5": 2872,
         "5.2": 96,
         "9.1": 203,
@@ -637,7 +637,7 @@
         "7.0": 539,
         "7.7": 542,
         "6.7": 157,
-        "6.8": 634,
+        "6.8": 636,
         "4.6": 268,
         "8.1": 48,
         "1.8": 76,
@@ -657,7 +657,7 @@
         "6.5": 22,
         "9.9": 34,
         "7.6": 261,
-        "5.8": 166,
+        "5.8": 167,
         "4.3": 48,
         "4.1": 53,
         "4.9": 74,
@@ -693,7 +693,7 @@
       }
     },
     "kev_global_count": 1781,
-    "total_scores_all_versions": 576721
+    "total_scores_all_versions": 576764
   },
   "epss_analysis": {
     "statistics": {
@@ -754,13 +754,13 @@
       {
         "id": "79",
         "name": "CWE-79: Cross-site Scripting (XSS)",
-        "count": 56223,
+        "count": 56243,
         "description": "Cross-site Scripting (XSS)"
       },
       {
         "id": "89",
         "name": "CWE-89: SQL Injection",
-        "count": 25401,
+        "count": 25402,
         "description": "SQL Injection"
       },
       {
@@ -790,13 +790,13 @@
       {
         "id": "22",
         "name": "CWE-22: Path Traversal",
-        "count": 12526,
+        "count": 12528,
         "description": "Path Traversal"
       },
       {
         "id": "125",
         "name": "CWE-125: Out-of-bounds Read",
-        "count": 12432,
+        "count": 12434,
         "description": "Out-of-bounds Read"
       },
       {
@@ -812,7 +812,7 @@
         "description": "Use After Free"
       }
     ],
-    "total_cves_with_cwe": 287766,
+    "total_cves_with_cwe": 287792,
     "total_unique_cwes": 69
   },
   "cna_analysis": {
@@ -914,13 +914,13 @@
       {
         "name": "Patchstack",
         "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-        "count": 19591,
+        "count": 19619,
         "years_active": 6,
         "first_cve_year": 2021,
         "last_cve_year": 2026,
         "first_cve_date": "2021-09-09T11:18:20.862Z",
-        "last_cve_date": "2026-11-13T15:08:43.468Z",
-        "days_since_last_cve": 1,
+        "last_cve_date": "2026-11-15T15:09:10.472Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -931,7 +931,7 @@
           "2021": 30,
           "2023": 2146,
           "2025": 7006,
-          "2026": 5464,
+          "2026": 5492,
           "2024": 4564
         },
         "years_active_list": [
@@ -1200,12 +1200,12 @@
       {
         "name": "VulnCheck",
         "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-        "count": 11719,
+        "count": 11727,
         "years_active": 4,
         "first_cve_year": 2023,
         "last_cve_year": 2026,
         "first_cve_date": "2023-04-19T19:10:12.523Z",
-        "last_cve_date": "2026-11-15T13:47:24.248Z",
+        "last_cve_date": "2026-11-15T15:51:22.527Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -1214,7 +1214,7 @@
         ],
         "cves_by_year": {
           "2025": 1073,
-          "2026": 10598,
+          "2026": 10606,
           "2023": 10,
           "2024": 38
         },
@@ -1850,7 +1850,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2009-04-15T19:00:00.000Z",
         "last_cve_date": "2026-11-13T15:30:18.095Z",
-        "days_since_last_cve": 1,
+        "days_since_last_cve": 2,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -4137,9 +4137,9 @@
       },
       {
         "date": "2026-11-15",
-        "value": 38,
-        "avg_cvss": 7.2,
-        "cvss_count": 25
+        "value": 73,
+        "avg_cvss": 7.3,
+        "cvss_count": 60
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:03:17.179659",
+  "generated_at": "2026-11-15T16:36:45.296081",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 414,
@@ -65,10 +65,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 10598,
+      "count": 10606,
       "rank": 2,
       "first_cve_date": "2026-01-03T21:18:51.053Z",
-      "last_cve_date": "2026-11-15T13:47:24.248Z",
+      "last_cve_date": "2026-11-15T15:51:22.527Z",
       "years_active": 4,
       "first_cve_year": 2023,
       "last_cve_year": 2026,
@@ -80,11 +80,11 @@
       "severity_distribution": {
         "High": 5197,
         "Critical": 1274,
-        "Medium": 3950,
+        "Medium": 3958,
         "Low": 177
       },
       "top_cwe_types": {
-        "CWE-79": 968,
+        "CWE-79": 969,
         "CWE-862": 822,
         "CWE-89": 593,
         "CWE-639": 579,
@@ -96,7 +96,7 @@
       "top_cwes": [
         [
           "CWE-79",
-          968
+          969
         ],
         [
           "CWE-862",
@@ -280,10 +280,10 @@
     {
       "name": "Patchstack",
       "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-      "count": 5464,
+      "count": 5492,
       "rank": 6,
       "first_cve_date": "2026-01-05T10:18:16.966Z",
-      "last_cve_date": "2026-11-13T15:08:43.468Z",
+      "last_cve_date": "2026-11-15T15:09:10.472Z",
       "years_active": 6,
       "first_cve_year": 2021,
       "last_cve_year": 2026,
@@ -293,17 +293,17 @@
         "Security Researcher"
       ],
       "severity_distribution": {
-        "Medium": 2238,
-        "High": 2530,
-        "Critical": 687,
+        "Medium": 2241,
+        "High": 2552,
+        "Critical": 690,
         "Low": 9
       },
       "top_cwe_types": {
-        "CWE-79": 1410,
+        "CWE-79": 1430,
         "CWE-862": 1368,
-        "CWE-98": 540,
-        "CWE-502": 448,
-        "CWE-89": 439
+        "CWE-98": 541,
+        "CWE-502": 450,
+        "CWE-89": 440
       },
       "kev_count": 0,
       "epss_high_count": 0,
@@ -311,7 +311,7 @@
       "top_cwes": [
         [
           "CWE-79",
-          1410
+          1430
         ],
         [
           "CWE-862",
@@ -319,15 +319,15 @@
         ],
         [
           "CWE-98",
-          540
+          541
         ],
         [
           "CWE-502",
-          448
+          450
         ],
         [
           "CWE-89",
-          439
+          440
         ]
       ]
     },
