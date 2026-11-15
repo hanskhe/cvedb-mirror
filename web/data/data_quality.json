@@ -2,20 +2,20 @@
   "stats": {
     "total_cnas_in_analysis": 494,
     "official_cna_registry_count": 567,
-    "exact_matches": 450,
+    "exact_matches": 449,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 27,
-    "exact_match_cves": 402768,
+    "unmatched": 28,
+    "exact_match_cves": 402744,
     "case_mismatch_cves": 184,
     "org_name_match_cves": 827,
     "normalized_match_cves": 1637,
     "partial_match_cves": 80,
-    "unmatched_cves": 1088,
-    "exact_match_pct": 99.06,
-    "issues_pct": 0.94
+    "unmatched_cves": 1138,
+    "exact_match_pct": 99.05,
+    "issues_pct": 0.95
   },
   "exact_matches": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18012,
+      "cve_count": 18021,
       "kev_count": 6,
       "epss_high_count": 34,
       "official_short_name": "VulDB",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 11705,
+      "cve_count": 11710,
       "kev_count": 19,
       "epss_high_count": 33,
       "official_short_name": "VulnCheck",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6508,
+      "cve_count": 6520,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -832,6 +832,14 @@
     {
       "cna_name": "TV",
       "cve_count": 55,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "match_type": null,
+      "confidence": null
+    },
+    {
+      "cna_name": "TQtC",
+      "cve_count": 50,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
