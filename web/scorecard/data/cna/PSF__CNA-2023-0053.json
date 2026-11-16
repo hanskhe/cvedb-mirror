@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 92,
-  "active_cna_count": 376,
-  "percentile": 75.8,
+  "active_cna_count": 375,
+  "percentile": 75.7,
   "cna_scoring": [
     {
       "total_cves": 32,
@@ -60,32 +60,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-82049",
-      "assigningCna": "PSF",
-      "datePublished": "2026-09-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-114583",
-      "assigningCna": "PSF",
-      "datePublished": "2026-10-22",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2026-12345",
       "assigningCna": "PSF",
       "datePublished": "2026-09-29",
@@ -106,6 +80,32 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-82049",
+      "assigningCna": "PSF",
+      "datePublished": "2026-09-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-114583",
+      "assigningCna": "PSF",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10

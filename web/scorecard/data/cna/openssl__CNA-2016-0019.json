@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 323,
-  "active_cna_count": 376,
-  "percentile": 14.4,
+  "active_cna_count": 375,
+  "percentile": 14.1,
   "cna_scoring": [
     {
       "total_cves": 48,
@@ -59,32 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-95692",
-      "assigningCna": "openssl",
-      "datePublished": "2026-11-10",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-95691",
-      "assigningCna": "openssl",
-      "datePublished": "2026-11-10",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
     {
       "cveId": "CVE-2026-72897",
       "assigningCna": "openssl",
@@ -219,6 +193,32 @@
       "cveId": "CVE-2026-45446",
       "assigningCna": "openssl",
       "datePublished": "2026-06-09",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-95692",
+      "assigningCna": "openssl",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-95691",
+      "assigningCna": "openssl",
+      "datePublished": "2026-11-10",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

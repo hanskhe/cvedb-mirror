@@ -35,7 +35,7 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 105,
-  "active_cna_count": 376,
+  "active_cna_count": 375,
   "percentile": 72.3,
   "cna_scoring": [
     {
@@ -59,6 +59,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-105192",
+      "assigningCna": "JFrog",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
     {
       "cveId": "CVE-2026-82642",
       "assigningCna": "JFrog",
@@ -167,19 +180,6 @@
       "cveId": "CVE-2026-95623",
       "assigningCna": "JFrog",
       "datePublished": "2026-09-22",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-105192",
-      "assigningCna": "JFrog",
-      "datePublished": "2026-10-07",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

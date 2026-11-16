@@ -35,9 +35,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 125,
-  "active_cna_count": 376,
-  "percentile": 67.0,
+  "rank": 124,
+  "active_cna_count": 375,
+  "percentile": 67.2,
   "cna_scoring": [
     {
       "total_cves": 16,
@@ -60,6 +60,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-45832",
+      "assigningCna": "HiddenLayer",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45831",
+      "assigningCna": "HiddenLayer",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-79720",
       "assigningCna": "HiddenLayer",
@@ -103,32 +129,6 @@
       "cveId": "CVE-2026-79719",
       "assigningCna": "HiddenLayer",
       "datePublished": "2026-08-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-45832",
-      "assigningCna": "HiddenLayer",
-      "datePublished": "2026-06-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-45831",
-      "assigningCna": "HiddenLayer",
-      "datePublished": "2026-06-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
