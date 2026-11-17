@@ -1,19 +1,19 @@
 {
   "stats": {
-    "total_cnas_in_analysis": 494,
+    "total_cnas_in_analysis": 495,
     "official_cna_registry_count": 567,
-    "exact_matches": 450,
+    "exact_matches": 451,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 27,
-    "exact_match_cves": 403223,
+    "exact_match_cves": 403384,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 827,
     "normalized_match_cves": 1698,
-    "partial_match_cves": 80,
-    "unmatched_cves": 1091,
+    "partial_match_cves": 82,
+    "unmatched_cves": 1096,
     "exact_match_pct": 99.05,
     "issues_pct": 0.95
   },
@@ -22,7 +22,7 @@
       "cna_name": "mitre",
       "cve_count": 115580,
       "kev_count": 331,
-      "epss_high_count": 1742,
+      "epss_high_count": 1741,
       "official_short_name": "mitre",
       "official_org_name": "MITRE Corporation",
       "official_id": "CNA-1999-0001",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19644,
+      "cve_count": 19647,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -66,7 +66,7 @@
       "cna_name": "VulDB",
       "cve_count": 18029,
       "kev_count": 6,
-      "epss_high_count": 34,
+      "epss_high_count": 33,
       "official_short_name": "VulDB",
       "official_org_name": "VulDB",
       "official_id": "CNA-2001-0063",
@@ -97,9 +97,9 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12157,
+      "cve_count": 12162,
       "kev_count": 1,
-      "epss_high_count": 57,
+      "epss_high_count": 58,
       "official_short_name": "Wordfence",
       "official_org_name": "Wordfence",
       "official_id": "CNA-2021-0022",
@@ -119,9 +119,9 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 11876,
+      "cve_count": 11903,
       "kev_count": 19,
-      "epss_high_count": 33,
+      "epss_high_count": 34,
       "official_short_name": "VulnCheck",
       "official_org_name": "VulnCheck",
       "official_id": "CNA-2023-0021",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6524,
+      "cve_count": 6525,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3245,
+      "cve_count": 3246,
       "kev_count": 35,
       "epss_high_count": 185,
       "official_short_name": "apache",
@@ -251,7 +251,7 @@
     },
     {
       "cna_name": "certcc",
-      "cve_count": 3207,
+      "cve_count": 3219,
       "kev_count": 7,
       "epss_high_count": 66,
       "official_short_name": "certcc",
@@ -394,7 +394,7 @@
     },
     {
       "cna_name": "GitLab",
-      "cve_count": 1513,
+      "cve_count": 1550,
       "kev_count": 7,
       "epss_high_count": 25,
       "official_short_name": "GitLab",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1229,
+      "cve_count": 1230,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -416,7 +416,7 @@
     },
     {
       "cna_name": "nvidia",
-      "cve_count": 1209,
+      "cve_count": 1229,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "nvidia",
@@ -526,7 +526,7 @@
     },
     {
       "cna_name": "CERTVDE",
-      "cve_count": 759,
+      "cve_count": 762,
       "kev_count": 0,
       "epss_high_count": 11,
       "official_short_name": "CERTVDE",
@@ -731,6 +731,17 @@
       "confidence": "low"
     },
     {
+      "cna_name": "redhat-cnalr",
+      "cve_count": 20,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "official_short_name": "redhat",
+      "official_org_name": "Red Hat, Inc.",
+      "official_id": "CNA-2005-0006",
+      "match_type": "partial",
+      "confidence": "low"
+    },
+    {
       "cna_name": "crafter",
       "cve_count": 19,
       "kev_count": 0,
@@ -738,17 +749,6 @@
       "official_short_name": "Crafter_CMS",
       "official_org_name": "Crafter CMS",
       "official_id": "CNA-2020-0030",
-      "match_type": "partial",
-      "confidence": "low"
-    },
-    {
-      "cna_name": "redhat-cnalr",
-      "cve_count": 18,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "redhat",
-      "official_org_name": "Red Hat, Inc.",
-      "official_id": "CNA-2005-0006",
       "match_type": "partial",
       "confidence": "low"
     },
@@ -847,7 +847,7 @@
     },
     {
       "cna_name": "rami.io",
-      "cve_count": 41,
+      "cve_count": 46,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
