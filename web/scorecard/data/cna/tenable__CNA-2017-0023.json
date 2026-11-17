@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "tenable",
-    "total_cves": 51,
-    "total_cves_scored": 51,
+    "total_cves": 53,
+    "total_cves_scored": 53,
     "organizationName": "Tenable Network Security, Inc.",
     "scope": "Tenable products and third-party products it researches not covered by another CNA.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 302,
-  "active_cna_count": 375,
-  "percentile": 19.7,
+  "rank": 304,
+  "active_cna_count": 377,
+  "percentile": 19.6,
   "cna_scoring": [
     {
-      "total_cves": 51,
-      "total_cves_scored": 51,
-      "recent_cves_count": 51,
-      "overall_average_score": 78.82,
+      "total_cves": 53,
+      "total_cves_scored": 53,
+      "recent_cves_count": 53,
+      "overall_average_score": 78.87,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.82,
+      "average_root_cause_analysis": 13.87,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 92.16,
+      "percent_root_cause_analysis": 92.45,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -127,6 +127,32 @@
       "cveId": "CVE-2026-114437",
       "assigningCna": "tenable",
       "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-121864",
+      "assigningCna": "tenable",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-121865",
+      "assigningCna": "tenable",
+      "datePublished": "2026-11-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "EDB",
-    "total_cves": 10,
-    "total_cves_scored": 10,
+    "total_cves": 11,
+    "total_cves_scored": 11,
     "organizationName": "EnterpriseDB Corporation",
     "scope": "All EnterpriseDB products and vulnerabilities identified in open source libraries used by EnterpriseDB products unless covered by another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 124,
-  "active_cna_count": 375,
-  "percentile": 67.2,
+  "rank": 125,
+  "active_cna_count": 377,
+  "percentile": 67.1,
   "cna_scoring": [
     {
-      "total_cves": 10,
-      "total_cves_scored": 10,
-      "recent_cves_count": 10,
+      "total_cves": 11,
+      "total_cves_scored": 11,
+      "recent_cves_count": 11,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -89,6 +89,19 @@
       "cveId": "CVE-2026-104949",
       "assigningCna": "EDB",
       "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-87027",
+      "assigningCna": "EDB",
+      "datePublished": "2026-11-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
