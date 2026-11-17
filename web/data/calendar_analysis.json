@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T19:52:45.607534",
+  "generated_at": "2026-11-17T04:10:29.202996",
   "statistics": {
-    "total_cves": 406972,
-    "total_days_with_data": 8132,
+    "total_cves": 407102,
+    "total_days_with_data": 8133,
     "date_range": {
       "start": "1988-10-01",
-      "end": "2026-11-16"
+      "end": "2026-11-17"
     },
     "daily_stats": {
-      "average_per_day": 50.05,
+      "average_per_day": 50.06,
       "max_per_day": 2303,
       "min_per_day": 1,
       "peak_day": {
@@ -18,12 +18,12 @@
     },
     "cvss_stats": {
       "average_score": 6.8,
-      "total_with_scores": 394313
+      "total_with_scores": 394464
     },
     "current_year": {
       "year": 2026,
-      "total_cves": 98095,
-      "days_with_data": 318
+      "total_cves": 98225,
+      "days_with_data": 319
     }
   },
   "daily_data": [
@@ -48781,25 +48781,25 @@
       "date": "2026-11-10",
       "value": 2114,
       "avg_cvss": 7.3,
-      "cvss_count": 1879
+      "cvss_count": 1890
     },
     {
       "date": "2026-11-11",
       "value": 664,
       "avg_cvss": 6.8,
-      "cvss_count": 595
+      "cvss_count": 596
     },
     {
       "date": "2026-11-12",
       "value": 358,
       "avg_cvss": 6.9,
-      "cvss_count": 294
+      "cvss_count": 295
     },
     {
       "date": "2026-11-13",
       "value": 792,
       "avg_cvss": 6.4,
-      "cvss_count": 657
+      "cvss_count": 659
     },
     {
       "date": "2026-11-14",
@@ -48810,19 +48810,25 @@
     {
       "date": "2026-11-15",
       "value": 112,
-      "avg_cvss": 6.9,
-      "cvss_count": 91
+      "avg_cvss": 6.7,
+      "cvss_count": 110
     },
     {
       "date": "2026-11-16",
-      "value": 276,
+      "value": 355,
       "avg_cvss": 6.4,
-      "cvss_count": 144
+      "cvss_count": 211
+    },
+    {
+      "date": "2026-11-17",
+      "value": 51,
+      "avg_cvss": 5.2,
+      "cvss_count": 50
     }
   ],
   "metadata": {
-    "total_records": 406972,
-    "total_days": 8132,
+    "total_records": 407102,
+    "total_days": 8133,
     "data_source": "NVD JSONL",
     "analysis_type": "calendar_heatmap"
   }
