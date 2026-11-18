@@ -1,28 +1,28 @@
 {
   "stats": {
-    "total_cnas_in_analysis": 496,
+    "total_cnas_in_analysis": 497,
     "official_cna_registry_count": 571,
     "exact_matches": 452,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 27,
-    "exact_match_cves": 404690,
+    "unmatched": 28,
+    "exact_match_cves": 404981,
     "case_mismatch_cves": 185,
-    "org_name_match_cves": 827,
+    "org_name_match_cves": 828,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1096,
-    "exact_match_pct": 99.05,
-    "issues_pct": 0.95
+    "unmatched_cves": 1147,
+    "exact_match_pct": 99.04,
+    "issues_pct": 0.96
   },
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115583,
-      "kev_count": 331,
-      "epss_high_count": 1741,
+      "cve_count": 115597,
+      "kev_count": 332,
+      "epss_high_count": 1742,
       "official_short_name": "mitre",
       "official_org_name": "MITRE Corporation",
       "official_id": "CNA-1999-0001",
@@ -31,7 +31,7 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22806,
+      "cve_count": 22851,
       "kev_count": 43,
       "epss_high_count": 183,
       "official_short_name": "GitHub_M",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19693,
+      "cve_count": 19694,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18029,
+      "cve_count": 18031,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -77,7 +77,7 @@
       "cna_name": "microsoft",
       "cve_count": 17053,
       "kev_count": 382,
-      "epss_high_count": 553,
+      "epss_high_count": 554,
       "official_short_name": "microsoft",
       "official_org_name": "Microsoft Corporation",
       "official_id": "CNA-2005-0005",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12203,
+      "cve_count": 12234,
       "kev_count": 1,
       "epss_high_count": 58,
       "official_short_name": "Wordfence",
@@ -107,24 +107,24 @@
       "confidence": "high"
     },
     {
-      "cna_name": "redhat",
-      "cve_count": 12117,
-      "kev_count": 34,
-      "epss_high_count": 185,
-      "official_short_name": "redhat",
-      "official_org_name": "Red Hat, Inc.",
-      "official_id": "CNA-2005-0006",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
       "cna_name": "VulnCheck",
-      "cve_count": 12086,
+      "cve_count": 12180,
       "kev_count": 19,
       "epss_high_count": 34,
       "official_short_name": "VulnCheck",
       "official_org_name": "VulnCheck",
       "official_id": "CNA-2023-0021",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
+      "cna_name": "redhat",
+      "cve_count": 12124,
+      "kev_count": 34,
+      "epss_high_count": 185,
+      "official_short_name": "redhat",
+      "official_org_name": "Red Hat, Inc.",
+      "official_id": "CNA-2005-0006",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -143,7 +143,7 @@
       "cna_name": "adobe",
       "cve_count": 7898,
       "kev_count": 77,
-      "epss_high_count": 121,
+      "epss_high_count": 122,
       "official_short_name": "adobe",
       "official_org_name": "Adobe Systems Incorporated",
       "official_id": "CNA-2009-0001",
@@ -174,7 +174,7 @@
     },
     {
       "cna_name": "cisco",
-      "cve_count": 6653,
+      "cve_count": 6663,
       "kev_count": 102,
       "epss_high_count": 75,
       "official_short_name": "cisco",
@@ -241,7 +241,7 @@
     {
       "cna_name": "apache",
       "cve_count": 3255,
-      "kev_count": 35,
+      "kev_count": 36,
       "epss_high_count": 185,
       "official_short_name": "apache",
       "official_org_name": "Apache Software Foundation",
@@ -284,7 +284,7 @@
     },
     {
       "cna_name": "dell",
-      "cve_count": 2629,
+      "cve_count": 2644,
       "kev_count": 3,
       "epss_high_count": 13,
       "official_short_name": "dell",
@@ -361,7 +361,7 @@
     },
     {
       "cna_name": "hpe",
-      "cve_count": 1715,
+      "cve_count": 1720,
       "kev_count": 2,
       "epss_high_count": 17,
       "official_short_name": "hpe",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1238,
+      "cve_count": 1244,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -482,7 +482,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 898,
+      "cve_count": 899,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -515,7 +515,7 @@
     },
     {
       "cna_name": "f5",
-      "cve_count": 836,
+      "cve_count": 858,
       "kev_count": 8,
       "epss_high_count": 12,
       "official_short_name": "F5",
@@ -596,7 +596,7 @@
     },
     {
       "cna_name": "SICK AG",
-      "cve_count": 163,
+      "cve_count": 164,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "SICK_AG",
@@ -832,6 +832,14 @@
     {
       "cna_name": "TV",
       "cve_count": 55,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "match_type": null,
+      "confidence": null
+    },
+    {
+      "cna_name": "TQtC",
+      "cve_count": 51,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,

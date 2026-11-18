@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T12:08:22.798884Z",
-  "catalog_version": "2026.11.17",
-  "total_kev_cves": 1782,
+  "generated_at": "2026-11-18T20:46:08.865709Z",
+  "catalog_version": "2026.11.18",
+  "total_kev_cves": 1786,
   "statistics": {
-    "added_last_30_days": 34,
-    "added_last_90_days": 111,
+    "added_last_30_days": 38,
+    "added_last_90_days": 115,
     "ransomware_associated": 361
   },
   "by_year_added": {
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 298
+    "2026": 302
   },
   "by_year_cve": {
     "2002": 1,
@@ -37,9 +37,9 @@
     "2021": 216,
     "2022": 132,
     "2023": 166,
-    "2024": 165,
+    "2024": 166,
     "2025": 189,
-    "2026": 210
+    "2026": 213
   },
   "by_year_published": {
     "2002": 1,
@@ -64,8 +64,8 @@
     "2022": 131,
     "2023": 166,
     "2024": 161,
-    "2025": 197,
-    "2026": 220
+    "2025": 198,
+    "2026": 223
   },
   "awaiting_nvd": {
     "count": 0,
@@ -132,7 +132,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 16
+    "2026-11": 20
   },
   "top_vendors": [
     [
@@ -161,7 +161,7 @@
     ],
     [
       "Apache",
-      41
+      42
     ],
     [
       "Ivanti",
@@ -325,7 +325,7 @@
     ],
     [
       "CWE-94",
-      73
+      74
     ],
     [
       "CWE-502",
@@ -381,6 +381,38 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2024-10441",
+      "vendor": "Synology",
+      "product": "DiskStation Manager (DSM)",
+      "date_added": "2026-11-18",
+      "due_date": "2026-11-21",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-40217",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "date_added": "2026-11-18",
+      "due_date": "2026-12-02",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-90817",
+      "vendor": "Vanderbilt University",
+      "product": "Research Electronic Data Capture (REDCap)",
+      "date_added": "2026-11-18",
+      "due_date": "2026-11-21",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-90436",
+      "vendor": "Apache",
+      "product": "Axis",
+      "date_added": "2026-11-18",
+      "due_date": "2026-11-21",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-115731",
       "vendor": "Perforce",
@@ -507,38 +539,6 @@
       "product": "WordPress Core",
       "date_added": "2026-11-03",
       "due_date": "2026-11-06",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-118527",
-      "vendor": "Ivanti",
-      "product": "Connect Secure",
-      "date_added": "2026-10-30",
-      "due_date": "2026-11-13",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-111357",
-      "vendor": "Ivanti",
-      "product": "Connect Secure",
-      "date_added": "2026-10-30",
-      "due_date": "2026-11-02",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-97229",
-      "vendor": "GitLab",
-      "product": "Community Edition and Enterprise Edition",
-      "date_added": "2026-10-29",
-      "due_date": "2026-11-01",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-76418",
-      "vendor": "Cisco",
-      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
-      "date_added": "2026-10-29",
-      "due_date": "2026-11-01",
       "ransomware": "Unknown"
     }
   ]
