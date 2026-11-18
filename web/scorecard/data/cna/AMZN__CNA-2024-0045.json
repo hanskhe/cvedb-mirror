@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMZN",
-    "total_cves": 167,
-    "total_cves_scored": 167,
+    "total_cves": 170,
+    "total_cves_scored": 170,
     "organizationName": "Amazon",
     "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA’s scope.",
     "advisories": [
@@ -36,24 +36,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 11,
-  "active_cna_count": 377,
-  "percentile": 97.3,
+  "active_cna_count": 378,
+  "percentile": 97.4,
   "cna_scoring": [
     {
-      "total_cves": 167,
-      "total_cves_scored": 167,
-      "recent_cves_count": 167,
-      "overall_average_score": 98.62,
+      "total_cves": 170,
+      "total_cves_scored": 170,
+      "recent_cves_count": 170,
+      "overall_average_score": 98.65,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 9.7,
+      "average_software_identification": 9.71,
       "average_severity_context": 15.0,
-      "average_patchinfo": 8.92,
+      "average_patchinfo": 8.94,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 97.01,
+      "percent_software_identification": 97.06,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 89.22,
+      "percent_patchinfo": 89.41,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -142,6 +142,19 @@
       "cveId": "CVE-2026-95985",
       "assigningCna": "AMZN",
       "datePublished": "2026-09-24",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-16318",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-07-21",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -753,19 +766,6 @@
       "cveId": "CVE-2026-16584",
       "assigningCna": "AMZN",
       "datePublished": "2026-07-23",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-16318",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-07-21",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1559,6 +1559,45 @@
       "cveId": "CVE-2026-94450",
       "assigningCna": "AMZN",
       "datePublished": "2026-09-22",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-130623",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-130621",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-130622",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

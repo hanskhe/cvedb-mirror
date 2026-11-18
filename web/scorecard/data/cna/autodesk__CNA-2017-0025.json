@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "autodesk",
-    "total_cves": 33,
-    "total_cves_scored": 33,
+    "total_cves": 49,
+    "total_cves_scored": 49,
     "organizationName": "Autodesk",
     "scope": "All currently supported <a href='https://knowledge.autodesk.com/support' target='_blank'>Autodesk Applications and Cloud Services</a>.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 1,
-  "active_cna_count": 377,
+  "active_cna_count": 378,
   "percentile": 100.0,
   "cna_scoring": [
     {
-      "total_cves": 33,
-      "total_cves_scored": 33,
-      "recent_cves_count": 33,
+      "total_cves": 49,
+      "total_cves_scored": 49,
+      "recent_cves_count": 49,
       "overall_average_score": 100.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,6 +58,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-104868",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-16463",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-07-29",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
     {
       "cveId": "CVE-2026-102636",
       "assigningCna": "autodesk",
@@ -176,6 +202,71 @@
       }
     },
     {
+      "cveId": "CVE-2026-77941",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-77943",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-77944",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-77940",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-77942",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-113775",
       "assigningCna": "autodesk",
       "datePublished": "2026-10-27",
@@ -241,9 +332,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-16463",
+      "cveId": "CVE-2026-16780",
       "assigningCna": "autodesk",
-      "datePublished": "2026-07-29",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -358,6 +449,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-18826",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-18827",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-15102",
       "assigningCna": "autodesk",
       "datePublished": "2026-10-14",
@@ -387,6 +504,19 @@
       "cveId": "CVE-2026-11803",
       "assigningCna": "autodesk",
       "datePublished": "2026-08-06",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-84855",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -462,9 +592,87 @@
       }
     },
     {
+      "cveId": "CVE-2026-93298",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-93297",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-93299",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-85646",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-85647",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-85217",
       "assigningCna": "autodesk",
       "datePublished": "2026-09-10",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-85648",
+      "assigningCna": "autodesk",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

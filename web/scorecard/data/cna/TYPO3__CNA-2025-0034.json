@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TYPO3",
-    "total_cves": 74,
-    "total_cves_scored": 74,
+    "total_cves": 84,
+    "total_cves_scored": 84,
     "organizationName": "TYPO3 Association",
     "scope": "Vulnerabilities in TYPO3 open-source products only, including TYPO3 CMS core and 3rd party extensions for TYPO3, unless covered by the scope of another CNA.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 86,
-  "active_cna_count": 377,
-  "percentile": 77.5,
+  "rank": 74,
+  "active_cna_count": 378,
+  "percentile": 80.7,
   "cna_scoring": [
     {
-      "total_cves": 74,
-      "total_cves_scored": 74,
-      "recent_cves_count": 74,
-      "overall_average_score": 85.41,
+      "total_cves": 84,
+      "total_cves_scored": 84,
+      "recent_cves_count": 84,
+      "overall_average_score": 87.14,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 2.7,
+      "average_software_identification": 3.57,
       "average_severity_context": 15.0,
-      "average_patchinfo": 2.7,
+      "average_patchinfo": 3.57,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 27.03,
+      "percent_software_identification": 35.71,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 27.03,
+      "percent_patchinfo": 35.71,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -179,6 +179,45 @@
       "cveId": "CVE-2026-47346",
       "assigningCna": "TYPO3",
       "datePublished": "2026-06-09",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119623",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119621",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119622",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -829,6 +868,97 @@
       "cveId": "CVE-2026-19418",
       "assigningCna": "TYPO3",
       "datePublished": "2026-08-11",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125164",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125162",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125161",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125160",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125165",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125159",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-125163",
+      "assigningCna": "TYPO3",
+      "datePublished": "2026-11-17",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

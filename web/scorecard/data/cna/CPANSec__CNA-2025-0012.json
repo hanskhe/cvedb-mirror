@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CPANSec",
-    "total_cves": 354,
-    "total_cves_scored": 354,
+    "total_cves": 353,
+    "total_cves_scored": 353,
     "organizationName": "CPAN Security Group",
     "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found at <a href='https://perl.org' target='_blank'>https://perl.org</a>, <a href='https://cpan.org' target='_blank'>https://cpan.org</a>, or <a href='https://metacpan.org/' target='_blank'>https://metacpan.org/</a>, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 336,
-  "active_cna_count": 377,
+  "rank": 337,
+  "active_cna_count": 378,
   "percentile": 11.1,
   "cna_scoring": [
     {
-      "total_cves": 354,
-      "total_cves_scored": 354,
-      "recent_cves_count": 354,
-      "overall_average_score": 71.2,
+      "total_cves": 353,
+      "total_cves_scored": 353,
+      "recent_cves_count": 353,
+      "overall_average_score": 71.22,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.96,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
-      "average_patchinfo": 6.24,
+      "average_patchinfo": 6.26,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.72,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
-      "percent_patchinfo": 62.43,
+      "percent_patchinfo": 62.61,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -335,19 +335,6 @@
       "cveId": "CVE-2026-123776",
       "assigningCna": "CPANSec",
       "datePublished": "2026-11-07",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-57075",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-07-16",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -706,6 +693,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-57075",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -1187,6 +1187,32 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-129891",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-129892",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -2581,19 +2607,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-46720",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2026-46739",
       "assigningCna": "CPANSec",
       "datePublished": "2026-06-04",
@@ -2958,19 +2971,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-8721",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-8788",
       "assigningCna": "CPANSec",
       "datePublished": "2026-05-18",
@@ -3020,19 +3020,6 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8507",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
       }
     },
     {

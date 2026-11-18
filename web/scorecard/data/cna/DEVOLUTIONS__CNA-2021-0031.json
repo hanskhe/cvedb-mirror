@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "DEVOLUTIONS",
-    "total_cves": 78,
-    "total_cves_scored": 78,
+    "total_cves": 79,
+    "total_cves_scored": 79,
     "organizationName": "Devolutions Inc.",
     "scope": "All Devolutions products only.",
     "advisories": [
@@ -34,22 +34,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 366,
-  "active_cna_count": 377,
+  "rank": 367,
+  "active_cna_count": 378,
   "percentile": 3.2,
   "cna_scoring": [
     {
-      "total_cves": 78,
-      "total_cves_scored": 78,
-      "recent_cves_count": 78,
-      "overall_average_score": 64.04,
+      "total_cves": 79,
+      "total_cves_scored": 79,
+      "recent_cves_count": 79,
+      "overall_average_score": 64.05,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.04,
+      "average_root_cause_analysis": 14.05,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.59,
+      "percent_root_cause_analysis": 93.67,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
       "percent_patchinfo": 0.0,
@@ -89,6 +89,19 @@
       "cveId": "CVE-2026-114487",
       "assigningCna": "DEVOLUTIONS",
       "datePublished": "2026-10-22",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16799",
+      "assigningCna": "DEVOLUTIONS",
+      "datePublished": "2026-07-24",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -464,19 +477,6 @@
     },
     {
       "cveId": "CVE-2026-16800",
-      "assigningCna": "DEVOLUTIONS",
-      "datePublished": "2026-07-24",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16799",
       "assigningCna": "DEVOLUTIONS",
       "datePublished": "2026-07-24",
       "totalCveScore": 65,
@@ -986,6 +986,19 @@
       "cveId": "CVE-2026-93332",
       "assigningCna": "DEVOLUTIONS",
       "datePublished": "2026-09-29",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-131157",
+      "assigningCna": "DEVOLUTIONS",
+      "datePublished": "2026-11-17",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

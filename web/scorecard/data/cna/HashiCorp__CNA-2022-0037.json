@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 125,
-  "active_cna_count": 377,
-  "percentile": 67.1,
+  "active_cna_count": 378,
+  "percentile": 67.2,
   "cna_scoring": [
     {
       "total_cves": 51,
@@ -59,6 +59,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-16328",
+      "assigningCna": "HashiCorp",
+      "datePublished": "2026-07-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-12624",
       "assigningCna": "HashiCorp",
@@ -349,19 +362,6 @@
       "cveId": "CVE-2026-16498",
       "assigningCna": "HashiCorp",
       "datePublished": "2026-07-28",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-16328",
-      "assigningCna": "HashiCorp",
-      "datePublished": "2026-07-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

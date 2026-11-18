@@ -58,7 +58,7 @@
     },
     {
       "cna_name": "glibc",
-      "total_improvement": 132.5,
+      "total_improvement": 130.6818181818182,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 75.0,
@@ -77,12 +77,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 20.0,
-          "improvement": 20.0
+          "last_period": 18.181818181818183,
+          "improvement": 18.181818181818183
         }
       },
-      "total_cves_analyzed": 32,
-      "analysis_days": 23
+      "total_cves_analyzed": 35,
+      "analysis_days": 24
     },
     {
       "cna_name": "VulDB",
@@ -169,6 +169,34 @@
       "analysis_days": 19
     },
     {
+      "cna_name": "CIRCL",
+      "total_improvement": 110.90909090909092,
+      "category_improvements": {
+        "root_cause_analysis": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "severity_and_impact": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "software_identification": {
+          "first_period": 0.0,
+          "last_period": 90.90909090909092,
+          "improvement": 90.90909090909092
+        },
+        "patch_information": {
+          "first_period": 80.0,
+          "last_period": 100.0,
+          "improvement": 20.0
+        }
+      },
+      "total_cves_analyzed": 260,
+      "analysis_days": 58
+    },
+    {
       "cna_name": "hackerone",
       "total_improvement": 106.87830687830686,
       "category_improvements": {
@@ -226,7 +254,7 @@
     },
     {
       "cna_name": "AMZN",
-      "total_improvement": 102.45098039215686,
+      "total_improvement": 103.0701754385965,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -245,43 +273,15 @@
         },
         "patch_information": {
           "first_period": 91.66666666666666,
-          "last_period": 94.11764705882352,
-          "improvement": 2.4509803921568647
+          "last_period": 94.73684210526315,
+          "improvement": 3.0701754385964932
         }
       },
-      "total_cves_analyzed": 248,
-      "analysis_days": 127
-    },
-    {
-      "cna_name": "CERT-In",
-      "total_improvement": 100.0,
-      "category_improvements": {
-        "root_cause_analysis": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "severity_and_impact": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "software_identification": {
-          "first_period": 0.0,
-          "last_period": 100.0,
-          "improvement": 100.0
-        },
-        "patch_information": {
-          "first_period": 0.0,
-          "last_period": 0.0,
-          "improvement": 0.0
-        }
-      },
-      "total_cves_analyzed": 68,
-      "analysis_days": 28
+      "total_cves_analyzed": 251,
+      "analysis_days": 128
     }
   ],
-  "generated_at": "2026-11-17T11:10:09.398865",
+  "generated_at": "2026-11-18T10:44:59.626603",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10
