@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T16:31:44.427199Z",
-  "catalog_version": "2026.11.13",
-  "total_kev_cves": 1781,
+  "generated_at": "2026-11-18T01:13:55.500148Z",
+  "catalog_version": "2026.11.17",
+  "total_kev_cves": 1782,
   "statistics": {
-    "added_last_30_days": 33,
+    "added_last_30_days": 34,
     "added_last_90_days": 111,
     "ransomware_associated": 361
   },
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 297
+    "2026": 298
   },
   "by_year_cve": {
     "2002": 1,
@@ -39,7 +39,7 @@
     "2023": 166,
     "2024": 165,
     "2025": 189,
-    "2026": 209
+    "2026": 210
   },
   "by_year_published": {
     "2002": 1,
@@ -65,7 +65,7 @@
     "2023": 166,
     "2024": 161,
     "2025": 197,
-    "2026": 219
+    "2026": 220
   },
   "awaiting_nvd": {
     "count": 0,
@@ -132,7 +132,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 15
+    "2026-11": 16
   },
   "top_vendors": [
     [
@@ -325,11 +325,11 @@
     ],
     [
       "CWE-94",
-      72
+      73
     ],
     [
       "CWE-502",
-      71
+      72
     ],
     [
       "CWE-287",
@@ -381,6 +381,14 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2026-115731",
+      "vendor": "Perforce",
+      "product": "Puppet Enterprise",
+      "date_added": "2026-11-17",
+      "due_date": "2026-12-01",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-114713",
       "vendor": "UnrealIRCd",
@@ -531,14 +539,6 @@
       "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
       "date_added": "2026-10-29",
       "due_date": "2026-11-01",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-41709",
-      "vendor": "Broadcom",
-      "product": "VMware ESX",
-      "date_added": "2026-10-28",
-      "due_date": "2026-11-11",
       "ransomware": "Unknown"
     }
   ]
