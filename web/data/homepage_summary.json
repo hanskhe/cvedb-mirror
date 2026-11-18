@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T20:46:09.319612Z",
-  "data_as_of": "2026-11-18T20:39:42.537818Z",
+  "generated_at": "2026-11-18T20:58:33.579014Z",
+  "data_as_of": "2026-11-18T20:52:08.599474Z",
   "data_age_hours": 0.0,
-  "source_last_run": "2026-11-18T20:11:50.737396+00:00",
-  "source_age_hours": 0.5,
-  "source_cve_count": 428069,
+  "source_last_run": "2026-11-18T20:41:29.346564+00:00",
+  "source_age_hours": 0.2,
+  "source_cve_count": 428085,
   "current_year": 2026,
   "yearly_summary": {
     "years": {
@@ -118,7 +118,7 @@
       },
       "2026": {
         "year": 2026,
-        "total_cves": 100009
+        "total_cves": 100025
       }
     }
   },
@@ -342,11 +342,11 @@
       },
       {
         "year": 2026,
-        "cves": 100009,
+        "cves": 100025,
         "growth_rate": 139.5,
-        "growth_absolute": 58243,
+        "growth_absolute": 58259,
         "is_ytd": true,
-        "projected_full_year": 113364,
+        "projected_full_year": 113382,
         "ytd_vs_prev_full": 107.7,
         "ytd_vs_prev_ytd": 139.5,
         "prev_year_ytd_actual": 41766,
@@ -358,7 +358,7 @@
     "score_distribution": {
       "v2.0": {
         "10.0": 9088,
-        "5.0": 27035,
+        "5.0": 27036,
         "7.5": 27430,
         "4.6": 5470,
         "5.1": 1177,
@@ -518,54 +518,54 @@
         "0.0": 4
       },
       "v3.1": {
-        "5.3": 12199,
+        "5.3": 12200,
         "7.5": 24890,
         "9.8": 21854,
-        "8.2": 2633,
+        "8.2": 2634,
         "7.8": 22262,
-        "5.5": 17297,
-        "7.1": 7733,
-        "8.8": 20997,
+        "5.5": 17299,
+        "7.1": 7735,
+        "8.8": 21000,
         "7.3": 5882,
         "9.1": 3882,
-        "3.3": 2109,
-        "6.5": 20484,
+        "3.3": 2111,
+        "6.5": 20486,
         "6.1": 10719,
         "4.8": 3149,
-        "7.0": 2245,
+        "7.0": 2247,
         "5.9": 4199,
         "8.4": 1704,
         "3.7": 1497,
         "4.7": 2434,
         "7.4": 1582,
         "4.5": 263,
-        "4.3": 12889,
+        "4.3": 12896,
         "5.0": 973,
         "6.3": 6384,
         "5.6": 475,
-        "8.1": 6372,
+        "8.1": 6381,
         "7.2": 5452,
         "5.4": 11825,
         "4.6": 1056,
-        "6.8": 2539,
+        "6.8": 2543,
         "4.4": 2099,
         "9.9": 1693,
         "5.8": 723,
-        "7.7": 1461,
+        "7.7": 1462,
         "5.7": 816,
         "6.0": 677,
-        "9.6": 1555,
+        "9.6": 1557,
         "6.7": 2688,
-        "9.0": 730,
+        "9.0": 735,
         "10.0": 1462,
         "7.6": 1297,
-        "9.3": 1004,
+        "9.3": 1005,
         "4.9": 2361,
         "4.2": 769,
         "4.0": 744,
         "3.4": 162,
-        "8.0": 1482,
-        "6.6": 841,
+        "8.0": 1483,
+        "6.6": 842,
         "6.4": 4441,
         "8.6": 1681,
         "6.2": 1224,
@@ -577,7 +577,7 @@
         "2.7": 748,
         "2.4": 798,
         "3.5": 2537,
-        "8.3": 1254,
+        "8.3": 1255,
         "3.1": 1101,
         "3.8": 405,
         "1.9": 60,
@@ -618,7 +618,7 @@
         "2.1": 3401,
         "9.2": 633,
         "6.3": 1121,
-        "5.5": 2873,
+        "5.5": 2874,
         "5.2": 98,
         "9.1": 207,
         "2.0": 1117,
@@ -641,7 +641,7 @@
         "4.6": 268,
         "8.1": 50,
         "1.8": 76,
-        "8.4": 654,
+        "8.4": 655,
         "6.4": 119,
         "1.3": 209,
         "6.0": 578,
@@ -693,7 +693,7 @@
       }
     },
     "kev_global_count": 1786,
-    "total_scores_all_versions": 579643
+    "total_scores_all_versions": 579693
   },
   "epss_analysis": {
     "statistics": {
@@ -754,19 +754,19 @@
       {
         "id": "79",
         "name": "CWE-79: Cross-site Scripting (XSS)",
-        "count": 56405,
+        "count": 56406,
         "description": "Cross-site Scripting (XSS)"
       },
       {
         "id": "89",
         "name": "CWE-89: SQL Injection",
-        "count": 25438,
+        "count": 25439,
         "description": "SQL Injection"
       },
       {
         "id": "787",
         "name": "CWE-787: Out-of-bounds Write",
-        "count": 18124,
+        "count": 18125,
         "description": "Out-of-bounds Write"
       },
       {
@@ -778,7 +778,7 @@
       {
         "id": "862",
         "name": "CWE-862: Missing Authorization",
-        "count": 12905,
+        "count": 12906,
         "description": "Missing Authorization"
       },
       {
@@ -790,7 +790,7 @@
       {
         "id": "22",
         "name": "CWE-22: Path Traversal",
-        "count": 12606,
+        "count": 12608,
         "description": "Path Traversal"
       },
       {
@@ -812,7 +812,7 @@
         "description": "Use After Free"
       }
     ],
-    "total_cves_with_cwe": 289035,
+    "total_cves_with_cwe": 289045,
     "total_unique_cwes": 69
   },
   "cna_analysis": {
@@ -877,12 +877,12 @@
       {
         "name": "GitHub_M",
         "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-        "count": 22851,
+        "count": 22856,
         "years_active": 8,
         "first_cve_year": 2019,
         "last_cve_year": 2026,
         "first_cve_date": "2019-09-30T21:39:38.000Z",
-        "last_cve_date": "2026-11-18T20:34:44.748Z",
+        "last_cve_date": "2026-11-18T20:47:36.838Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -896,7 +896,7 @@
           "2022": 1293,
           "2024": 2120,
           "2023": 1771,
-          "2026": 13212,
+          "2026": 13217,
           "2025": 2866
         },
         "years_active_list": [
@@ -981,12 +981,12 @@
       {
         "name": "VulDB",
         "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-        "count": 18031,
+        "count": 18032,
         "years_active": 5,
         "first_cve_year": 2022,
         "last_cve_year": 2026,
         "first_cve_date": "2022-03-28T18:00:15.000Z",
-        "last_cve_date": "2026-11-18T20:15:16.615Z",
+        "last_cve_date": "2026-11-18T20:45:14.678Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -997,7 +997,7 @@
           "2023": 1931,
           "2022": 853,
           "2024": 2930,
-          "2026": 6416,
+          "2026": 6417,
           "2025": 5901
         },
         "years_active_list": [
@@ -1844,12 +1844,12 @@
       {
         "name": "dell",
         "assigner_org_id": "c550e75a-17ff-4988-97f0-544cde3820fe",
-        "count": 2644,
+        "count": 2651,
         "years_active": 18,
         "first_cve_year": 2009,
         "last_cve_year": 2026,
         "first_cve_date": "2009-04-15T19:00:00.000Z",
-        "last_cve_date": "2026-11-18T16:35:24.286Z",
+        "last_cve_date": "2026-11-18T20:48:00.654Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -1873,7 +1873,7 @@
           "2022": 187,
           "2024": 258,
           "2023": 266,
-          "2026": 724,
+          "2026": 731,
           "2025": 223
         },
         "years_active_list": [
@@ -4151,13 +4151,13 @@
         "date": "2026-11-17",
         "value": 1228,
         "avg_cvss": 6.6,
-        "cvss_count": 1058
+        "cvss_count": 1090
       },
       {
         "date": "2026-11-18",
-        "value": 606,
+        "value": 622,
         "avg_cvss": 6.9,
-        "cvss_count": 511
+        "cvss_count": 526
       }
     ]
   }
