@@ -2,25 +2,25 @@
   "stats": {
     "total_cnas_in_analysis": 499,
     "official_cna_registry_count": 571,
-    "exact_matches": 455,
+    "exact_matches": 454,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 27,
-    "exact_match_cves": 405155,
+    "unmatched": 28,
+    "exact_match_cves": 405316,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 828,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1096,
-    "exact_match_pct": 99.05,
-    "issues_pct": 0.95
+    "unmatched_cves": 1147,
+    "exact_match_pct": 99.04,
+    "issues_pct": 0.96
   },
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115597,
+      "cve_count": 115598,
       "kev_count": 332,
       "epss_high_count": 1742,
       "official_short_name": "mitre",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19694,
+      "cve_count": 19700,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -53,7 +53,7 @@
     },
     {
       "cna_name": "Linux",
-      "cve_count": 18253,
+      "cve_count": 18254,
       "kev_count": 12,
       "epss_high_count": 5,
       "official_short_name": "Linux",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18049,
+      "cve_count": 18056,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12235,
+      "cve_count": 12246,
       "kev_count": 1,
       "epss_high_count": 58,
       "official_short_name": "Wordfence",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12124,
+      "cve_count": 12126,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6547,
+      "cve_count": 6550,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3295,
+      "cve_count": 3296,
       "kev_count": 7,
       "epss_high_count": 8,
       "official_short_name": "jpcert",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3255,
+      "cve_count": 3257,
       "kev_count": 36,
       "epss_high_count": 185,
       "official_short_name": "apache",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1244,
+      "cve_count": 1245,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -482,7 +482,7 @@
     },
     {
       "cna_name": "TR-CERT",
-      "cve_count": 899,
+      "cve_count": 901,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "TR-CERT",
@@ -547,6 +547,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "JetBrains",
+      "cve_count": 711,
+      "kev_count": 4,
+      "epss_high_count": 12,
+      "official_short_name": "JetBrains",
+      "official_org_name": "JetBrains s.r.o.",
+      "official_id": "CNA-2022-0004",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "HCL",
       "cve_count": 677,
       "kev_count": 0,
@@ -554,17 +565,6 @@
       "official_short_name": "HCL",
       "official_org_name": "HCL Software",
       "official_id": "CNA-2019-0010",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "Unisoc",
-      "cve_count": 661,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "official_short_name": "Unisoc",
-      "official_org_name": "Unisoc (Shanghai) Technologies Co., Ltd.",
-      "official_id": "CNA-2022-0025",
       "match_type": "exact_short",
       "confidence": "high"
     }
@@ -832,6 +832,14 @@
     {
       "cna_name": "TV",
       "cve_count": 55,
+      "kev_count": 0,
+      "epss_high_count": 0,
+      "match_type": null,
+      "confidence": null
+    },
+    {
+      "cna_name": "TQtC",
+      "cve_count": 51,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
