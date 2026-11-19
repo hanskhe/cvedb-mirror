@@ -34,8 +34,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 125,
-  "active_cna_count": 378,
-  "percentile": 67.2,
+  "active_cna_count": 380,
+  "percentile": 67.4,
   "cna_scoring": [
     {
       "total_cves": 7,
@@ -62,6 +62,19 @@
       "cveId": "CVE-2026-102448",
       "assigningCna": "bosch",
       "datePublished": "2026-11-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42805",
+      "assigningCna": "bosch",
+      "datePublished": "2026-09-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -112,19 +125,6 @@
     },
     {
       "cveId": "CVE-2026-42806",
-      "assigningCna": "bosch",
-      "datePublished": "2026-09-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-42805",
       "assigningCna": "bosch",
       "datePublished": "2026-09-10",
       "totalCveScore": 80,
