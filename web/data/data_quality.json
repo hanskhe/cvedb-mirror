@@ -1,21 +1,21 @@
 {
   "stats": {
-    "total_cnas_in_analysis": 497,
+    "total_cnas_in_analysis": 499,
     "official_cna_registry_count": 571,
-    "exact_matches": 452,
+    "exact_matches": 455,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 28,
-    "exact_match_cves": 404997,
+    "unmatched": 27,
+    "exact_match_cves": 405155,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 828,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1147,
-    "exact_match_pct": 99.04,
-    "issues_pct": 0.96
+    "unmatched_cves": 1096,
+    "exact_match_pct": 99.05,
+    "issues_pct": 0.95
   },
   "exact_matches": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22856,
+      "cve_count": 22890,
       "kev_count": 43,
       "epss_high_count": 183,
       "official_short_name": "GitHub_M",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18032,
+      "cve_count": 18049,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "Wordfence",
-      "cve_count": 12234,
+      "cve_count": 12235,
       "kev_count": 1,
       "epss_high_count": 58,
       "official_short_name": "Wordfence",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 12180,
+      "cve_count": 12214,
       "kev_count": 19,
       "epss_high_count": 34,
       "official_short_name": "VulnCheck",
@@ -130,7 +130,7 @@
     },
     {
       "cna_name": "ibm",
-      "cve_count": 8441,
+      "cve_count": 8446,
       "kev_count": 9,
       "epss_high_count": 18,
       "official_short_name": "ibm",
@@ -284,7 +284,7 @@
     },
     {
       "cna_name": "dell",
-      "cve_count": 2651,
+      "cve_count": 2652,
       "kev_count": 3,
       "epss_high_count": 13,
       "official_short_name": "dell",
@@ -832,14 +832,6 @@
     {
       "cna_name": "TV",
       "cve_count": 55,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "match_type": null,
-      "confidence": null
-    },
-    {
-      "cna_name": "TQtC",
-      "cve_count": 51,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
