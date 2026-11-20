@@ -2,25 +2,25 @@
   "stats": {
     "total_cnas_in_analysis": 500,
     "official_cna_registry_count": 571,
-    "exact_matches": 455,
+    "exact_matches": 456,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 28,
-    "exact_match_cves": 406082,
+    "unmatched": 27,
+    "exact_match_cves": 406191,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 828,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1120,
+    "unmatched_cves": 1096,
     "exact_match_pct": 99.05,
     "issues_pct": 0.95
   },
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115603,
+      "cve_count": 115606,
       "kev_count": 332,
       "epss_high_count": 1744,
       "official_short_name": "mitre",
@@ -31,7 +31,7 @@
     },
     {
       "cna_name": "GitHub_M",
-      "cve_count": 22958,
+      "cve_count": 22972,
       "kev_count": 43,
       "epss_high_count": 183,
       "official_short_name": "GitHub_M",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19701,
+      "cve_count": 19702,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18057,
+      "cve_count": 18064,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -97,7 +97,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 12253,
+      "cve_count": 12259,
       "kev_count": 19,
       "epss_high_count": 34,
       "official_short_name": "VulnCheck",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12131,
+      "cve_count": 12137,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -130,7 +130,7 @@
     },
     {
       "cna_name": "ibm",
-      "cve_count": 8446,
+      "cve_count": 8462,
       "kev_count": 9,
       "epss_high_count": 18,
       "official_short_name": "ibm",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3257,
+      "cve_count": 3268,
       "kev_count": 36,
       "epss_high_count": 185,
       "official_short_name": "apache",
@@ -854,14 +854,6 @@
       "confidence": null
     },
     {
-      "cna_name": "PureStorage",
-      "cve_count": 24,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "match_type": null,
-      "confidence": null
-    },
-    {
       "cna_name": "Teradici",
       "cve_count": 20,
       "kev_count": 0,
@@ -950,7 +942,7 @@
       "confidence": null
     },
     {
-      "cna_name": "OpenBMC",
+      "cna_name": "Cybellum",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
@@ -958,7 +950,7 @@
       "confidence": null
     },
     {
-      "cna_name": "Cybellum",
+      "cna_name": "OpenBMC",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
