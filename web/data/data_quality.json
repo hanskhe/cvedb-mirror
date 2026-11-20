@@ -8,12 +8,12 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 27,
-    "exact_match_cves": 406191,
+    "exact_match_cves": 406666,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 828,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1096,
+    "unmatched_cves": 1104,
     "exact_match_pct": 99.05,
     "issues_pct": 0.95
   },
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19702,
+      "cve_count": 19774,
       "kev_count": 0,
       "epss_high_count": 12,
       "official_short_name": "Patchstack",
@@ -53,7 +53,7 @@
     },
     {
       "cna_name": "Linux",
-      "cve_count": 18499,
+      "cve_count": 18738,
       "kev_count": 12,
       "epss_high_count": 5,
       "official_short_name": "Linux",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18064,
+      "cve_count": 18087,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -96,6 +96,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "Wordfence",
+      "cve_count": 12291,
+      "kev_count": 1,
+      "epss_high_count": 58,
+      "official_short_name": "Wordfence",
+      "official_org_name": "Wordfence",
+      "official_id": "CNA-2021-0022",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "VulnCheck",
       "cve_count": 12259,
       "kev_count": 19,
@@ -107,19 +118,8 @@
       "confidence": "high"
     },
     {
-      "cna_name": "Wordfence",
-      "cve_count": 12246,
-      "kev_count": 1,
-      "epss_high_count": 58,
-      "official_short_name": "Wordfence",
-      "official_org_name": "Wordfence",
-      "official_id": "CNA-2021-0022",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
       "cna_name": "redhat",
-      "cve_count": 12137,
+      "cve_count": 12144,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -185,7 +185,7 @@
     },
     {
       "cna_name": "WPScan",
-      "cve_count": 6550,
+      "cve_count": 6552,
       "kev_count": 2,
       "epss_high_count": 34,
       "official_short_name": "WPScan",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3296,
+      "cve_count": 3297,
       "kev_count": 7,
       "epss_high_count": 8,
       "official_short_name": "jpcert",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3268,
+      "cve_count": 3269,
       "kev_count": 36,
       "epss_high_count": 185,
       "official_short_name": "apache",
@@ -394,7 +394,7 @@
     },
     {
       "cna_name": "GitLab",
-      "cve_count": 1550,
+      "cve_count": 1587,
       "kev_count": 7,
       "epss_high_count": 25,
       "official_short_name": "GitLab",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1245,
+      "cve_count": 1251,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -416,7 +416,7 @@
     },
     {
       "cna_name": "nvidia",
-      "cve_count": 1229,
+      "cve_count": 1231,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "nvidia",
@@ -460,7 +460,7 @@
     },
     {
       "cna_name": "twcert",
-      "cve_count": 944,
+      "cve_count": 945,
       "kev_count": 3,
       "epss_high_count": 1,
       "official_short_name": "twcert",
@@ -838,15 +838,15 @@
       "confidence": null
     },
     {
-      "cna_name": "F-SecureUS",
-      "cve_count": 46,
+      "cna_name": "rami.io",
+      "cve_count": 54,
       "kev_count": 0,
       "epss_high_count": 0,
       "match_type": null,
       "confidence": null
     },
     {
-      "cna_name": "rami.io",
+      "cna_name": "F-SecureUS",
       "cve_count": 46,
       "kev_count": 0,
       "epss_high_count": 0,
