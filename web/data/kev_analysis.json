@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T12:07:06.319274Z",
-  "catalog_version": "2026.11.18",
-  "total_kev_cves": 1786,
+  "generated_at": "2026-11-20T20:43:52.646697Z",
+  "catalog_version": "2026.11.20",
+  "total_kev_cves": 1790,
   "statistics": {
-    "added_last_30_days": 32,
-    "added_last_90_days": 112,
+    "added_last_30_days": 36,
+    "added_last_90_days": 116,
     "ransomware_associated": 361
   },
   "by_year_added": {
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 302
+    "2026": 306
   },
   "by_year_cve": {
     "2002": 1,
@@ -38,8 +38,8 @@
     "2022": 132,
     "2023": 166,
     "2024": 166,
-    "2025": 189,
-    "2026": 213
+    "2025": 190,
+    "2026": 216
   },
   "by_year_published": {
     "2002": 1,
@@ -64,8 +64,8 @@
     "2022": 131,
     "2023": 166,
     "2024": 161,
-    "2025": 198,
-    "2026": 223
+    "2025": 199,
+    "2026": 226
   },
   "awaiting_nvd": {
     "count": 0,
@@ -132,7 +132,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 20
+    "2026-11": 24
   },
   "top_vendors": [
     [
@@ -141,7 +141,7 @@
     ],
     [
       "Cisco",
-      103
+      104
     ],
     [
       "Apple",
@@ -161,7 +161,7 @@
     ],
     [
       "Apache",
-      42
+      43
     ],
     [
       "Ivanti",
@@ -204,15 +204,15 @@
       16
     ],
     [
+      "SAP",
+      15
+    ],
+    [
       "Samsung",
       15
     ],
     [
       "Atlassian",
-      14
-    ],
-    [
-      "SAP",
       14
     ]
   ],
@@ -282,6 +282,10 @@
       12
     ],
     [
+      "SAP - NetWeaver",
+      11
+    ],
+    [
       "Qualcomm - Multiple Chipsets",
       11
     ],
@@ -291,10 +295,6 @@
     ],
     [
       "Microsoft - SharePoint",
-      10
-    ],
-    [
-      "SAP - NetWeaver",
       10
     ]
   ],
@@ -329,7 +329,7 @@
     ],
     [
       "CWE-502",
-      72
+      73
     ],
     [
       "CWE-287",
@@ -381,6 +381,38 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2026-129448",
+      "vendor": "Apache",
+      "product": "Roller",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-123890",
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2025-42884",
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-76466",
+      "vendor": "Cisco",
+      "product": "Expressway Series",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2024-10441",
       "vendor": "Synology",
@@ -507,38 +539,6 @@
       "product": "FreeSwitch",
       "date_added": "2026-11-09",
       "due_date": "2026-11-12",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-123218",
-      "vendor": "IBM",
-      "product": "Aspera Faspex",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-19868",
-      "vendor": "SonicWall",
-      "product": "SonicOS SSLVPN",
-      "date_added": "2026-11-06",
-      "due_date": "2026-11-20",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2024-27834",
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "date_added": "2026-11-04",
-      "due_date": "2026-11-18",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-119977",
-      "vendor": "WordPress",
-      "product": "WordPress Core",
-      "date_added": "2026-11-03",
-      "due_date": "2026-11-06",
       "ransomware": "Unknown"
     }
   ]
