@@ -2,20 +2,20 @@
   "stats": {
     "total_cnas_in_analysis": 500,
     "official_cna_registry_count": 571,
-    "exact_matches": 455,
+    "exact_matches": 456,
     "case_mismatches": 1,
     "org_name_matches": 6,
     "normalized_matches": 6,
     "partial_matches": 4,
-    "unmatched": 28,
-    "exact_match_cves": 406866,
+    "unmatched": 27,
+    "exact_match_cves": 406923,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 829,
     "normalized_match_cves": 1699,
     "partial_match_cves": 82,
-    "unmatched_cves": 1129,
-    "exact_match_pct": 99.04,
-    "issues_pct": 0.96
+    "unmatched_cves": 1105,
+    "exact_match_pct": 99.05,
+    "issues_pct": 0.95
   },
   "exact_matches": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18102,
+      "cve_count": 18107,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -108,7 +108,7 @@
     },
     {
       "cna_name": "VulnCheck",
-      "cve_count": 12278,
+      "cve_count": 12290,
       "kev_count": 19,
       "epss_high_count": 34,
       "official_short_name": "VulnCheck",
@@ -152,7 +152,7 @@
     },
     {
       "cna_name": "apple",
-      "cve_count": 7732,
+      "cve_count": 7745,
       "kev_count": 96,
       "epss_high_count": 12,
       "official_short_name": "apple",
@@ -559,7 +559,7 @@
     },
     {
       "cna_name": "HCL",
-      "cve_count": 677,
+      "cve_count": 678,
       "kev_count": 0,
       "epss_high_count": 0,
       "official_short_name": "HCL",
@@ -854,14 +854,6 @@
       "confidence": null
     },
     {
-      "cna_name": "PureStorage",
-      "cve_count": 24,
-      "kev_count": 0,
-      "epss_high_count": 0,
-      "match_type": null,
-      "confidence": null
-    },
-    {
       "cna_name": "Teradici",
       "cve_count": 20,
       "kev_count": 0,
@@ -950,7 +942,7 @@
       "confidence": null
     },
     {
-      "cna_name": "OpenBMC",
+      "cna_name": "Cybellum",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
@@ -958,7 +950,7 @@
       "confidence": null
     },
     {
-      "cna_name": "Cybellum",
+      "cna_name": "OpenBMC",
       "cve_count": 2,
       "kev_count": 0,
       "epss_high_count": 0,
