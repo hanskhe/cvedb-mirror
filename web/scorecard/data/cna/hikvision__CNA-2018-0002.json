@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 351,
-  "active_cna_count": 381,
-  "percentile": 8.1,
+  "rank": 350,
+  "active_cna_count": 380,
+  "percentile": 8.2,
   "cna_scoring": [
     {
       "total_cves": 11,
@@ -59,9 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-86587",
+      "cveId": "CVE-2026-85545",
       "assigningCna": "hikvision",
-      "datePublished": "2026-11-20",
+      "datePublished": "2026-09-10",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -72,9 +72,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-86586",
+      "cveId": "CVE-2026-85543",
       "assigningCna": "hikvision",
-      "datePublished": "2026-11-20",
+      "datePublished": "2026-09-10",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-85544",
+      "assigningCna": "hikvision",
+      "datePublished": "2026-09-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16843",
+      "assigningCna": "hikvision",
+      "datePublished": "2026-07-31",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -111,9 +137,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-16843",
+      "cveId": "CVE-2026-86586",
       "assigningCna": "hikvision",
-      "datePublished": "2026-07-31",
+      "datePublished": "2026-11-20",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -124,9 +150,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-61392",
+      "cveId": "CVE-2026-86587",
       "assigningCna": "hikvision",
-      "datePublished": "2026-07-22",
+      "datePublished": "2026-11-20",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -150,7 +176,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-61391",
+      "cveId": "CVE-2026-61392",
       "assigningCna": "hikvision",
       "datePublished": "2026-07-22",
       "totalCveScore": 65,
@@ -163,35 +189,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-85544",
+      "cveId": "CVE-2026-61391",
       "assigningCna": "hikvision",
-      "datePublished": "2026-09-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-85545",
-      "assigningCna": "hikvision",
-      "datePublished": "2026-09-10",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-85543",
-      "assigningCna": "hikvision",
-      "datePublished": "2026-09-10",
+      "datePublished": "2026-07-22",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
