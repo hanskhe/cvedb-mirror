@@ -37,8 +37,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 313,
-  "active_cna_count": 380,
-  "percentile": 17.9,
+  "active_cna_count": 379,
+  "percentile": 17.7,
   "cna_scoring": [
     {
       "total_cves": 6,
@@ -88,22 +88,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-7762",
+      "cveId": "CVE-2026-9264",
       "assigningCna": "Bugcrowd",
-      "datePublished": "2026-06-05",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-7764",
-      "assigningCna": "Bugcrowd",
-      "datePublished": "2026-06-04",
+      "datePublished": "2026-05-22",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -127,9 +114,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-9264",
+      "cveId": "CVE-2026-7762",
       "assigningCna": "Bugcrowd",
-      "datePublished": "2026-05-22",
+      "datePublished": "2026-06-05",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-7764",
+      "assigningCna": "Bugcrowd",
+      "datePublished": "2026-06-04",
       "totalCveScore": 75,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

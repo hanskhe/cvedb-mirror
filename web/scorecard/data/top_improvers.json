@@ -86,12 +86,12 @@
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 134.67741935483872,
+      "total_improvement": 138.1294964028777,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
-          "last_period": 99.19354838709677,
-          "improvement": -0.8064516129032313
+          "last_period": 100.0,
+          "improvement": 0.0
         },
         "severity_and_impact": {
           "first_period": 100.0,
@@ -105,12 +105,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 35.483870967741936,
-          "improvement": 35.483870967741936
+          "last_period": 38.12949640287769,
+          "improvement": 38.12949640287769
         }
       },
-      "total_cves_analyzed": 12308,
-      "analysis_days": 566
+      "total_cves_analyzed": 12335,
+      "analysis_days": 567
     },
     {
       "cna_name": "glibc",
@@ -281,7 +281,7 @@
       "analysis_days": 89
     }
   ],
-  "generated_at": "2026-11-21T10:15:01.169311",
+  "generated_at": "2026-11-22T10:18:33.042695",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10
