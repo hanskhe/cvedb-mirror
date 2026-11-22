@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:34:21.239629",
+  "generated_at": "2026-11-22T11:49:51.169837",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 420,
@@ -65,10 +65,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 11346,
+      "count": 11397,
       "rank": 2,
       "first_cve_date": "2026-01-03T21:18:51.053Z",
-      "last_cve_date": "2026-11-21T16:36:04.752Z",
+      "last_cve_date": "2026-11-22T02:03:17.757Z",
       "years_active": 4,
       "first_cve_year": 2023,
       "last_cve_year": 2026,
@@ -78,16 +78,16 @@
         "Vendor"
       ],
       "severity_distribution": {
-        "High": 5479,
-        "Medium": 4319,
+        "High": 5485,
+        "Medium": 4361,
         "Critical": 1346,
-        "Low": 202
+        "Low": 205
       },
       "top_cwe_types": {
         "CWE-79": 1042,
-        "CWE-862": 900,
+        "CWE-862": 901,
+        "CWE-639": 627,
         "CWE-89": 624,
-        "CWE-639": 624,
         "CWE-22": 537
       },
       "kev_count": 6,
@@ -100,14 +100,14 @@
         ],
         [
           "CWE-862",
-          900
-        ],
-        [
-          "CWE-89",
-          624
+          901
         ],
         [
           "CWE-639",
+          627
+        ],
+        [
+          "CWE-89",
           624
         ],
         [
@@ -132,8 +132,8 @@
         "Open Source"
       ],
       "severity_distribution": {
-        "High": 2715,
-        "Critical": 552,
+        "High": 2828,
+        "Critical": 564,
         "Medium": 3
       },
       "top_cwe_types": {
@@ -172,10 +172,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 6517,
+      "count": 6522,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-11-22T01:30:26.055Z",
+      "last_cve_date": "2026-11-22T04:45:17.884Z",
       "years_active": 5,
       "first_cve_year": 2022,
       "last_cve_year": 2026,
@@ -185,17 +185,17 @@
         "Security Researcher"
       ],
       "severity_distribution": {
-        "Medium": 3806,
-        "High": 1713,
+        "Medium": 3810,
+        "High": 1714,
         "Critical": 891,
         "Low": 107
       },
       "top_cwe_types": {
-        "CWE-74": 1739,
-        "CWE-89": 1273,
+        "CWE-74": 1742,
+        "CWE-89": 1276,
         "CWE-119": 955,
         "CWE-77": 726,
-        "CWE-94": 690
+        "CWE-94": 691
       },
       "kev_count": 2,
       "epss_high_count": 2,
@@ -203,11 +203,11 @@
       "top_cwes": [
         [
           "CWE-74",
-          1739
+          1742
         ],
         [
           "CWE-89",
-          1273
+          1276
         ],
         [
           "CWE-119",
@@ -219,17 +219,17 @@
         ],
         [
           "CWE-94",
-          690
+          691
         ]
       ]
     },
     {
       "name": "Patchstack",
       "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-      "count": 5666,
+      "count": 5685,
       "rank": 5,
       "first_cve_date": "2026-01-05T10:18:16.966Z",
-      "last_cve_date": "2026-11-20T19:00:14.759Z",
+      "last_cve_date": "2026-11-22T11:00:17.480Z",
       "years_active": 6,
       "first_cve_year": 2021,
       "last_cve_year": 2026,
@@ -239,17 +239,17 @@
         "Security Researcher"
       ],
       "severity_distribution": {
-        "Medium": 2369,
+        "Medium": 2375,
         "Critical": 695,
-        "High": 2593,
+        "High": 2606,
         "Low": 9
       },
       "top_cwe_types": {
-        "CWE-79": 1485,
-        "CWE-862": 1446,
+        "CWE-79": 1496,
+        "CWE-862": 1448,
         "CWE-98": 544,
-        "CWE-502": 452,
-        "CWE-89": 443
+        "CWE-502": 453,
+        "CWE-89": 446
       },
       "kev_count": 0,
       "epss_high_count": 0,
@@ -257,11 +257,11 @@
       "top_cwes": [
         [
           "CWE-79",
-          1485
+          1496
         ],
         [
           "CWE-862",
-          1446
+          1448
         ],
         [
           "CWE-98",
@@ -269,11 +269,11 @@
         ],
         [
           "CWE-502",
-          452
+          453
         ],
         [
           "CWE-89",
-          443
+          446
         ]
       ]
     },
@@ -550,10 +550,10 @@
     {
       "name": "WPScan",
       "assigner_org_id": "1bfdd5d7-9bf6-4a53-96ea-42e2716d7a81",
-      "count": 2392,
+      "count": 2403,
       "rank": 11,
       "first_cve_date": "2026-01-01T06:00:03.091Z",
-      "last_cve_date": "2026-11-21T06:00:13.550Z",
+      "last_cve_date": "2026-11-22T06:00:09.373Z",
       "years_active": 6,
       "first_cve_year": 2021,
       "last_cve_year": 2026,
@@ -569,11 +569,11 @@
         "Critical": 174
       },
       "top_cwe_types": {
-        "CWE-79": 436,
-        "CWE-862": 331,
-        "CWE-200": 288,
+        "CWE-79": 437,
+        "CWE-862": 333,
+        "CWE-200": 291,
         "CWE-639": 224,
-        "CWE-89": 152
+        "CWE-89": 153
       },
       "kev_count": 2,
       "epss_high_count": 0,
@@ -581,15 +581,15 @@
       "top_cwes": [
         [
           "CWE-79",
-          436
+          437
         ],
         [
           "CWE-862",
-          331
+          333
         ],
         [
           "CWE-200",
-          288
+          291
         ],
         [
           "CWE-639",
@@ -597,7 +597,7 @@
         ],
         [
           "CWE-89",
-          152
+          153
         ]
       ]
     },
@@ -712,10 +712,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 1454,
+      "count": 1455,
       "rank": 14,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-11-21T04:38:18.936Z",
+      "last_cve_date": "2026-11-22T05:05:52.562Z",
       "years_active": 22,
       "first_cve_year": 2005,
       "last_cve_year": 2026,
@@ -728,7 +728,7 @@
         "High": 530,
         "Critical": 68,
         "Low": 99,
-        "Medium": 757
+        "Medium": 758
       },
       "top_cwe_types": {
         "CWE-125": 100,
