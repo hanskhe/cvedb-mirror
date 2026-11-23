@@ -8,7 +8,7 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 407448,
+    "exact_match_cves": 407515,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 829,
     "normalized_match_cves": 1699,
@@ -20,7 +20,7 @@
   "exact_matches": [
     {
       "cna_name": "mitre",
-      "cve_count": 115607,
+      "cve_count": 115608,
       "kev_count": 332,
       "epss_high_count": 1747,
       "official_short_name": "mitre",
@@ -64,7 +64,7 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18149,
+      "cve_count": 18175,
       "kev_count": 6,
       "epss_high_count": 33,
       "official_short_name": "VulDB",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12150,
+      "cve_count": 12155,
       "kev_count": 34,
       "epss_high_count": 185,
       "official_short_name": "redhat",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3269,
+      "cve_count": 3278,
       "kev_count": 37,
       "epss_high_count": 185,
       "official_short_name": "apache",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1251,
+      "cve_count": 1252,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -481,6 +481,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "vmware",
+      "cve_count": 904,
+      "kev_count": 34,
+      "epss_high_count": 29,
+      "official_short_name": "vmware",
+      "official_org_name": "VMware by Broadcom",
+      "official_id": "CNA-2016-0025",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "TR-CERT",
       "cve_count": 904,
       "kev_count": 0,
@@ -488,17 +499,6 @@
       "official_short_name": "TR-CERT",
       "official_org_name": "TR-CERT (Computer Emergency Response Team of the Republic of T\u00fcrkiye)",
       "official_id": "CNA-2021-0034",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "vmware",
-      "cve_count": 901,
-      "kev_count": 34,
-      "epss_high_count": 29,
-      "official_short_name": "vmware",
-      "official_org_name": "VMware by Broadcom",
-      "official_id": "CNA-2016-0025",
       "match_type": "exact_short",
       "confidence": "high"
     },
@@ -537,7 +537,7 @@
     },
     {
       "cna_name": "CERTVDE",
-      "cve_count": 763,
+      "cve_count": 766,
       "kev_count": 0,
       "epss_high_count": 11,
       "official_short_name": "CERTVDE",
