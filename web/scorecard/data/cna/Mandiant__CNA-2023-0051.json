@@ -35,8 +35,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 114,
-  "active_cna_count": 379,
-  "percentile": 70.2,
+  "active_cna_count": 378,
+  "percentile": 70.1,
   "cna_scoring": [
     {
       "total_cves": 22,
@@ -59,6 +59,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-114198",
+      "assigningCna": "Mandiant",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-114197",
+      "assigningCna": "Mandiant",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-116606",
       "assigningCna": "Mandiant",
@@ -126,32 +152,6 @@
     },
     {
       "cveId": "CVE-2026-105044",
-      "assigningCna": "Mandiant",
-      "datePublished": "2026-10-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-114198",
-      "assigningCna": "Mandiant",
-      "datePublished": "2026-10-21",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-114197",
       "assigningCna": "Mandiant",
       "datePublished": "2026-10-21",
       "totalCveScore": 80,

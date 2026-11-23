@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "OTRS",
-    "total_cves": 17,
-    "total_cves_scored": 17,
+    "total_cves": 18,
+    "total_cves_scored": 18,
     "organizationName": "EasyVista-OTRS GmbH",
     "scope": "Vulnerabilities affecting the products, their security-relevant components, and functionality developed and maintained by companies within the EasyVista Group, including: <br/><br/><strong>OTRS</strong> - OTRS and features developed and maintained by OTRS GmbH; OTRS container distribution bundle, including container images customized, configured, or maintained by OTRS GmbH; OTRS SaaS and platform components developed and operated by OTRS GmbH; and security-relevant functionality and integrations developed and maintained by OTRS GmbH.<br/><br/><strong>EasyVista</strong> - EV Service Manager; EV Service Apps; EV Self Help; EV Observe; EV Digital Experience Monitoring; EV Reach; and EV Discovery.",
     "advisories": [
@@ -39,13 +39,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 126,
-  "active_cna_count": 379,
-  "percentile": 67.0,
+  "active_cna_count": 378,
+  "percentile": 66.9,
   "cna_scoring": [
     {
-      "total_cves": 17,
-      "total_cves_scored": 17,
-      "recent_cves_count": 17,
+      "total_cves": 18,
+      "total_cves_scored": 18,
+      "recent_cves_count": 18,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -63,32 +63,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-93581",
-      "assigningCna": "OTRS",
-      "datePublished": "2026-10-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-93582",
-      "assigningCna": "OTRS",
-      "datePublished": "2026-10-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-78358",
       "assigningCna": "OTRS",
@@ -143,6 +117,45 @@
     },
     {
       "cveId": "CVE-2026-78359",
+      "assigningCna": "OTRS",
+      "datePublished": "2026-10-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93581",
+      "assigningCna": "OTRS",
+      "datePublished": "2026-10-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93584",
+      "assigningCna": "OTRS",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93582",
       "assigningCna": "OTRS",
       "datePublished": "2026-10-12",
       "totalCveScore": 80,

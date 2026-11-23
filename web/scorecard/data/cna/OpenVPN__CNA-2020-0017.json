@@ -39,8 +39,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 126,
-  "active_cna_count": 379,
-  "percentile": 67.0,
+  "active_cna_count": 378,
+  "percentile": 66.9,
   "cna_scoring": [
     {
       "total_cves": 31,
@@ -63,6 +63,45 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-78043",
+      "assigningCna": "OpenVPN",
+      "datePublished": "2026-09-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-78221",
+      "assigningCna": "OpenVPN",
+      "datePublished": "2026-09-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-106017",
+      "assigningCna": "OpenVPN",
+      "datePublished": "2026-10-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-63649",
       "assigningCna": "OpenVPN",
@@ -132,45 +171,6 @@
       "cveId": "CVE-2026-105390",
       "assigningCna": "OpenVPN",
       "datePublished": "2026-10-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-78043",
-      "assigningCna": "OpenVPN",
-      "datePublished": "2026-09-07",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-78221",
-      "assigningCna": "OpenVPN",
-      "datePublished": "2026-09-07",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-106017",
-      "assigningCna": "OpenVPN",
-      "datePublished": "2026-10-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
