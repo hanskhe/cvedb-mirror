@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hp",
-    "total_cves": 34,
-    "total_cves_scored": 34,
+    "total_cves": 35,
+    "total_cves_scored": 35,
     "organizationName": "HP Inc.",
     "scope": "Issues with any HP-branded product, including computing software and hardware, imaging and printing, as well as HyperX, Teradici, Poly, and Plantronics branded devices.",
     "advisories": [
@@ -33,24 +33,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 94,
-  "active_cna_count": 378,
-  "percentile": 75.4,
+  "rank": 96,
+  "active_cna_count": 379,
+  "percentile": 74.9,
   "cna_scoring": [
     {
-      "total_cves": 34,
-      "total_cves_scored": 34,
-      "recent_cves_count": 34,
-      "overall_average_score": 84.56,
+      "total_cves": 35,
+      "total_cves_scored": 35,
+      "recent_cves_count": 35,
+      "overall_average_score": 84.43,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 5.0,
-      "average_severity_context": 14.56,
+      "average_software_identification": 4.86,
+      "average_severity_context": 14.57,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 50.0,
-      "percent_severity_and_impact": 97.06,
+      "percent_software_identification": 48.57,
+      "percent_severity_and_impact": 97.14,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -231,6 +231,19 @@
       "cveId": "CVE-2026-82346",
       "assigningCna": "hp",
       "datePublished": "2026-08-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-135452",
+      "assigningCna": "hp",
+      "datePublished": "2026-11-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

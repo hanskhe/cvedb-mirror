@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Tanium",
-    "total_cves": 112,
-    "total_cves_scored": 112,
+    "total_cves": 136,
+    "total_cves_scored": 136,
     "organizationName": "Tanium Inc.",
     "scope": "Vulnerabilities found in Tanium products and vulnerabilities in third-party software discovered by Tanium that are not in another CNA’s scope.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 126,
-  "active_cna_count": 378,
-  "percentile": 66.9,
+  "rank": 128,
+  "active_cna_count": 379,
+  "percentile": 66.5,
   "cna_scoring": [
     {
-      "total_cves": 112,
-      "total_cves_scored": 112,
-      "recent_cves_count": 112,
+      "total_cves": 136,
+      "total_cves_scored": 136,
+      "recent_cves_count": 136,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,6 +58,266 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-133880",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133959",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133864",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133955",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133877",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133863",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133960",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-133961",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134493",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134618",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134443",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134178",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134346",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134494",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134739",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134740",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134620",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134619",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134496",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-134746",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-116649",
       "assigningCna": "Tanium",
@@ -878,9 +1138,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-131696",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-131685",
       "assigningCna": "Tanium",
       "datePublished": "2026-11-18",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-131650",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -972,6 +1258,19 @@
       "cveId": "CVE-2026-86866",
       "assigningCna": "Tanium",
       "datePublished": "2026-11-18",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-135121",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1492,6 +1791,19 @@
       "cveId": "CVE-2026-14892",
       "assigningCna": "Tanium",
       "datePublished": "2026-09-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-120747",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-11-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

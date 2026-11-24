@@ -30,7 +30,7 @@
     },
     {
       "cna_name": "suse",
-      "total_improvement": 166.76470588235296,
+      "total_improvement": 161.76470588235296,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 94.11764705882352,
@@ -49,16 +49,16 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 55.00000000000001,
-          "improvement": 55.00000000000001
+          "last_period": 50.0,
+          "improvement": 50.0
         }
       },
-      "total_cves_analyzed": 182,
-      "analysis_days": 59
+      "total_cves_analyzed": 186,
+      "analysis_days": 60
     },
     {
       "cna_name": "INCIBE",
-      "total_improvement": 148.14814814814815,
+      "total_improvement": 141.93548387096774,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -77,40 +77,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 48.14814814814815,
-          "improvement": 48.14814814814815
+          "last_period": 41.93548387096774,
+          "improvement": 41.93548387096774
         }
       },
-      "total_cves_analyzed": 705,
-      "analysis_days": 181
-    },
-    {
-      "cna_name": "VulDB",
-      "total_improvement": 134.19354838709677,
-      "category_improvements": {
-        "root_cause_analysis": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "severity_and_impact": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "software_identification": {
-          "first_period": 0.0,
-          "last_period": 100.0,
-          "improvement": 100.0
-        },
-        "patch_information": {
-          "first_period": 0.0,
-          "last_period": 34.193548387096776,
-          "improvement": 34.193548387096776
-        }
-      },
-      "total_cves_analyzed": 12368,
-      "analysis_days": 568
+      "total_cves_analyzed": 711,
+      "analysis_days": 182
     },
     {
       "cna_name": "glibc",
@@ -141,6 +113,34 @@
       "analysis_days": 25
     },
     {
+      "cna_name": "VulDB",
+      "total_improvement": 130.0,
+      "category_improvements": {
+        "root_cause_analysis": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "severity_and_impact": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "software_identification": {
+          "first_period": 0.0,
+          "last_period": 100.0,
+          "improvement": 100.0
+        },
+        "patch_information": {
+          "first_period": 0.0,
+          "last_period": 30.0,
+          "improvement": 30.0
+        }
+      },
+      "total_cves_analyzed": 12398,
+      "analysis_days": 569
+    },
+    {
       "cna_name": "CIRCL",
       "total_improvement": 120.0,
       "category_improvements": {
@@ -165,8 +165,8 @@
           "improvement": 20.0
         }
       },
-      "total_cves_analyzed": 314,
-      "analysis_days": 60
+      "total_cves_analyzed": 345,
+      "analysis_days": 61
     },
     {
       "cna_name": "ibm",
@@ -249,27 +249,27 @@
           "improvement": 8.333333333333343
         }
       },
-      "total_cves_analyzed": 255,
-      "analysis_days": 131
+      "total_cves_analyzed": 257,
+      "analysis_days": 132
     },
     {
-      "cna_name": "hackerone",
-      "total_improvement": 105.39682539682539,
+      "cna_name": "Deltaww",
+      "total_improvement": 104.5,
       "category_improvements": {
         "root_cause_analysis": {
-          "first_period": 0.0,
+          "first_period": 87.5,
           "last_period": 100.0,
-          "improvement": 100.0
+          "improvement": 12.5
         },
         "severity_and_impact": {
-          "first_period": 85.71428571428572,
-          "last_period": 91.11111111111111,
-          "improvement": 5.396825396825392
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
         },
         "software_identification": {
           "first_period": 0.0,
-          "last_period": 0.0,
-          "improvement": 0.0
+          "last_period": 92.0,
+          "improvement": 92.0
         },
         "patch_information": {
           "first_period": 0.0,
@@ -277,11 +277,11 @@
           "improvement": 0.0
         }
       },
-      "total_cves_analyzed": 367,
-      "analysis_days": 89
+      "total_cves_analyzed": 73,
+      "analysis_days": 29
     }
   ],
-  "generated_at": "2026-11-23T11:17:08.738015",
+  "generated_at": "2026-11-24T12:58:16.482408",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10

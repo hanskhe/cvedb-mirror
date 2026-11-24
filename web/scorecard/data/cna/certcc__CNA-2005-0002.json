@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "certcc",
-    "total_cves": 197,
-    "total_cves_scored": 197,
+    "total_cves": 198,
+    "total_cves_scored": 198,
     "organizationName": "CERT/CC",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 352,
-  "active_cna_count": 378,
+  "rank": 353,
+  "active_cna_count": 379,
   "percentile": 7.1,
   "cna_scoring": [
     {
-      "total_cves": 197,
-      "total_cves_scored": 197,
-      "recent_cves_count": 197,
+      "total_cves": 198,
+      "total_cves_scored": 198,
+      "recent_cves_count": 198,
       "overall_average_score": 65.08,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,97 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-76647",
-      "assigningCna": "certcc",
-      "datePublished": "2026-08-19",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-110746",
-      "assigningCna": "certcc",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-110005",
-      "assigningCna": "certcc",
-      "datePublished": "2026-10-13",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-124959",
-      "assigningCna": "certcc",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-124916",
-      "assigningCna": "certcc",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6726",
-      "assigningCna": "certcc",
-      "datePublished": "2026-08-11",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6727",
-      "assigningCna": "certcc",
-      "datePublished": "2026-08-11",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-97406",
       "assigningCna": "certcc",
@@ -1180,6 +1089,97 @@
       "cveId": "CVE-2026-89282",
       "assigningCna": "certcc",
       "datePublished": "2026-09-22",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-76647",
+      "assigningCna": "certcc",
+      "datePublished": "2026-08-19",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110746",
+      "assigningCna": "certcc",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110005",
+      "assigningCna": "certcc",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124959",
+      "assigningCna": "certcc",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124916",
+      "assigningCna": "certcc",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6726",
+      "assigningCna": "certcc",
+      "datePublished": "2026-08-11",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6727",
+      "assigningCna": "certcc",
+      "datePublished": "2026-08-11",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2415,6 +2415,19 @@
       "cveId": "CVE-2026-5757",
       "assigningCna": "certcc",
       "datePublished": "2026-06-26",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-132615",
+      "assigningCna": "certcc",
+      "datePublished": "2026-11-23",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

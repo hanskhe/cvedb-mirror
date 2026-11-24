@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMZN",
-    "total_cves": 170,
-    "total_cves_scored": 170,
+    "total_cves": 172,
+    "total_cves_scored": 172,
     "organizationName": "Amazon",
     "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA’s scope.",
     "advisories": [
@@ -36,277 +36,30 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 11,
-  "active_cna_count": 378,
+  "active_cna_count": 379,
   "percentile": 97.4,
   "cna_scoring": [
     {
-      "total_cves": 170,
-      "total_cves_scored": 170,
-      "recent_cves_count": 170,
-      "overall_average_score": 98.71,
+      "total_cves": 172,
+      "total_cves_scored": 172,
+      "recent_cves_count": 172,
+      "overall_average_score": 98.72,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 9.71,
       "average_severity_context": 15.0,
-      "average_patchinfo": 9.0,
+      "average_patchinfo": 9.01,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 97.06,
+      "percent_software_identification": 97.09,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 90.0,
+      "percent_patchinfo": 90.12,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-110310",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-14",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-110812",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-110248",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-14",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119116",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-30",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119085",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-02",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119301",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-02",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119148",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-30",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119117",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-30",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119923",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-06",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119084",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-03",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119083",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-05",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119115",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-29",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119924",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-06",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119922",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-03",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-119086",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-10-30",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-124034",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-124848",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-10",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-124033",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-124035",
-      "assigningCna": "AMZN",
-      "datePublished": "2026-11-09",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
     {
       "cveId": "CVE-2026-97662",
       "assigningCna": "AMZN",
@@ -467,6 +220,32 @@
       "cveId": "CVE-2026-102552",
       "assigningCna": "AMZN",
       "datePublished": "2026-10-16",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-134069",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-23",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-134056",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-23",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1039,6 +818,253 @@
       "cveId": "CVE-2026-89066",
       "assigningCna": "AMZN",
       "datePublished": "2026-09-11",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-110310",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-14",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-110812",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-110248",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-14",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119116",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-30",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119085",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119301",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119148",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-30",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119117",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-30",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119923",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-06",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119084",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119083",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-05",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119115",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-29",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119924",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-06",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119922",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119086",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-10-30",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124034",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124848",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124033",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124035",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-11-09",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
