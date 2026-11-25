@@ -34,8 +34,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 111,
-  "active_cna_count": 379,
-  "percentile": 71.0,
+  "active_cna_count": 381,
+  "percentile": 71.1,
   "cna_scoring": [
     {
       "total_cves": 19,
@@ -58,32 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2026-112256",
-      "assigningCna": "OpenText",
-      "datePublished": "2026-10-29",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-112255",
-      "assigningCna": "OpenText",
-      "datePublished": "2026-10-29",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-12559",
       "assigningCna": "OpenText",
@@ -111,7 +85,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-1339",
+      "cveId": "CVE-2026-76580",
       "assigningCna": "OpenText",
       "datePublished": "2026-11-05",
       "totalCveScore": 80,
@@ -124,7 +98,33 @@
       }
     },
     {
-      "cveId": "CVE-2026-76580",
+      "cveId": "CVE-2026-112256",
+      "assigningCna": "OpenText",
+      "datePublished": "2026-10-29",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-112255",
+      "assigningCna": "OpenText",
+      "datePublished": "2026-10-29",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-1339",
       "assigningCna": "OpenText",
       "datePublished": "2026-11-05",
       "totalCveScore": 80,
