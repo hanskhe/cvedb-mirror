@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-23T13:26:35.745961",
-  "total_unique_cpes": 374514,
-  "total_cpe_entries": 2677241,
-  "total_cves_with_cpes": 326366,
-  "total_unique_vendors": 36606,
-  "total_unique_products": 114943,
+  "generated_at": "2026-11-25T09:03:01.960776",
+  "total_unique_cpes": 374539,
+  "total_cpe_entries": 2680825,
+  "total_cves_with_cpes": 326775,
+  "total_unique_vendors": 36609,
+  "total_unique_products": 114959,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 54235,
+      "count": 54236,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 8075,
+      "count": 8088,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -29,7 +29,7 @@
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
-      "count": 5091,
+      "count": 5097,
       "vendor": "microsoft",
       "product": "windows_server_2012",
       "type": "Operating System"
@@ -43,7 +43,7 @@
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
-      "count": 4835,
+      "count": 4841,
       "vendor": "microsoft",
       "product": "windows_server_2012",
       "type": "Operating System"
@@ -71,21 +71,21 @@
     },
     {
       "cpe": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
-      "count": 3441,
+      "count": 3442,
       "vendor": "debian",
       "product": "debian_linux",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x64:*",
-      "count": 3324,
+      "count": 3434,
       "vendor": "microsoft",
       "product": "windows_10_1809",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x86:*",
-      "count": 3267,
+      "count": 3376,
       "vendor": "microsoft",
       "product": "windows_10_1809",
       "type": "Operating System"
@@ -99,9 +99,23 @@
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2019:*:*:*:*:*:*:*:*",
-      "count": 3024,
+      "count": 3039,
       "vendor": "microsoft",
       "product": "windows_server_2019",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x64:*",
+      "count": 3019,
+      "vendor": "microsoft",
+      "product": "windows_10_1607",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
+      "count": 2972,
+      "vendor": "microsoft",
+      "product": "windows_10_1607",
       "type": "Operating System"
     },
     {
@@ -112,10 +126,10 @@
       "type": "Application"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x64:*",
-      "count": 2931,
+      "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:x64:*",
+      "count": 2926,
       "vendor": "microsoft",
-      "product": "windows_10_1607",
+      "product": "windows_11_24h2",
       "type": "Operating System"
     },
     {
@@ -126,38 +140,52 @@
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
-      "count": 2884,
+      "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:arm64:*",
+      "count": 2919,
       "vendor": "microsoft",
-      "product": "windows_10_1607",
+      "product": "windows_11_24h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2022:*:*:*:*:*:*:*:*",
-      "count": 2869,
+      "count": 2874,
       "vendor": "microsoft",
       "product": "windows_server_2022",
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:x64:*",
-      "count": 2805,
+      "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:x64:*",
+      "count": 2798,
       "vendor": "microsoft",
-      "product": "windows_11_24h2",
+      "product": "windows_11_25h2",
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:arm64:*",
-      "count": 2798,
+      "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:arm64:*",
+      "count": 2794,
       "vendor": "microsoft",
-      "product": "windows_11_24h2",
+      "product": "windows_11_25h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2016:*:*:*:*:*:*:*:*",
-      "count": 2779,
+      "count": 2793,
       "vendor": "microsoft",
       "product": "windows_server_2016",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:microsoft:windows_11_26h1:*:*:*:*:*:*:x64:*",
+      "count": 2782,
+      "vendor": "microsoft",
+      "product": "windows_11_26h1",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:microsoft:windows_11_26h1:*:*:*:*:*:*:arm64:*",
+      "count": 2780,
+      "vendor": "microsoft",
+      "product": "windows_11_26h1",
       "type": "Operating System"
     },
     {
@@ -175,31 +203,17 @@
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:x64:*",
-      "count": 2677,
+      "cpe": "cpe:2.3:o:microsoft:windows_10_22h2:*:*:*:*:*:*:x64:*",
+      "count": 2684,
       "vendor": "microsoft",
-      "product": "windows_11_25h2",
+      "product": "windows_10_22h2",
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:arm64:*",
-      "count": 2673,
+      "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:x64:*",
+      "count": 2656,
       "vendor": "microsoft",
-      "product": "windows_11_25h2",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_26h1:*:*:*:*:*:*:x64:*",
-      "count": 2668,
-      "vendor": "microsoft",
-      "product": "windows_11_26h1",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_11_26h1:*:*:*:*:*:*:arm64:*",
-      "count": 2666,
-      "vendor": "microsoft",
-      "product": "windows_11_26h1",
+      "product": "windows_10_21h2",
       "type": "Operating System"
     },
     {
@@ -210,57 +224,43 @@
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:microsoft:windows_10_22h2:*:*:*:*:*:*:x64:*",
-      "count": 2570,
-      "vendor": "microsoft",
-      "product": "windows_10_22h2",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:x64:*",
-      "count": 2542,
-      "vendor": "microsoft",
-      "product": "windows_10_21h2",
-      "type": "Operating System"
-    },
-    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_22h2:*:*:*:*:*:*:arm64:*",
-      "count": 2508,
+      "count": 2622,
       "vendor": "microsoft",
       "product": "windows_10_22h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_10_22h2:*:*:*:*:*:*:x86:*",
-      "count": 2506,
+      "count": 2619,
       "vendor": "microsoft",
       "product": "windows_10_22h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:arm64:*",
-      "count": 2478,
+      "count": 2592,
       "vendor": "microsoft",
       "product": "windows_10_21h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:x86:*",
-      "count": 2478,
+      "count": 2591,
       "vendor": "microsoft",
       "product": "windows_10_21h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_11_23h2:*:*:*:*:*:*:x64:*",
-      "count": 2422,
+      "count": 2541,
       "vendor": "microsoft",
       "product": "windows_11_23h2",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_11_23h2:*:*:*:*:*:*:arm64:*",
-      "count": 2416,
+      "count": 2535,
       "vendor": "microsoft",
       "product": "windows_11_23h2",
       "type": "Operating System"
@@ -298,6 +298,13 @@
       "count": 2071,
       "vendor": "debian",
       "product": "debian_linux",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:microsoft:windows_server_2025:*:*:*:*:*:*:x64:*",
+      "count": 2065,
+      "vendor": "microsoft",
+      "product": "windows_server_2025",
       "type": "Operating System"
     },
     {
@@ -348,13 +355,6 @@
       "vendor": "google",
       "product": "android",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_server_2025:*:*:*:*:*:*:x64:*",
-      "count": 1937,
-      "vendor": "microsoft",
-      "product": "windows_server_2025",
-      "type": "Operating System"
     }
   ],
   "top_vendors": [
@@ -368,11 +368,11 @@
     },
     {
       "vendor": "microsoft",
-      "count": 190609
+      "count": 193421
     },
     {
       "vendor": "linux",
-      "count": 167017
+      "count": 167018
     },
     {
       "vendor": "adobe",
@@ -380,7 +380,7 @@
     },
     {
       "vendor": "apple",
-      "count": 96447
+      "count": 96452
     },
     {
       "vendor": "mozilla",
@@ -396,11 +396,11 @@
     },
     {
       "vendor": "oracle",
-      "count": 72852
+      "count": 72870
     },
     {
       "vendor": "google",
-      "count": 66864
+      "count": 66877
     },
     {
       "vendor": "intel",
@@ -412,7 +412,7 @@
     },
     {
       "vendor": "samsung",
-      "count": 39545
+      "count": 39648
     },
     {
       "vendor": "f5",
@@ -420,7 +420,7 @@
     },
     {
       "vendor": "redhat",
-      "count": 34914
+      "count": 34978
     },
     {
       "vendor": "hp",
@@ -428,7 +428,7 @@
     },
     {
       "vendor": "dell",
-      "count": 31030
+      "count": 31210
     },
     {
       "vendor": "apache",
@@ -442,7 +442,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 166779
+      "count": 166780
     },
     {
       "product": "ios",
@@ -454,11 +454,11 @@
     },
     {
       "product": "android",
-      "count": 60151
+      "count": 60254
     },
     {
       "product": "chrome",
-      "count": 38315
+      "count": 38328
     },
     {
       "product": "firefox",
@@ -506,7 +506,7 @@
     },
     {
       "product": "debian_linux",
-      "count": 16379
+      "count": 16380
     },
     {
       "product": "itunes",
@@ -524,12 +524,12 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 1377869,
-      "percentage": 51.5
+      "count": 1378228,
+      "percentage": 51.4
     },
     {
       "type": "Operating System",
-      "count": 1244271,
+      "count": 1247496,
       "percentage": 46.5
     },
     {

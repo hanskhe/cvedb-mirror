@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T13:29:19.665967Z",
-  "catalog_version": "2026.11.20",
-  "total_kev_cves": 1790,
+  "generated_at": "2026-11-25T09:05:48.021046Z",
+  "catalog_version": "2026.11.24",
+  "total_kev_cves": 1795,
   "statistics": {
-    "added_last_30_days": 34,
-    "added_last_90_days": 115,
-    "ransomware_associated": 361
+    "added_last_30_days": 39,
+    "added_last_90_days": 113,
+    "ransomware_associated": 362
   },
   "by_year_added": {
     "2021": 311,
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 306
+    "2026": 311
   },
   "by_year_cve": {
     "2002": 1,
@@ -39,7 +39,7 @@
     "2023": 166,
     "2024": 166,
     "2025": 190,
-    "2026": 216
+    "2026": 221
   },
   "by_year_published": {
     "2002": 1,
@@ -65,11 +65,13 @@
     "2023": 166,
     "2024": 161,
     "2025": 199,
-    "2026": 226
+    "2026": 230
   },
   "awaiting_nvd": {
-    "count": 0,
-    "cve_ids": []
+    "count": 1,
+    "cve_ids": [
+      "CVE-2026-132165"
+    ]
   },
   "timeline": {
     "2021-11": 291,
@@ -132,7 +134,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 24
+    "2026-11": 29
   },
   "top_vendors": [
     [
@@ -324,12 +326,12 @@
       82
     ],
     [
-      "CWE-94",
+      "CWE-502",
       74
     ],
     [
-      "CWE-502",
-      73
+      "CWE-94",
+      74
     ],
     [
       "CWE-287",
@@ -368,19 +370,59 @@
       31
     ],
     [
+      "CWE-918",
+      25
+    ],
+    [
       "CWE-200",
       25
     ],
     [
       "CWE-434",
       24
-    ],
-    [
-      "CWE-918",
-      24
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2026-132224",
+      "vendor": "Optimizely",
+      "product": "Web Experimentation",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-131914",
+      "vendor": "Idunno",
+      "product": "AntiCsrf",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-132165",
+      "vendor": "Drupal",
+      "product": "Core",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-133968",
+      "vendor": "Project MONAI",
+      "product": "MONAI Label",
+      "date_added": "2026-11-23",
+      "due_date": "2026-11-26",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-134624",
+      "vendor": "N-able",
+      "product": "MailAssure",
+      "date_added": "2026-11-23",
+      "due_date": "2026-11-26",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-129448",
       "vendor": "Apache",
@@ -419,7 +461,7 @@
       "product": "DiskStation Manager (DSM)",
       "date_added": "2026-11-18",
       "due_date": "2026-11-21",
-      "ransomware": "Unknown"
+      "ransomware": "Known"
     },
     {
       "cve_id": "CVE-2026-40217",
@@ -499,46 +541,6 @@
       "product": "Multiple Products",
       "date_added": "2026-11-10",
       "due_date": "2026-11-13",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-116606",
-      "vendor": "Barracuda Networks",
-      "product": "Barracuda Email Security Gateway (ESG)",
-      "date_added": "2026-11-10",
-      "due_date": "2026-11-13",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-125350",
-      "vendor": "Google",
-      "product": "Chromium",
-      "date_added": "2026-11-10",
-      "due_date": "2026-11-24",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-102895",
-      "vendor": "GPUStack",
-      "product": "GPUStack",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-123158",
-      "vendor": "OpenBSD",
-      "product": "OpenSSH",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-116779",
-      "vendor": "SignalWire",
-      "product": "FreeSwitch",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
       "ransomware": "Unknown"
     }
   ]

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T13:29:20.239819Z",
-  "data_as_of": "2026-11-23T13:21:06.743154Z",
+  "generated_at": "2026-11-25T09:05:48.597893Z",
+  "data_as_of": "2026-11-25T08:58:03.302025Z",
   "data_age_hours": 0.0,
-  "source_last_run": "2026-11-23T13:12:01.706119+00:00",
-  "source_age_hours": 0.2,
-  "source_cve_count": 430626,
+  "source_last_run": "2026-11-25T08:41:16.612587+00:00",
+  "source_age_hours": 0.3,
+  "source_cve_count": 431975,
   "current_year": 2026,
   "yearly_summary": {
     "years": {
@@ -118,7 +118,7 @@
       },
       "2026": {
         "year": 2026,
-        "total_cves": 102552
+        "total_cves": 103881
       }
     }
   },
@@ -342,24 +342,24 @@
       },
       {
         "year": 2026,
-        "cves": 102552,
-        "growth_rate": 143.1,
-        "growth_absolute": 60360,
+        "cves": 103881,
+        "growth_rate": 145.0,
+        "growth_absolute": 61473,
         "is_ytd": true,
-        "projected_full_year": 114469,
-        "ytd_vs_prev_full": 113.0,
-        "ytd_vs_prev_ytd": 143.1,
-        "prev_year_ytd_actual": 42192,
-        "growth_rate_3yr_avg": 143.1
+        "projected_full_year": 115247,
+        "ytd_vs_prev_full": 115.7,
+        "ytd_vs_prev_ytd": 145.0,
+        "prev_year_ytd_actual": 42408,
+        "growth_rate_3yr_avg": 145.0
       }
     ]
   },
   "cvss_analysis": {
     "score_distribution": {
       "v2.0": {
-        "10.0": 9091,
-        "5.0": 27066,
-        "7.5": 27463,
+        "10.0": 9098,
+        "5.0": 27075,
+        "7.5": 27474,
         "4.6": 5470,
         "5.1": 1179,
         "3.7": 152,
@@ -376,11 +376,11 @@
         "3.6": 871,
         "7.6": 1265,
         "7.1": 1040,
-        "4.0": 9264,
-        "9.0": 3908,
-        "4.3": 27271,
+        "4.0": 9276,
+        "9.0": 3914,
+        "4.3": 27273,
         "3.5": 7524,
-        "3.3": 1540,
+        "3.3": 1542,
         "6.8": 15531,
         "5.4": 1613,
         "1.7": 453,
@@ -388,20 +388,20 @@
         "1.9": 882,
         "3.8": 16,
         "8.5": 487,
-        "8.3": 525,
+        "8.3": 528,
         "6.6": 198,
         "9.4": 125,
-        "5.8": 4318,
+        "5.8": 4322,
         "8.8": 46,
-        "6.5": 9802,
+        "6.5": 9811,
         "4.4": 1031,
         "5.2": 587,
         "4.8": 95,
         "6.3": 149,
         "6.0": 1016,
-        "4.7": 364,
+        "4.7": 365,
         "1.0": 57,
-        "5.5": 1801,
+        "5.5": 1803,
         "5.6": 55,
         "6.1": 461,
         "5.7": 56,
@@ -434,32 +434,32 @@
         "2.2": 3
       },
       "v3.0": {
-        "7.5": 6195,
-        "9.8": 6073,
+        "7.5": 6196,
+        "9.8": 6075,
         "5.6": 88,
-        "6.1": 3793,
-        "5.9": 1084,
+        "6.1": 3794,
+        "5.9": 1085,
         "4.2": 121,
         "3.7": 243,
         "6.3": 339,
-        "6.5": 3561,
-        "5.3": 1903,
+        "6.5": 3565,
+        "5.3": 1905,
         "6.8": 622,
         "4.9": 332,
         "5.5": 2547,
-        "7.8": 6638,
+        "7.8": 6655,
         "3.3": 668,
         "8.1": 1079,
-        "7.3": 444,
+        "7.3": 446,
         "4.3": 1492,
         "8.3": 148,
-        "8.6": 460,
+        "8.6": 461,
         "10.0": 282,
         "8.0": 277,
         "6.7": 325,
         "9.1": 491,
-        "7.2": 783,
-        "8.8": 5677,
+        "7.2": 785,
+        "8.8": 5678,
         "9.9": 163,
         "8.5": 156,
         "8.7": 42,
@@ -474,7 +474,7 @@
         "7.6": 176,
         "5.4": 2243,
         "5.1": 95,
-        "7.0": 549,
+        "7.0": 550,
         "7.7": 167,
         "2.5": 39,
         "4.7": 412,
@@ -484,7 +484,7 @@
         "6.6": 139,
         "9.0": 151,
         "9.6": 181,
-        "6.4": 215,
+        "6.4": 217,
         "4.6": 186,
         "7.1": 540,
         "4.1": 52,
@@ -518,84 +518,84 @@
         "0.0": 4
       },
       "v3.1": {
-        "5.3": 12322,
-        "7.5": 25028,
-        "9.8": 21894,
-        "8.2": 2648,
-        "7.8": 22345,
-        "5.5": 17401,
-        "7.1": 7817,
-        "8.8": 21076,
-        "7.3": 5918,
-        "9.1": 3900,
-        "3.3": 2119,
-        "6.5": 20630,
-        "6.1": 10764,
-        "4.8": 3175,
-        "7.0": 2266,
-        "5.9": 4231,
-        "8.4": 1706,
-        "3.7": 1522,
-        "4.7": 2456,
-        "7.4": 1599,
+        "5.3": 12379,
+        "7.5": 25095,
+        "9.8": 21919,
+        "8.2": 2652,
+        "7.8": 22376,
+        "5.5": 17427,
+        "7.1": 7838,
+        "8.8": 21178,
+        "7.3": 5929,
+        "9.1": 3924,
+        "3.3": 2133,
+        "6.5": 20716,
+        "6.1": 10784,
+        "4.8": 3185,
+        "7.0": 2276,
+        "5.9": 4241,
+        "8.4": 1711,
+        "3.7": 1527,
+        "4.7": 2472,
+        "7.4": 1610,
         "4.5": 264,
-        "4.3": 13017,
-        "5.0": 1013,
-        "6.3": 6436,
-        "5.6": 478,
-        "8.1": 6452,
-        "7.2": 5520,
-        "5.4": 11922,
-        "4.6": 1063,
-        "6.8": 2600,
-        "4.4": 2103,
-        "9.9": 1709,
-        "5.8": 725,
-        "7.7": 1492,
-        "5.7": 820,
-        "6.0": 679,
-        "9.6": 1563,
+        "4.3": 13061,
+        "5.0": 1016,
+        "6.3": 6451,
+        "5.6": 480,
+        "8.1": 6476,
+        "7.2": 5525,
+        "5.4": 12044,
+        "4.6": 1066,
+        "6.8": 2619,
+        "4.4": 2115,
+        "9.9": 1728,
+        "5.8": 727,
+        "7.7": 1496,
+        "5.7": 821,
+        "6.0": 681,
+        "9.6": 1592,
         "6.7": 2691,
-        "9.0": 743,
-        "10.0": 1469,
-        "7.6": 1309,
-        "9.3": 1011,
-        "4.9": 2370,
-        "4.2": 789,
-        "4.0": 748,
-        "3.4": 163,
-        "8.0": 1494,
-        "6.6": 873,
-        "6.4": 4487,
-        "8.6": 1686,
-        "6.2": 1227,
-        "5.1": 429,
-        "4.1": 460,
-        "2.5": 306,
+        "9.0": 746,
+        "10.0": 1480,
+        "7.6": 1311,
+        "9.3": 1013,
+        "4.9": 2376,
+        "4.2": 796,
+        "4.0": 750,
+        "3.4": 165,
+        "8.0": 1495,
+        "6.6": 878,
+        "6.4": 4491,
+        "8.6": 1690,
+        "6.2": 1230,
+        "5.1": 431,
+        "4.1": 462,
+        "2.5": 308,
         "7.9": 195,
         "8.9": 113,
-        "2.7": 756,
-        "2.4": 801,
-        "3.5": 2549,
-        "8.3": 1267,
-        "3.1": 1136,
-        "3.8": 405,
+        "2.7": 757,
+        "2.4": 805,
+        "3.5": 2558,
+        "8.3": 1270,
+        "3.1": 1142,
+        "3.8": 406,
         "1.9": 60,
         "2.6": 196,
         "3.6": 123,
         "2.8": 118,
         "9.4": 314,
-        "5.2": 193,
-        "8.7": 716,
+        "5.2": 194,
+        "8.7": 725,
         "2.1": 17,
         "8.5": 1080,
         "2.2": 152,
         "2.3": 134,
         "6.9": 178,
         "1.6": 8,
-        "3.9": 187,
+        "3.9": 188,
         "1.8": 31,
-        "2.0": 116,
+        "2.0": 117,
         "2.9": 186,
         "3.0": 97,
         "3.2": 100,
@@ -604,65 +604,65 @@
         "9.2": 9
       },
       "v4.0": {
-        "7.1": 2424,
-        "8.7": 4307,
-        "10.0": 411,
-        "7.3": 586,
-        "9.3": 2326,
-        "8.6": 1529,
-        "6.9": 4311,
-        "5.9": 385,
-        "5.1": 2652,
-        "8.8": 883,
-        "5.3": 4612,
-        "2.1": 3451,
-        "9.2": 651,
-        "6.3": 1163,
-        "5.5": 2899,
-        "5.2": 98,
-        "9.1": 216,
-        "2.0": 1126,
-        "4.8": 982,
+        "7.1": 2453,
+        "8.7": 4351,
+        "10.0": 417,
+        "7.3": 598,
+        "9.3": 2340,
+        "8.6": 1557,
+        "6.9": 4376,
+        "5.9": 392,
+        "5.1": 2711,
+        "8.8": 886,
+        "5.3": 4695,
+        "2.1": 3482,
+        "9.2": 668,
+        "6.3": 1193,
+        "5.5": 2909,
+        "5.2": 99,
+        "9.1": 223,
+        "2.0": 1143,
+        "4.8": 1005,
         "5.4": 313,
-        "2.3": 741,
-        "8.2": 759,
-        "9.4": 589,
-        "1.9": 854,
+        "2.3": 762,
+        "8.2": 765,
+        "9.4": 591,
+        "1.9": 857,
         "9.0": 95,
-        "1.0": 62,
-        "8.5": 1296,
-        "7.5": 238,
-        "8.9": 393,
-        "5.7": 240,
-        "7.0": 557,
-        "7.7": 559,
-        "6.7": 159,
-        "6.8": 713,
-        "4.6": 271,
+        "1.0": 63,
+        "8.5": 1317,
+        "7.5": 239,
+        "8.9": 396,
+        "5.7": 246,
+        "7.0": 566,
+        "7.7": 576,
+        "6.7": 160,
+        "6.8": 728,
+        "4.6": 275,
         "8.1": 50,
         "1.8": 76,
-        "8.4": 664,
+        "8.4": 679,
         "6.4": 120,
         "1.3": 209,
-        "6.0": 587,
-        "8.3": 528,
+        "6.0": 596,
+        "8.3": 544,
         "5.6": 98,
-        "7.4": 1002,
+        "7.4": 1004,
         "1.2": 73,
-        "7.2": 411,
-        "6.2": 58,
+        "7.2": 413,
+        "6.2": 61,
         "7.8": 73,
         "6.1": 165,
-        "9.5": 119,
+        "9.5": 120,
         "6.5": 22,
         "9.9": 36,
-        "7.6": 276,
-        "5.8": 175,
+        "7.6": 285,
+        "5.8": 182,
         "4.3": 49,
         "4.1": 55,
-        "4.9": 75,
-        "2.4": 84,
-        "6.6": 107,
+        "4.9": 76,
+        "2.4": 87,
+        "6.6": 108,
         "4.4": 26,
         "5.0": 17,
         "2.7": 77,
@@ -692,27 +692,27 @@
         "0.4": 1
       }
     },
-    "kev_global_count": 1790,
-    "total_scores_all_versions": 582658
+    "kev_global_count": 1794,
+    "total_scores_all_versions": 584383
   },
   "epss_analysis": {
     "statistics": {
-      "average_score": 0.025744,
-      "gt_0_1": 17578,
-      "gt_0_3": 7200,
-      "gt_0_5": 4400,
-      "gt_0_7": 2515,
-      "gt_0_9": 837
+      "average_score": 0.025922,
+      "gt_0_1": 17782,
+      "gt_0_3": 7272,
+      "gt_0_5": 4445,
+      "gt_0_7": 2540,
+      "gt_0_9": 854
     },
-    "total_cves_with_epss": 411249,
-    "total_cves_with_epss_matched": 410570,
-    "epss_without_published_record": 679
+    "total_cves_with_epss": 411908,
+    "total_cves_with_epss_matched": 411228,
+    "epss_without_published_record": 680
   },
   "kev_analysis": {
     "statistics": {
-      "added_last_30_days": 34,
-      "added_last_90_days": 115,
-      "ransomware_associated": 361
+      "added_last_30_days": 39,
+      "added_last_90_days": 113,
+      "ransomware_associated": 362
     },
     "by_year_added": {
       "2021": 311,
@@ -720,7 +720,7 @@
       "2023": 187,
       "2024": 186,
       "2025": 245,
-      "2026": 306
+      "2026": 311
     },
     "by_year_published": {
       "2002": 1,
@@ -746,7 +746,7 @@
       "2023": 166,
       "2024": 161,
       "2025": 199,
-      "2026": 226
+      "2026": 230
     }
   },
   "cwe_analysis": {
@@ -754,31 +754,31 @@
       {
         "id": "79",
         "name": "CWE-79: Cross-site Scripting (XSS)",
-        "count": 56722,
+        "count": 56947,
         "description": "Cross-site Scripting (XSS)"
       },
       {
         "id": "89",
         "name": "CWE-89: SQL Injection",
-        "count": 25504,
+        "count": 25526,
         "description": "SQL Injection"
       },
       {
         "id": "787",
         "name": "CWE-787: Out-of-bounds Write",
-        "count": 18160,
+        "count": 18193,
         "description": "Out-of-bounds Write"
       },
       {
         "id": "20",
         "name": "CWE-20: Improper Input Validation",
-        "count": 14269,
+        "count": 14288,
         "description": "Improper Input Validation"
       },
       {
         "id": "862",
         "name": "CWE-862: Missing Authorization",
-        "count": 13129,
+        "count": 13215,
         "description": "Missing Authorization"
       },
       {
@@ -790,29 +790,29 @@
       {
         "id": "22",
         "name": "CWE-22: Path Traversal",
-        "count": 12684,
+        "count": 12720,
         "description": "Path Traversal"
       },
       {
         "id": "125",
         "name": "CWE-125: Out-of-bounds Read",
-        "count": 12555,
+        "count": 12592,
         "description": "Out-of-bounds Read"
       },
       {
         "id": "200",
         "name": "CWE-200: Information Exposure",
-        "count": 12535,
+        "count": 12564,
         "description": "Information Exposure"
       },
       {
         "id": "416",
         "name": "CWE-416: Use After Free",
-        "count": 11994,
+        "count": 12042,
         "description": "Use After Free"
       }
     ],
-    "total_cves_with_cwe": 290726,
+    "total_cves_with_cwe": 291571,
     "total_unique_cwes": 69
   },
   "cna_analysis": {
@@ -826,7 +826,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "1999-09-29T00:00:00.000Z",
         "last_cve_date": "2026-11-23T07:41:10.829Z",
-        "days_since_last_cve": 0,
+        "days_since_last_cve": 2,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -868,22 +868,22 @@
         ],
         "severity_distribution": {},
         "top_cwe_types": {},
-        "kev_count": 332,
-        "epss_high_count": 1747,
-        "epss_elevated_count": 7315,
+        "kev_count": 334,
+        "epss_high_count": 1767,
+        "epss_elevated_count": 7433,
         "top_cwes": [],
         "rank": 1
       },
       {
         "name": "GitHub_M",
         "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-        "count": 23054,
+        "count": 23097,
         "years_active": 8,
         "first_cve_year": 2019,
         "last_cve_year": 2026,
         "first_cve_date": "2019-09-30T21:39:38.000Z",
-        "last_cve_date": "2026-11-20T20:17:00.460Z",
-        "days_since_last_cve": 2,
+        "last_cve_date": "2026-11-25T00:52:29.863Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -896,7 +896,7 @@
           "2022": 1293,
           "2024": 2120,
           "2023": 1771,
-          "2026": 13415,
+          "2026": 13458,
           "2025": 2866
         },
         "years_active_list": [
@@ -906,20 +906,20 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 43,
-        "epss_high_count": 183,
-        "epss_elevated_count": 438,
+        "epss_high_count": 186,
+        "epss_elevated_count": 440,
         "top_cwes": [],
         "rank": 2
       },
       {
         "name": "Patchstack",
         "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-        "count": 19835,
+        "count": 19924,
         "years_active": 6,
         "first_cve_year": 2021,
         "last_cve_year": 2026,
         "first_cve_date": "2021-09-09T11:18:20.862Z",
-        "last_cve_date": "2026-11-22T16:00:20.541Z",
+        "last_cve_date": "2026-11-25T08:50:54.266Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -930,7 +930,7 @@
           "2022": 381,
           "2021": 30,
           "2023": 2146,
-          "2026": 5708,
+          "2026": 5797,
           "2024": 4564,
           "2025": 7006
         },
@@ -955,7 +955,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2024-02-20T12:52:56.753Z",
         "last_cve_date": "2026-11-20T07:02:25.233Z",
-        "days_since_last_cve": 3,
+        "days_since_last_cve": 5,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -981,12 +981,12 @@
       {
         "name": "VulDB",
         "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-        "count": 18175,
+        "count": 18242,
         "years_active": 5,
         "first_cve_year": 2022,
         "last_cve_year": 2026,
         "first_cve_date": "2022-03-28T18:00:15.000Z",
-        "last_cve_date": "2026-11-23T12:45:14.403Z",
+        "last_cve_date": "2026-11-25T06:45:13.355Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -997,7 +997,7 @@
           "2024": 2930,
           "2023": 1931,
           "2022": 853,
-          "2026": 6560,
+          "2026": 6627,
           "2025": 5901
         },
         "years_active_list": [
@@ -1008,20 +1008,20 @@
         "top_cwe_types": {},
         "kev_count": 6,
         "epss_high_count": 33,
-        "epss_elevated_count": 281,
+        "epss_elevated_count": 284,
         "top_cwes": [],
         "rank": 5
       },
       {
         "name": "microsoft",
         "assigner_org_id": "f38d906d-7342-40ea-92c1-6c4a2c6478c8",
-        "count": 17053,
+        "count": 17070,
         "years_active": 22,
         "first_cve_year": 2005,
         "last_cve_year": 2026,
         "first_cve_date": "2005-04-13T04:00:00.000Z",
-        "last_cve_date": "2026-11-16T19:27:32.501Z",
-        "days_since_last_cve": 6,
+        "last_cve_date": "2026-11-24T20:11:58.472Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1049,7 +1049,7 @@
           "2022": 931,
           "2024": 1095,
           "2025": 1244,
-          "2026": 5535
+          "2026": 5552
         },
         "years_active_list": [
           2005,
@@ -1058,8 +1058,8 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 382,
-        "epss_high_count": 555,
-        "epss_elevated_count": 3678,
+        "epss_high_count": 559,
+        "epss_elevated_count": 3679,
         "top_cwes": [],
         "rank": 6
       },
@@ -1072,7 +1072,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2008-10-14T21:00:00.000Z",
         "last_cve_date": "2026-11-17T21:34:25.459Z",
-        "days_since_last_cve": 5,
+        "days_since_last_cve": 7,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1106,7 +1106,7 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 44,
-        "epss_high_count": 116,
+        "epss_high_count": 117,
         "epss_elevated_count": 221,
         "top_cwes": [],
         "rank": 7
@@ -1114,12 +1114,12 @@
       {
         "name": "VulnCheck",
         "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-        "count": 12592,
+        "count": 12871,
         "years_active": 4,
         "first_cve_year": 2023,
         "last_cve_year": 2026,
         "first_cve_date": "2023-04-19T19:10:12.523Z",
-        "last_cve_date": "2026-11-22T21:22:58.239Z",
+        "last_cve_date": "2026-11-25T03:21:35.586Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -1128,7 +1128,7 @@
         ],
         "cves_by_year": {
           "2025": 1073,
-          "2026": 11471,
+          "2026": 11750,
           "2023": 10,
           "2024": 38
         },
@@ -1139,20 +1139,20 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 19,
-        "epss_high_count": 34,
-        "epss_elevated_count": 89,
+        "epss_high_count": 40,
+        "epss_elevated_count": 158,
         "top_cwes": [],
         "rank": 8
       },
       {
         "name": "Wordfence",
         "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-        "count": 12373,
+        "count": 12374,
         "years_active": 6,
         "first_cve_year": 2021,
         "last_cve_year": 2026,
         "first_cve_date": "2021-07-07T12:20:58.388Z",
-        "last_cve_date": "2026-11-21T18:31:29.545Z",
+        "last_cve_date": "2026-11-24T05:32:37.733Z",
         "days_since_last_cve": 1,
         "activity_status": "Active",
         "is_official": true,
@@ -1163,7 +1163,7 @@
           "2024": 3524,
           "2025": 3450,
           "2023": 879,
-          "2026": 4197,
+          "2026": 4198,
           "2021": 154,
           "2022": 169
         },
@@ -1175,19 +1175,19 @@
         "top_cwe_types": {},
         "kev_count": 1,
         "epss_high_count": 58,
-        "epss_elevated_count": 143,
+        "epss_elevated_count": 145,
         "top_cwes": [],
         "rank": 9
       },
       {
         "name": "redhat",
         "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-        "count": 12155,
+        "count": 12163,
         "years_active": 22,
         "first_cve_year": 2005,
         "last_cve_year": 2026,
         "first_cve_date": "2005-02-07T05:00:00.000Z",
-        "last_cve_date": "2026-11-23T10:50:44.687Z",
+        "last_cve_date": "2026-11-25T04:10:58.978Z",
         "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
@@ -1216,7 +1216,7 @@
           "2023": 446,
           "2024": 306,
           "2025": 300,
-          "2026": 1460
+          "2026": 1468
         },
         "years_active_list": [
           2005,
@@ -1226,7 +1226,7 @@
         "top_cwe_types": {},
         "kev_count": 34,
         "epss_high_count": 185,
-        "epss_elevated_count": 784,
+        "epss_elevated_count": 786,
         "top_cwes": [],
         "rank": 10
       },
@@ -1239,7 +1239,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2012-01-18T20:00:00.000Z",
         "last_cve_date": "2026-11-19T21:11:18.991Z",
-        "days_since_last_cve": 3,
+        "days_since_last_cve": 5,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1277,13 +1277,13 @@
       {
         "name": "adobe",
         "assigner_org_id": "078d4453-3bcd-4900-85e6-15281da43538",
-        "count": 7898,
+        "count": 8010,
         "years_active": 18,
         "first_cve_year": 2009,
         "last_cve_year": 2026,
         "first_cve_date": "2009-10-13T10:00:00.000Z",
-        "last_cve_date": "2026-11-10T21:56:50.842Z",
-        "days_since_last_cve": 12,
+        "last_cve_date": "2026-11-24T18:39:23.225Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1303,7 +1303,7 @@
           "2019": 704,
           "2020": 349,
           "2023": 681,
-          "2026": 1134,
+          "2026": 1246,
           "2021": 431,
           "2022": 460,
           "2024": 753,
@@ -1317,7 +1317,7 @@
         "top_cwe_types": {},
         "kev_count": 77,
         "epss_high_count": 122,
-        "epss_elevated_count": 704,
+        "epss_elevated_count": 705,
         "top_cwes": [],
         "rank": 12
       },
@@ -1330,7 +1330,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2010-01-20T16:00:00.000Z",
         "last_cve_date": "2026-11-20T23:30:53.818Z",
-        "days_since_last_cve": 2,
+        "days_since_last_cve": 4,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1370,13 +1370,13 @@
       {
         "name": "Chrome",
         "assigner_org_id": "ebfee0ef-53dd-4cf3-9e2a-08a5bd7a7e28",
-        "count": 7650,
+        "count": 7651,
         "years_active": 16,
         "first_cve_year": 2011,
         "last_cve_year": 2026,
         "first_cve_date": "2011-05-16T17:00:00.000Z",
-        "last_cve_date": "2026-11-17T20:39:34.277Z",
-        "days_since_last_cve": 5,
+        "last_cve_date": "2026-11-23T23:29:54.386Z",
+        "days_since_last_cve": 1,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1398,7 +1398,7 @@
           "2023": 297,
           "2022": 357,
           "2025": 195,
-          "2026": 4175
+          "2026": 4176
         },
         "years_active_list": [
           2011,
@@ -1421,7 +1421,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2007-11-08T02:00:00.000Z",
         "last_cve_date": "2026-11-19T19:56:49.032Z",
-        "days_since_last_cve": 3,
+        "days_since_last_cve": 5,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1456,21 +1456,21 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 103,
-        "epss_high_count": 75,
-        "epss_elevated_count": 227,
+        "epss_high_count": 77,
+        "epss_elevated_count": 228,
         "top_cwes": [],
         "rank": 15
       },
       {
         "name": "WPScan",
         "assigner_org_id": "1bfdd5d7-9bf6-4a53-96ea-42e2716d7a81",
-        "count": 6597,
+        "count": 6612,
         "years_active": 6,
         "first_cve_year": 2021,
         "last_cve_year": 2026,
         "first_cve_date": "2021-03-18T14:57:47.000Z",
-        "last_cve_date": "2026-11-22T06:00:09.373Z",
-        "days_since_last_cve": 1,
+        "last_cve_date": "2026-11-25T06:00:09.604Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1482,7 +1482,7 @@
           "2024": 773,
           "2022": 1144,
           "2023": 935,
-          "2026": 2403
+          "2026": 2418
         },
         "years_active_list": [
           2021,
@@ -1491,7 +1491,7 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 2,
-        "epss_high_count": 34,
+        "epss_high_count": 35,
         "epss_elevated_count": 151,
         "top_cwes": [],
         "rank": 16
@@ -1505,7 +1505,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2015-10-01T00:00:00.000Z",
         "last_cve_date": "2026-11-02T20:31:02.552Z",
-        "days_since_last_cve": 20,
+        "days_since_last_cve": 22,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1546,7 +1546,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2012-05-09T10:00:00.000Z",
         "last_cve_date": "2026-11-20T18:58:14.443Z",
-        "days_since_last_cve": 2,
+        "days_since_last_cve": 4,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1584,13 +1584,13 @@
       {
         "name": "zdi",
         "assigner_org_id": "99f1926a-a320-47d8-bbb5-42feb611262e",
-        "count": 3558,
+        "count": 3592,
         "years_active": 12,
         "first_cve_year": 2015,
         "last_cve_year": 2026,
         "first_cve_date": "2015-05-20T18:00:00.000Z",
-        "last_cve_date": "2026-11-20T19:47:45.972Z",
-        "days_since_last_cve": 2,
+        "last_cve_date": "2026-11-24T22:53:56.903Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1608,7 +1608,7 @@
           "2022": 298,
           "2023": 259,
           "2025": 487,
-          "2026": 352
+          "2026": 386
         },
         "years_active_list": [
           2015,
@@ -1617,21 +1617,61 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 6,
-        "epss_high_count": 83,
+        "epss_high_count": 84,
         "epss_elevated_count": 155,
         "top_cwes": [],
         "rank": 19
       },
       {
+        "name": "apache",
+        "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
+        "count": 3308,
+        "years_active": 11,
+        "first_cve_year": 2016,
+        "last_cve_year": 2026,
+        "first_cve_date": "2016-12-05T19:00:00.000Z",
+        "last_cve_date": "2026-11-24T18:47:51.662Z",
+        "days_since_last_cve": 0,
+        "activity_status": "Active",
+        "is_official": true,
+        "cna_types": [
+          "Open Source"
+        ],
+        "cves_by_year": {
+          "2023": 259,
+          "2017": 160,
+          "2018": 166,
+          "2026": 1551,
+          "2016": 1,
+          "2019": 137,
+          "2020": 148,
+          "2021": 185,
+          "2022": 222,
+          "2024": 261,
+          "2025": 218
+        },
+        "years_active_list": [
+          2016,
+          2026
+        ],
+        "severity_distribution": {},
+        "top_cwe_types": {},
+        "kev_count": 37,
+        "epss_high_count": 185,
+        "epss_elevated_count": 340,
+        "top_cwes": [],
+        "rank": 20
+      },
+      {
         "name": "jpcert",
         "assigner_org_id": "ede6fdc4-6654-4307-a26d-3331c018e2ce",
-        "count": 3297,
+        "count": 3300,
         "years_active": 17,
         "first_cve_year": 2010,
         "last_cve_year": 2026,
         "first_cve_date": "2010-06-25T18:00:00.000Z",
-        "last_cve_date": "2026-11-20T03:47:14.107Z",
-        "days_since_last_cve": 3,
+        "last_cve_date": "2026-11-24T05:43:36.927Z",
+        "days_since_last_cve": 1,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1654,7 +1694,7 @@
           "2022": 217,
           "2025": 270,
           "2024": 281,
-          "2026": 312
+          "2026": 315
         },
         "years_active_list": [
           2010,
@@ -1663,61 +1703,64 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 7,
-        "epss_high_count": 8,
+        "epss_high_count": 9,
         "epss_elevated_count": 21,
-        "top_cwes": [],
-        "rank": 20
-      },
-      {
-        "name": "apache",
-        "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
-        "count": 3278,
-        "years_active": 11,
-        "first_cve_year": 2016,
-        "last_cve_year": 2026,
-        "first_cve_date": "2016-12-05T19:00:00.000Z",
-        "last_cve_date": "2026-11-23T12:56:09.616Z",
-        "days_since_last_cve": 0,
-        "activity_status": "Active",
-        "is_official": true,
-        "cna_types": [
-          "Open Source"
-        ],
-        "cves_by_year": {
-          "2023": 259,
-          "2017": 160,
-          "2018": 166,
-          "2026": 1521,
-          "2016": 1,
-          "2019": 137,
-          "2020": 148,
-          "2021": 185,
-          "2022": 222,
-          "2024": 261,
-          "2025": 218
-        },
-        "years_active_list": [
-          2016,
-          2026
-        ],
-        "severity_distribution": {},
-        "top_cwe_types": {},
-        "kev_count": 37,
-        "epss_high_count": 185,
-        "epss_elevated_count": 339,
         "top_cwes": [],
         "rank": 21
       },
       {
+        "name": "mozilla",
+        "assigner_org_id": "f16b083a-5664-49f3-a51e-8d479e5ed7fe",
+        "count": 3281,
+        "years_active": 14,
+        "first_cve_year": 2013,
+        "last_cve_year": 2026,
+        "first_cve_date": "2013-01-13T20:00:00.000Z",
+        "last_cve_date": "2026-11-24T15:58:39.536Z",
+        "days_since_last_cve": 0,
+        "activity_status": "Active",
+        "is_official": true,
+        "cna_types": [
+          "Vendor"
+        ],
+        "cves_by_year": {
+          "2013": 158,
+          "2014": 117,
+          "2019": 144,
+          "2020": 173,
+          "2015": 185,
+          "2016": 134,
+          "2018": 350,
+          "2017": 2,
+          "2023": 194,
+          "2021": 148,
+          "2022": 176,
+          "2024": 202,
+          "2025": 208,
+          "2026": 1090
+        },
+        "years_active_list": [
+          2013,
+          2026
+        ],
+        "severity_distribution": {},
+        "top_cwe_types": {},
+        "kev_count": 12,
+        "epss_high_count": 13,
+        "epss_elevated_count": 58,
+        "top_cwes": [],
+        "rank": 22
+      },
+      {
         "name": "certcc",
         "assigner_org_id": "37e5125f-f79b-445b-8fad-9564f167944b",
-        "count": 3223,
+        "count": 3225,
         "years_active": 22,
         "first_cve_year": 2005,
         "last_cve_year": 2026,
         "first_cve_date": "2005-03-08T05:00:00.000Z",
-        "last_cve_date": "2026-11-17T16:19:26.854Z",
-        "days_since_last_cve": 5,
+        "last_cve_date": "2026-11-24T17:12:40.887Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1744,7 +1787,7 @@
           "2024": 24,
           "2023": 37,
           "2021": 9,
-          "2026": 266,
+          "2026": 268,
           "2025": 47
         },
         "years_active_list": [
@@ -1754,51 +1797,8 @@
         "severity_distribution": {},
         "top_cwe_types": {},
         "kev_count": 7,
-        "epss_high_count": 66,
+        "epss_high_count": 67,
         "epss_elevated_count": 229,
-        "top_cwes": [],
-        "rank": 22
-      },
-      {
-        "name": "mozilla",
-        "assigner_org_id": "f16b083a-5664-49f3-a51e-8d479e5ed7fe",
-        "count": 3161,
-        "years_active": 14,
-        "first_cve_year": 2013,
-        "last_cve_year": 2026,
-        "first_cve_date": "2013-01-13T20:00:00.000Z",
-        "last_cve_date": "2026-11-17T22:29:01.666Z",
-        "days_since_last_cve": 5,
-        "activity_status": "Active",
-        "is_official": true,
-        "cna_types": [
-          "Vendor"
-        ],
-        "cves_by_year": {
-          "2013": 158,
-          "2014": 117,
-          "2019": 144,
-          "2020": 173,
-          "2015": 185,
-          "2016": 134,
-          "2018": 350,
-          "2017": 2,
-          "2023": 194,
-          "2021": 148,
-          "2022": 176,
-          "2024": 202,
-          "2025": 208,
-          "2026": 970
-        },
-        "years_active_list": [
-          2013,
-          2026
-        ],
-        "severity_distribution": {},
-        "top_cwe_types": {},
-        "kev_count": 12,
-        "epss_high_count": 13,
-        "epss_elevated_count": 58,
         "top_cwes": [],
         "rank": 23
       },
@@ -1811,7 +1811,7 @@
         "last_cve_year": 2026,
         "first_cve_date": "2017-04-06T19:00:00.000Z",
         "last_cve_date": "2026-10-06T06:30:08.714Z",
-        "days_since_last_cve": 48,
+        "days_since_last_cve": 50,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1844,13 +1844,13 @@
       {
         "name": "dell",
         "assigner_org_id": "c550e75a-17ff-4988-97f0-544cde3820fe",
-        "count": 2656,
+        "count": 2687,
         "years_active": 18,
         "first_cve_year": 2009,
         "last_cve_year": 2026,
         "first_cve_date": "2009-04-15T19:00:00.000Z",
-        "last_cve_date": "2026-11-19T13:17:05.081Z",
-        "days_since_last_cve": 4,
+        "last_cve_date": "2026-11-25T08:48:43.371Z",
+        "days_since_last_cve": 0,
         "activity_status": "Active",
         "is_official": true,
         "cna_types": [
@@ -1873,7 +1873,7 @@
           "2022": 187,
           "2024": 258,
           "2023": 266,
-          "2026": 736,
+          "2026": 767,
           "2025": 223
         },
         "years_active_list": [
@@ -1889,21 +1889,21 @@
         "rank": 25
       }
     ],
-    "total_cnas": 500,
-    "active_cnas": 426
+    "total_cnas": 503,
+    "active_cnas": 428
   },
   "cpe_analysis": {
     "top_cpes": [
       {
         "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-        "count": 54235,
+        "count": 54236,
         "vendor": "linux",
         "product": "linux_kernel",
         "type": "Operating System"
       },
       {
         "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-        "count": 8075,
+        "count": 8088,
         "vendor": "google",
         "product": "chrome",
         "type": "Application"
@@ -1917,7 +1917,7 @@
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
-        "count": 5091,
+        "count": 5097,
         "vendor": "microsoft",
         "product": "windows_server_2012",
         "type": "Operating System"
@@ -1931,7 +1931,7 @@
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
-        "count": 4835,
+        "count": 4841,
         "vendor": "microsoft",
         "product": "windows_server_2012",
         "type": "Operating System"
@@ -1959,21 +1959,21 @@
       },
       {
         "cpe": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
-        "count": 3441,
+        "count": 3442,
         "vendor": "debian",
         "product": "debian_linux",
         "type": "Operating System"
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x64:*",
-        "count": 3324,
+        "count": 3434,
         "vendor": "microsoft",
         "product": "windows_10_1809",
         "type": "Operating System"
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x86:*",
-        "count": 3267,
+        "count": 3376,
         "vendor": "microsoft",
         "product": "windows_10_1809",
         "type": "Operating System"
@@ -1987,9 +1987,23 @@
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_server_2019:*:*:*:*:*:*:*:*",
-        "count": 3024,
+        "count": 3039,
         "vendor": "microsoft",
         "product": "windows_server_2019",
+        "type": "Operating System"
+      },
+      {
+        "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x64:*",
+        "count": 3019,
+        "vendor": "microsoft",
+        "product": "windows_10_1607",
+        "type": "Operating System"
+      },
+      {
+        "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
+        "count": 2972,
+        "vendor": "microsoft",
+        "product": "windows_10_1607",
         "type": "Operating System"
       },
       {
@@ -2000,10 +2014,10 @@
         "type": "Application"
       },
       {
-        "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x64:*",
-        "count": 2931,
+        "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:x64:*",
+        "count": 2926,
         "vendor": "microsoft",
-        "product": "windows_10_1607",
+        "product": "windows_11_24h2",
         "type": "Operating System"
       },
       {
@@ -2014,66 +2028,52 @@
         "type": "Operating System"
       },
       {
-        "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
-        "count": 2884,
+        "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:arm64:*",
+        "count": 2919,
         "vendor": "microsoft",
-        "product": "windows_10_1607",
+        "product": "windows_11_24h2",
         "type": "Operating System"
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_server_2022:*:*:*:*:*:*:*:*",
-        "count": 2869,
+        "count": 2874,
         "vendor": "microsoft",
         "product": "windows_server_2022",
         "type": "Operating System"
       },
       {
-        "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:x64:*",
-        "count": 2805,
+        "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:x64:*",
+        "count": 2798,
         "vendor": "microsoft",
-        "product": "windows_11_24h2",
+        "product": "windows_11_25h2",
         "type": "Operating System"
       },
       {
-        "cpe": "cpe:2.3:o:microsoft:windows_11_24h2:*:*:*:*:*:*:arm64:*",
-        "count": 2798,
+        "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:arm64:*",
+        "count": 2794,
         "vendor": "microsoft",
-        "product": "windows_11_24h2",
+        "product": "windows_11_25h2",
         "type": "Operating System"
       },
       {
         "cpe": "cpe:2.3:o:microsoft:windows_server_2016:*:*:*:*:*:*:*:*",
-        "count": 2779,
+        "count": 2793,
         "vendor": "microsoft",
         "product": "windows_server_2016",
         "type": "Operating System"
       },
       {
-        "cpe": "cpe:2.3:o:apple:mac_os_x:*:*:*:*:*:*:*:*",
-        "count": 2726,
-        "vendor": "apple",
-        "product": "mac_os_x",
-        "type": "Operating System"
-      },
-      {
-        "cpe": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
-        "count": 2701,
+        "cpe": "cpe:2.3:o:microsoft:windows_11_26h1:*:*:*:*:*:*:x64:*",
+        "count": 2782,
         "vendor": "microsoft",
-        "product": "windows_server_2019",
-        "type": "Operating System"
-      },
-      {
-        "cpe": "cpe:2.3:o:microsoft:windows_11_25h2:*:*:*:*:*:*:x64:*",
-        "count": 2677,
-        "vendor": "microsoft",
-        "product": "windows_11_25h2",
+        "product": "windows_11_26h1",
         "type": "Operating System"
       }
     ],
     "top_products": [
       {
         "product": "linux_kernel",
-        "count": 166779
+        "count": 166780
       },
       {
         "product": "ios",
@@ -2085,11 +2085,11 @@
       },
       {
         "product": "android",
-        "count": 60151
+        "count": 60254
       },
       {
         "product": "chrome",
-        "count": 38315
+        "count": 38328
       },
       {
         "product": "firefox",
@@ -2137,7 +2137,7 @@
       },
       {
         "product": "debian_linux",
-        "count": 16379
+        "count": 16380
       },
       {
         "product": "itunes",
@@ -2163,11 +2163,11 @@
       },
       {
         "vendor": "microsoft",
-        "count": 190609
+        "count": 193421
       },
       {
         "vendor": "linux",
-        "count": 167017
+        "count": 167018
       },
       {
         "vendor": "adobe",
@@ -2175,7 +2175,7 @@
       },
       {
         "vendor": "apple",
-        "count": 96447
+        "count": 96452
       },
       {
         "vendor": "mozilla",
@@ -2191,11 +2191,11 @@
       },
       {
         "vendor": "oracle",
-        "count": 72852
+        "count": 72870
       },
       {
         "vendor": "google",
-        "count": 66864
+        "count": 66877
       },
       {
         "vendor": "intel",
@@ -2207,7 +2207,7 @@
       },
       {
         "vendor": "samsung",
-        "count": 39545
+        "count": 39648
       },
       {
         "vendor": "f5",
@@ -2215,7 +2215,7 @@
       },
       {
         "vendor": "redhat",
-        "count": 34914
+        "count": 34978
       },
       {
         "vendor": "hp",
@@ -2223,7 +2223,7 @@
       },
       {
         "vendor": "dell",
-        "count": 31030
+        "count": 31210
       },
       {
         "vendor": "apache",
@@ -2234,8 +2234,8 @@
         "count": 21541
       }
     ],
-    "total_cpe_entries": 2677241,
-    "total_cves_with_cpes": 326366
+    "total_cpe_entries": 2680825,
+    "total_cves_with_cpes": 326775
   },
   "calendar_analysis_current_year": {
     "daily_data": [
@@ -2609,13 +2609,13 @@
         "date": "2026-03-03",
         "value": 137,
         "avg_cvss": 7.0,
-        "cvss_count": 135
+        "cvss_count": 136
       },
       {
         "date": "2026-03-04",
         "value": 200,
         "avg_cvss": 7.0,
-        "cvss_count": 198
+        "cvss_count": 199
       },
       {
         "date": "2026-03-05",
@@ -4001,7 +4001,7 @@
         "date": "2026-10-23",
         "value": 492,
         "avg_cvss": 7.1,
-        "cvss_count": 257
+        "cvss_count": 258
       },
       {
         "date": "2026-10-24",
@@ -4077,9 +4077,9 @@
       },
       {
         "date": "2026-11-05",
-        "value": 453,
+        "value": 448,
         "avg_cvss": 7.0,
-        "cvss_count": 409
+        "cvss_count": 404
       },
       {
         "date": "2026-11-06",
@@ -4127,7 +4127,7 @@
         "date": "2026-11-13",
         "value": 792,
         "avg_cvss": 6.4,
-        "cvss_count": 669
+        "cvss_count": 673
       },
       {
         "date": "2026-11-14",
@@ -4143,9 +4143,9 @@
       },
       {
         "date": "2026-11-16",
-        "value": 355,
+        "value": 354,
         "avg_cvss": 6.6,
-        "cvss_count": 228
+        "cvss_count": 229
       },
       {
         "date": "2026-11-17",
@@ -4157,37 +4157,49 @@
         "date": "2026-11-18",
         "value": 714,
         "avg_cvss": 7.0,
-        "cvss_count": 606
+        "cvss_count": 609
       },
       {
         "date": "2026-11-19",
         "value": 1061,
         "avg_cvss": 6.5,
-        "cvss_count": 760
+        "cvss_count": 761
       },
       {
         "date": "2026-11-20",
         "value": 755,
         "avg_cvss": 6.5,
-        "cvss_count": 470
+        "cvss_count": 471
       },
       {
         "date": "2026-11-21",
         "value": 354,
         "avg_cvss": 6.3,
-        "cvss_count": 300
+        "cvss_count": 334
       },
       {
         "date": "2026-11-22",
         "value": 197,
         "avg_cvss": 6.2,
-        "cvss_count": 184
+        "cvss_count": 187
       },
       {
         "date": "2026-11-23",
-        "value": 68,
-        "avg_cvss": 6.4,
-        "cvss_count": 62
+        "value": 381,
+        "avg_cvss": 6.6,
+        "cvss_count": 327
+      },
+      {
+        "date": "2026-11-24",
+        "value": 889,
+        "avg_cvss": 6.9,
+        "cvss_count": 568
+      },
+      {
+        "date": "2026-11-25",
+        "value": 133,
+        "avg_cvss": 6.3,
+        "cvss_count": 114
       }
     ]
   }
