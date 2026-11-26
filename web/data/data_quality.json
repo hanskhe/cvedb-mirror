@@ -8,7 +8,7 @@
     "normalized_matches": 6,
     "partial_matches": 4,
     "unmatched": 28,
-    "exact_match_cves": 409361,
+    "exact_match_cves": 409754,
     "case_mismatch_cves": 185,
     "org_name_match_cves": 838,
     "normalized_match_cves": 1699,
@@ -22,7 +22,7 @@
       "cna_name": "mitre",
       "cve_count": 115608,
       "kev_count": 339,
-      "epss_high_count": 1598,
+      "epss_high_count": 1599,
       "official_short_name": "mitre",
       "official_org_name": "MITRE Corporation",
       "official_id": "CNA-1999-0001",
@@ -42,7 +42,7 @@
     },
     {
       "cna_name": "Patchstack",
-      "cve_count": 19974,
+      "cve_count": 20007,
       "kev_count": 0,
       "epss_high_count": 4,
       "official_short_name": "Patchstack",
@@ -64,9 +64,9 @@
     },
     {
       "cna_name": "VulDB",
-      "cve_count": 18278,
+      "cve_count": 18294,
       "kev_count": 6,
-      "epss_high_count": 12,
+      "epss_high_count": 13,
       "official_short_name": "VulDB",
       "official_org_name": "VulDB",
       "official_id": "CNA-2001-0063",
@@ -85,6 +85,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "VulnCheck",
+      "cve_count": 13099,
+      "kev_count": 19,
+      "epss_high_count": 12,
+      "official_short_name": "VulnCheck",
+      "official_org_name": "VulnCheck",
+      "official_id": "CNA-2023-0021",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "oracle",
       "cve_count": 12975,
       "kev_count": 44,
@@ -96,19 +107,8 @@
       "confidence": "high"
     },
     {
-      "cna_name": "VulnCheck",
-      "cve_count": 12972,
-      "kev_count": 19,
-      "epss_high_count": 12,
-      "official_short_name": "VulnCheck",
-      "official_org_name": "VulnCheck",
-      "official_id": "CNA-2023-0021",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
       "cna_name": "Wordfence",
-      "cve_count": 12374,
+      "cve_count": 12507,
       "kev_count": 1,
       "epss_high_count": 19,
       "official_short_name": "Wordfence",
@@ -119,7 +119,7 @@
     },
     {
       "cna_name": "redhat",
-      "cve_count": 12171,
+      "cve_count": 12177,
       "kev_count": 34,
       "epss_high_count": 174,
       "official_short_name": "redhat",
@@ -229,7 +229,7 @@
     },
     {
       "cna_name": "apache",
-      "cve_count": 3331,
+      "cve_count": 3332,
       "kev_count": 37,
       "epss_high_count": 131,
       "official_short_name": "apache",
@@ -240,7 +240,7 @@
     },
     {
       "cna_name": "jpcert",
-      "cve_count": 3300,
+      "cve_count": 3301,
       "kev_count": 7,
       "epss_high_count": 5,
       "official_short_name": "jpcert",
@@ -350,7 +350,7 @@
     },
     {
       "cna_name": "hackerone",
-      "cve_count": 1831,
+      "cve_count": 1841,
       "kev_count": 28,
       "epss_high_count": 44,
       "official_short_name": "hackerone",
@@ -396,7 +396,7 @@
       "cna_name": "GitLab",
       "cve_count": 1601,
       "kev_count": 7,
-      "epss_high_count": 9,
+      "epss_high_count": 12,
       "official_short_name": "GitLab",
       "official_org_name": "GitLab Inc.",
       "official_id": "CNA-2020-0018",
@@ -405,7 +405,7 @@
     },
     {
       "cna_name": "INCIBE",
-      "cve_count": 1260,
+      "cve_count": 1262,
       "kev_count": 0,
       "epss_high_count": 1,
       "official_short_name": "INCIBE",
@@ -460,7 +460,7 @@
     },
     {
       "cna_name": "twcert",
-      "cve_count": 945,
+      "cve_count": 948,
       "kev_count": 3,
       "epss_high_count": 1,
       "official_short_name": "twcert",
@@ -481,6 +481,17 @@
       "confidence": "high"
     },
     {
+      "cna_name": "vmware",
+      "cve_count": 928,
+      "kev_count": 34,
+      "epss_high_count": 20,
+      "official_short_name": "vmware",
+      "official_org_name": "VMware by Broadcom",
+      "official_id": "CNA-2016-0025",
+      "match_type": "exact_short",
+      "confidence": "high"
+    },
+    {
       "cna_name": "TR-CERT",
       "cve_count": 914,
       "kev_count": 0,
@@ -488,17 +499,6 @@
       "official_short_name": "TR-CERT",
       "official_org_name": "TR-CERT (Computer Emergency Response Team of the Republic of T\u00fcrkiye)",
       "official_id": "CNA-2021-0034",
-      "match_type": "exact_short",
-      "confidence": "high"
-    },
-    {
-      "cna_name": "vmware",
-      "cve_count": 905,
-      "kev_count": 34,
-      "epss_high_count": 19,
-      "official_short_name": "vmware",
-      "official_org_name": "VMware by Broadcom",
-      "official_id": "CNA-2016-0025",
       "match_type": "exact_short",
       "confidence": "high"
     },

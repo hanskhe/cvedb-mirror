@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-26T03:51:18.617764Z",
-  "total_cves_with_epss": 412861,
+  "generated_at": "2026-11-26T17:17:03.860014Z",
+  "total_cves_with_epss": 413377,
   "statistics": {
-    "average_score": 0.023603,
-    "gt_0_1": 15125,
-    "gt_0_3": 5690,
-    "gt_0_5": 3411,
-    "gt_0_7": 1854,
-    "gt_0_9": 559
+    "average_score": 0.023594,
+    "gt_0_1": 15133,
+    "gt_0_3": 5695,
+    "gt_0_5": 3417,
+    "gt_0_7": 1859,
+    "gt_0_9": 561
   },
   "score_buckets": {
-    "very_low": 254800,
-    "low": 142935,
-    "medium": 9436,
-    "high": 2278,
-    "very_high": 1558,
-    "critical": 1854
+    "very_low": 255215,
+    "low": 143028,
+    "medium": 9439,
+    "high": 2277,
+    "very_high": 1559,
+    "critical": 1859
   },
   "percentile_distribution": {
-    "0": 41282,
-    "1": 41286,
-    "2": 41286,
-    "3": 41286,
-    "4": 41286,
-    "5": 41286,
-    "6": 41286,
-    "7": 41286,
-    "8": 41286,
-    "9": 41291
+    "0": 41334,
+    "1": 41338,
+    "2": 41337,
+    "3": 41338,
+    "4": 41337,
+    "5": 41338,
+    "6": 41338,
+    "7": 41337,
+    "8": 41338,
+    "9": 41342
   },
   "year_coverage": {
     "1999": {
@@ -139,17 +139,17 @@
       "with_epss": 48150
     },
     "2026": {
-      "total": 104441,
-      "with_epss": 103982
+      "total": 104824,
+      "with_epss": 104500
     }
   },
-  "epss_without_published_record": 681,
-  "total_cves_with_epss_matched": 412180,
+  "epss_without_published_record": 679,
+  "total_cves_with_epss_matched": 412698,
   "high_risk_cves": [
     {
       "cve_id": "CVE-2012-1823",
       "epss_score": 0.99999,
-      "epss_percentile": 0.99996
+      "epss_percentile": 0.99995
     },
     {
       "cve_id": "CVE-2014-0160",
@@ -179,7 +179,7 @@
     {
       "cve_id": "CVE-2017-9841",
       "epss_score": 0.99999,
-      "epss_percentile": 0.99997
+      "epss_percentile": 0.99996
     },
     {
       "cve_id": "CVE-2018-13379",
@@ -194,7 +194,7 @@
     {
       "cve_id": "CVE-2019-11510",
       "epss_score": 0.99999,
-      "epss_percentile": 0.99998
+      "epss_percentile": 0.99997
     },
     {
       "cve_id": "CVE-2019-19781",
@@ -257,6 +257,11 @@
       "epss_percentile": 0.99995
     },
     {
+      "cve_id": "CVE-2023-4966",
+      "epss_score": 0.99999,
+      "epss_percentile": 0.99998
+    },
+    {
       "cve_id": "CVE-2024-21893",
       "epss_score": 0.99999,
       "epss_percentile": 1.0
@@ -269,7 +274,7 @@
     {
       "cve_id": "CVE-2017-7921",
       "epss_score": 0.99998,
-      "epss_percentile": 0.99995
+      "epss_percentile": 0.99994
     },
     {
       "cve_id": "CVE-2020-14750",
@@ -294,7 +299,7 @@
     {
       "cve_id": "CVE-2019-16920",
       "epss_score": 0.99996,
-      "epss_percentile": 0.99994
+      "epss_percentile": 0.99993
     },
     {
       "cve_id": "CVE-2021-26855",
@@ -314,7 +319,7 @@
     {
       "cve_id": "CVE-2020-3452",
       "epss_score": 0.99992,
-      "epss_percentile": 0.99993
+      "epss_percentile": 0.99992
     },
     {
       "cve_id": "CVE-2021-41773",
@@ -332,9 +337,14 @@
       "epss_percentile": 0.99992
     },
     {
+      "cve_id": "CVE-2023-50387",
+      "epss_score": 0.9999,
+      "epss_percentile": 0.99991
+    },
+    {
       "cve_id": "CVE-2021-33044",
       "epss_score": 0.99989,
-      "epss_percentile": 0.99992
+      "epss_percentile": 0.99991
     },
     {
       "cve_id": "CVE-2020-9054",
@@ -349,12 +359,12 @@
     {
       "cve_id": "CVE-2021-20090",
       "epss_score": 0.99982,
-      "epss_percentile": 0.99991
+      "epss_percentile": 0.9999
     },
     {
       "cve_id": "CVE-2021-22204",
       "epss_score": 0.99981,
-      "epss_percentile": 0.99991
+      "epss_percentile": 0.9999
     },
     {
       "cve_id": "CVE-2012-1443",
@@ -369,7 +379,7 @@
     {
       "cve_id": "CVE-2019-10068",
       "epss_score": 0.99979,
-      "epss_percentile": 0.9999
+      "epss_percentile": 0.99989
     },
     {
       "cve_id": "CVE-2019-2725",
@@ -379,7 +389,7 @@
     {
       "cve_id": "CVE-2021-45046",
       "epss_score": 0.99977,
-      "epss_percentile": 0.9999
+      "epss_percentile": 0.99989
     },
     {
       "cve_id": "CVE-2012-0158",
@@ -389,12 +399,12 @@
     {
       "cve_id": "CVE-2014-3704",
       "epss_score": 0.99974,
-      "epss_percentile": 0.99989
+      "epss_percentile": 0.99988
     },
     {
       "cve_id": "CVE-2014-8361",
       "epss_score": 0.99971,
-      "epss_percentile": 0.99989
+      "epss_percentile": 0.99988
     },
     {
       "cve_id": "CVE-2017-12617",
@@ -409,12 +419,12 @@
     {
       "cve_id": "CVE-2015-7297",
       "epss_score": 0.99967,
-      "epss_percentile": 0.99988
+      "epss_percentile": 0.99987
     },
     {
       "cve_id": "CVE-2021-26085",
       "epss_score": 0.99965,
-      "epss_percentile": 0.99988
+      "epss_percentile": 0.99987
     },
     {
       "cve_id": "CVE-2014-0195",
@@ -429,12 +439,12 @@
     {
       "cve_id": "CVE-2021-3156",
       "epss_score": 0.99962,
-      "epss_percentile": 0.99987
+      "epss_percentile": 0.99986
     },
     {
       "cve_id": "CVE-2019-10149",
       "epss_score": 0.99961,
-      "epss_percentile": 0.99987
+      "epss_percentile": 0.99986
     },
     {
       "cve_id": "CVE-2020-0688",
@@ -454,7 +464,7 @@
     {
       "cve_id": "CVE-2017-11882",
       "epss_score": 0.99945,
-      "epss_percentile": 0.99986
+      "epss_percentile": 0.99985
     },
     {
       "cve_id": "CVE-2021-3129",
@@ -474,12 +484,12 @@
     {
       "cve_id": "CVE-2021-38647",
       "epss_score": 0.99933,
-      "epss_percentile": 0.99985
+      "epss_percentile": 0.99984
     },
     {
       "cve_id": "CVE-2021-39226",
       "epss_score": 0.99933,
-      "epss_percentile": 0.99985
+      "epss_percentile": 0.99984
     },
     {
       "cve_id": "CVE-2019-0232",
@@ -494,12 +504,12 @@
     {
       "cve_id": "CVE-2025-5777",
       "epss_score": 0.99922,
-      "epss_percentile": 0.99984
+      "epss_percentile": 0.99983
     },
     {
       "cve_id": "CVE-2019-0604",
       "epss_score": 0.99913,
-      "epss_percentile": 0.99984
+      "epss_percentile": 0.99983
     },
     {
       "cve_id": "CVE-2019-3396",
@@ -514,12 +524,12 @@
     {
       "cve_id": "CVE-2012-1456",
       "epss_score": 0.99908,
-      "epss_percentile": 0.99983
+      "epss_percentile": 0.99982
     },
     {
       "cve_id": "CVE-2017-9100",
       "epss_score": 0.99908,
-      "epss_percentile": 0.99983
+      "epss_percentile": 0.99982
     },
     {
       "cve_id": "CVE-2018-2628",
@@ -529,7 +539,7 @@
     {
       "cve_id": "CVE-2015-1427",
       "epss_score": 0.99906,
-      "epss_percentile": 0.99982
+      "epss_percentile": 0.99981
     },
     {
       "cve_id": "CVE-2019-7481",
@@ -539,7 +549,7 @@
     {
       "cve_id": "CVE-2020-7961",
       "epss_score": 0.99905,
-      "epss_percentile": 0.99982
+      "epss_percentile": 0.99981
     },
     {
       "cve_id": "CVE-2021-22986",
@@ -552,14 +562,9 @@
       "epss_percentile": 0.99981
     },
     {
-      "cve_id": "CVE-2021-35394",
-      "epss_score": 0.99895,
-      "epss_percentile": 0.99981
-    },
-    {
       "cve_id": "CVE-2014-0497",
       "epss_score": 0.99879,
-      "epss_percentile": 0.99981
+      "epss_percentile": 0.9998
     },
     {
       "cve_id": "CVE-2019-1653",
@@ -577,6 +582,11 @@
       "epss_percentile": 0.9998
     },
     {
+      "cve_id": "CVE-2021-35394",
+      "epss_score": 0.99868,
+      "epss_percentile": 0.99979
+    },
+    {
       "cve_id": "CVE-2021-31166",
       "epss_score": 0.99867,
       "epss_percentile": 0.99979
@@ -584,7 +594,7 @@
     {
       "cve_id": "CVE-2021-44515",
       "epss_score": 0.99867,
-      "epss_percentile": 0.9998
+      "epss_percentile": 0.99979
     },
     {
       "cve_id": "CVE-2021-21972",
@@ -594,12 +604,12 @@
     {
       "cve_id": "CVE-2015-4000",
       "epss_score": 0.9986,
-      "epss_percentile": 0.99979
+      "epss_percentile": 0.99978
     },
     {
       "cve_id": "CVE-2020-13379",
       "epss_score": 0.99856,
-      "epss_percentile": 0.99979
+      "epss_percentile": 0.99978
     },
     {
       "cve_id": "CVE-2016-6277",
@@ -619,7 +629,7 @@
     {
       "cve_id": "CVE-2021-37415",
       "epss_score": 0.99825,
-      "epss_percentile": 0.99978
+      "epss_percentile": 0.99977
     },
     {
       "cve_id": "CVE-2017-7269",
@@ -634,16 +644,6 @@
     {
       "cve_id": "CVE-2020-0796",
       "epss_score": 0.9981,
-      "epss_percentile": 0.99977
-    },
-    {
-      "cve_id": "CVE-2012-1457",
-      "epss_score": 0.99808,
-      "epss_percentile": 0.99977
-    },
-    {
-      "cve_id": "CVE-2021-34527",
-      "epss_score": 0.99792,
       "epss_percentile": 0.99977
     }
   ]
