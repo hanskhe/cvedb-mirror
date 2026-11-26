@@ -721,13 +721,13 @@
       }
     },
     "epss_summary": {
-      "epss_gt_0_1": 830,
-      "epss_gt_0_5": 201,
-      "epss_gt_0_9": 61
+      "epss_gt_0_1": 265,
+      "epss_gt_0_5": 36,
+      "epss_gt_0_9": 3
     }
   },
   "kev": {
-    "kev_count": 199
+    "kev_count": 200
   },
   "vendors": {
     "cna_assigners": [],
@@ -902,19 +902,19 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 23525
+        "count": 23526
       },
       {
         "status": "Deferred",
-        "count": 17953
+        "count": 17952
       },
       {
         "status": "Modified",
-        "count": 6653
+        "count": 6654
       },
       {
         "status": "Undergoing Analysis",
-        "count": 18
+        "count": 17
       },
       {
         "status": "Awaiting Analysis",
@@ -925,7 +925,7 @@
     "reference_tags": [
       {
         "tag": "Third Party Advisory",
-        "count": 28362
+        "count": 28363
       },
       {
         "tag": "Patch",
@@ -933,11 +933,11 @@
       },
       {
         "tag": "Exploit",
-        "count": 15848
+        "count": 15849
       },
       {
         "tag": "Vendor Advisory",
-        "count": 15316
+        "count": 15317
       },
       {
         "tag": "VDB Entry",
@@ -953,7 +953,7 @@
       },
       {
         "tag": "Issue Tracking",
-        "count": 5709
+        "count": 5710
       },
       {
         "tag": "Release Notes",
@@ -1002,7 +1002,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-11-25T08:59:30.153283",
+    "processed_at": "2026-11-26T03:44:49.659815",
     "data_source": "data/cache/nvd.json"
   }
 }
