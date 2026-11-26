@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Checkmk",
-    "total_cves": 27,
-    "total_cves_scored": 27,
+    "total_cves": 31,
+    "total_cves_scored": 31,
     "organizationName": "Checkmk GmbH",
     "scope": "All products of Checkmk GmbH including Checkmk and Checkmk Appliance, Nagvis, Robotmk, and packages published on <a href='https://exchange.checkmk.com/' target='_blank'>exchange.checkmk.com</a>.",
     "advisories": [
@@ -36,13 +36,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 25,
-  "active_cna_count": 381,
+  "active_cna_count": 380,
   "percentile": 93.7,
   "cna_scoring": [
     {
-      "total_cves": 27,
-      "total_cves_scored": 27,
-      "recent_cves_count": 27,
+      "total_cves": 31,
+      "total_cves_scored": 31,
+      "recent_cves_count": 31,
       "overall_average_score": 90.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -129,6 +129,32 @@
       "cveId": "CVE-2026-15227",
       "assigningCna": "Checkmk",
       "datePublished": "2026-07-31",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110470",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-11-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-123789",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-11-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -259,6 +285,19 @@
       "cveId": "CVE-2026-111573",
       "assigningCna": "Checkmk",
       "datePublished": "2026-11-06",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92004",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-11-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -402,6 +441,19 @@
       "cveId": "CVE-2026-118965",
       "assigningCna": "Checkmk",
       "datePublished": "2026-11-11",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-84112",
+      "assigningCna": "Checkmk",
+      "datePublished": "2026-11-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
