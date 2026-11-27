@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 54,
-  "active_cna_count": 380,
-  "percentile": 86.1,
+  "rank": 55,
+  "active_cna_count": 381,
+  "percentile": 85.8,
   "cna_scoring": [
     {
       "total_cves": 78,
@@ -115,6 +115,19 @@
       "cveId": "CVE-2026-12425",
       "assigningCna": "palo_alto",
       "datePublished": "2026-06-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103548",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-09-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -212,19 +225,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-103548",
-      "assigningCna": "palo_alto",
-      "datePublished": "2026-09-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
