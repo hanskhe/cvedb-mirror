@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T13:02:16.247451Z",
-  "catalog_version": "2026.11.25",
-  "total_kev_cves": 1805,
+  "generated_at": "2026-11-27T23:47:02.539469Z",
+  "catalog_version": "2026.11.27",
+  "total_kev_cves": 1808,
   "statistics": {
-    "added_last_30_days": 45,
-    "added_last_90_days": 120,
+    "added_last_30_days": 48,
+    "added_last_90_days": 123,
     "ransomware_associated": 362
   },
   "by_year_added": {
@@ -13,7 +13,7 @@
     "2023": 187,
     "2024": 186,
     "2025": 245,
-    "2026": 321
+    "2026": 324
   },
   "by_year_cve": {
     "2002": 1,
@@ -39,7 +39,7 @@
     "2023": 168,
     "2024": 166,
     "2025": 191,
-    "2026": 228
+    "2026": 231
   },
   "by_year_published": {
     "2002": 1,
@@ -65,11 +65,14 @@
     "2023": 168,
     "2024": 161,
     "2025": 200,
-    "2026": 238
+    "2026": 239
   },
   "awaiting_nvd": {
-    "count": 0,
-    "cve_ids": []
+    "count": 2,
+    "cve_ids": [
+      "CVE-2026-120705",
+      "CVE-2026-129243"
+    ]
   },
   "timeline": {
     "2021-11": 291,
@@ -132,7 +135,7 @@
     "2026-08": 31,
     "2026-09": 43,
     "2026-10": 36,
-    "2026-11": 39
+    "2026-11": 42
   },
   "top_vendors": [
     [
@@ -368,11 +371,11 @@
       31
     ],
     [
-      "CWE-434",
-      25
+      "CWE-918",
+      26
     ],
     [
-      "CWE-918",
+      "CWE-434",
       25
     ],
     [
@@ -381,6 +384,30 @@
     ]
   ],
   "recent_additions": [
+    {
+      "cve_id": "CVE-2026-120705",
+      "vendor": "OSGeo",
+      "product": "GeoServer",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-129243",
+      "vendor": "OSGeo",
+      "product": "GeoServer",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-136716",
+      "vendor": "Drupal",
+      "product": "Core",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-103406",
       "vendor": "Hewlett Packard Enterprise (HPE)",
@@ -516,30 +543,6 @@
       "date_added": "2026-11-20",
       "due_date": "2026-11-23",
       "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2025-42884",
-      "vendor": "SAP",
-      "product": "NetWeaver",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-76466",
-      "vendor": "Cisco",
-      "product": "Expressway Series",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
-      "ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2024-10441",
-      "vendor": "Synology",
-      "product": "DiskStation Manager (DSM)",
-      "date_added": "2026-11-18",
-      "due_date": "2026-11-21",
-      "ransomware": "Known"
     }
   ]
 }
