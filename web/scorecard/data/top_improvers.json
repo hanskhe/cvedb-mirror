@@ -86,7 +86,7 @@
     },
     {
       "cna_name": "VulDB",
-      "total_improvement": 129.57746478873239,
+      "total_improvement": 130.2439024390244,
       "category_improvements": {
         "root_cause_analysis": {
           "first_period": 100.0,
@@ -105,12 +105,12 @@
         },
         "patch_information": {
           "first_period": 0.0,
-          "last_period": 29.577464788732392,
-          "improvement": 29.577464788732392
+          "last_period": 30.24390243902439,
+          "improvement": 30.24390243902439
         }
       },
-      "total_cves_analyzed": 12519,
-      "analysis_days": 572
+      "total_cves_analyzed": 12528,
+      "analysis_days": 573
     },
     {
       "cna_name": "CIRCL",
@@ -141,6 +141,34 @@
       "analysis_days": 63
     },
     {
+      "cna_name": "CERT-PL",
+      "total_improvement": 117.1945701357466,
+      "category_improvements": {
+        "root_cause_analysis": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "severity_and_impact": {
+          "first_period": 100.0,
+          "last_period": 100.0,
+          "improvement": 0.0
+        },
+        "software_identification": {
+          "first_period": 0.0,
+          "last_period": 92.3076923076923,
+          "improvement": 92.3076923076923
+        },
+        "patch_information": {
+          "first_period": 5.88235294117647,
+          "last_period": 30.76923076923077,
+          "improvement": 24.8868778280543
+        }
+      },
+      "total_cves_analyzed": 530,
+      "analysis_days": 159
+    },
+    {
       "cna_name": "ibm",
       "total_improvement": 114.37451437451438,
       "category_improvements": {
@@ -167,34 +195,6 @@
       },
       "total_cves_analyzed": 2174,
       "analysis_days": 202
-    },
-    {
-      "cna_name": "CERT-PL",
-      "total_improvement": 114.11764705882352,
-      "category_improvements": {
-        "root_cause_analysis": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "severity_and_impact": {
-          "first_period": 100.0,
-          "last_period": 100.0,
-          "improvement": 0.0
-        },
-        "software_identification": {
-          "first_period": 0.0,
-          "last_period": 92.0,
-          "improvement": 92.0
-        },
-        "patch_information": {
-          "first_period": 5.88235294117647,
-          "last_period": 27.999999999999996,
-          "improvement": 22.117647058823525
-        }
-      },
-      "total_cves_analyzed": 529,
-      "analysis_days": 159
     },
     {
       "cna_name": "Sonatype",
@@ -281,7 +281,7 @@
       "analysis_days": 91
     }
   ],
-  "generated_at": "2026-11-27T11:27:06.406352",
+  "generated_at": "2026-11-28T10:54:47.675644",
   "analysis_criteria": {
     "minimum_cves": 5,
     "top_n_count": 10

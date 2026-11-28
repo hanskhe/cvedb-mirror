@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ABB",
-    "total_cves": 17,
-    "total_cves_scored": 17,
+    "total_cves": 19,
+    "total_cves_scored": 19,
     "organizationName": "Asea Brown Boveri Ltd. (ABB)",
     "scope": "ABB issues only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 129,
-  "active_cna_count": 381,
-  "percentile": 66.4,
+  "rank": 128,
+  "active_cna_count": 383,
+  "percentile": 66.8,
   "cna_scoring": [
     {
-      "total_cves": 17,
-      "total_cves_scored": 17,
-      "recent_cves_count": 17,
+      "total_cves": 19,
+      "total_cves_scored": 19,
+      "recent_cves_count": 19,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-78354",
+      "assigningCna": "ABB",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-12705",
       "assigningCna": "ABB",
@@ -98,19 +111,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-103236",
-      "assigningCna": "ABB",
-      "datePublished": "2026-11-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-6901",
       "assigningCna": "ABB",
       "datePublished": "2026-07-06",
@@ -137,9 +137,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-78354",
+      "cveId": "CVE-2026-103236",
       "assigningCna": "ABB",
       "datePublished": "2026-11-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4641",
+      "assigningCna": "ABB",
+      "datePublished": "2026-11-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4642",
+      "assigningCna": "ABB",
+      "datePublished": "2026-11-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

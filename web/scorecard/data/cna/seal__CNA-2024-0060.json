@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 96,
-  "active_cna_count": 381,
-  "percentile": 75.1,
+  "rank": 95,
+  "active_cna_count": 383,
+  "percentile": 75.5,
   "cna_scoring": [
     {
       "total_cves": 7,
@@ -73,19 +73,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-77118",
-      "assigningCna": "seal",
-      "datePublished": "2026-08-20",
-      "totalCveScore": 100,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2026-45819",
       "assigningCna": "seal",
       "datePublished": "2026-08-13",
@@ -109,6 +96,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77118",
+      "assigningCna": "seal",
+      "datePublished": "2026-08-20",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
       }
     },
     {

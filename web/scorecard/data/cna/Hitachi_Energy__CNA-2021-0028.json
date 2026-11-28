@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 129,
-  "active_cna_count": 381,
-  "percentile": 66.4,
+  "rank": 128,
+  "active_cna_count": 383,
+  "percentile": 66.8,
   "cna_scoring": [
     {
       "total_cves": 17,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-106087",
+      "assigningCna": "Hitachi_Energy",
+      "datePublished": "2026-10-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-10763",
       "assigningCna": "Hitachi_Energy",
@@ -101,19 +114,6 @@
       "cveId": "CVE-2026-124754",
       "assigningCna": "Hitachi_Energy",
       "datePublished": "2026-11-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-106087",
-      "assigningCna": "Hitachi_Energy",
-      "datePublished": "2026-10-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
